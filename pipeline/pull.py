@@ -11,6 +11,7 @@ import argparse
 import json
 import math
 
+import requests
 from espn_api.football import League
 
 from pipeline.config import LEAGUE_ID, RAW_DIR, load_cookies
@@ -38,6 +39,7 @@ def side(team, score, lineup):
         "score": round(score, 2),
         "lineup": [
             {
+                "id": p.playerId,
                 "name": p.name,
                 "position": p.position,
                 "slot": norm_slot(p.slot_position),
@@ -134,6 +136,37 @@ def pull_season(season):
     ]
     (out_dir / "meta.json").write_text(json.dumps(meta, indent=1))
     print(f"Saved league meta for {meta['league_name']} ({season})")
+    pull_transactions(season)
+
+
+def pull_transactions(season):
+    """Sweep the transaction log (trade inference needs it). ESPN only returns
+    transactions per scoring period, so query each week and dedupe by id."""
+    espn_s2, swid = load_cookies()
+    cookies = {"espn_s2": espn_s2, "SWID": swid}
+    base = (
+        "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/"
+        f"seasons/{season}/segments/0/leagues/{LEAGUE_ID}"
+    )
+    seen = {}
+    for sp in range(1, 19):
+        r = requests.get(
+            base, params={"view": "mTransactions2", "scoringPeriodId": sp},
+            cookies=cookies, timeout=30,
+        )
+        if r.ok:
+            for t in r.json().get("transactions", []):
+                seen.setdefault(t.get("id"), t)
+    path = RAW_DIR / str(season) / "transactions.json"
+    if path.exists():
+        existing = json.loads(path.read_text())
+        if len(seen) < len(existing):
+            print(f"transactions: response smaller than saved data "
+                  f"({len(seen)} < {len(existing)}), keeping existing")
+            return
+    ordered = sorted(seen.values(), key=lambda t: t.get("processDate") or 0)
+    path.write_text(json.dumps(ordered, indent=1))
+    print(f"Saved {len(ordered)} transactions")
 
 
 def main():

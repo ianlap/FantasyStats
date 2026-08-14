@@ -70,3 +70,8 @@ def test_weekly_awards_present(payload):
 
 def test_luck_zero_sum(payload):
     assert sum(t["luck"] for t in payload["teams"]) == pytest.approx(0, abs=0.05)
+
+
+def test_trades_key_present(payload):
+    # The fixture season has no trades; the key must still exist for the site.
+    assert payload["trades"] == []

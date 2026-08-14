@@ -11,9 +11,12 @@ week_NN.json
     season, week, is_playoff,
     matchups: [{
         bracket: null | "winners" | "consolation",
-        home: {team_id, score, lineup: [{name, position, slot, points, projected}]},
+        home: {team_id, score, lineup: [{id, name, position, slot, points, projected}]},
         away: {same}
     }]
+
+    lineup `id` is the ESPN player id (absent in older fixture data); trade
+    inference in pipeline/trades.py depends on it.
 
     slot is the lineup slot the player occupied ("QB", "RB", "FLEX", ...,
     "BE" for bench, "IR" for injured reserve). score is the sum of points of

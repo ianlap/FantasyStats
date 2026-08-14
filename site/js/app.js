@@ -47,6 +47,7 @@ const routes = {
   standings: renderStandings,
   matchups: renderMatchups,
   teams: renderTeams,
+  trades: renderTrades,
   records: renderRecords,
 };
 
@@ -323,6 +324,68 @@ function renderTeams(teamId) {
       location.hash = `#/teams/${chip.dataset.team}`;
     });
   }
+}
+
+/* ---------- trades ---------- */
+
+function renderTrades() {
+  const deals = D.trades || [];
+  if (!deals.length) {
+    view().innerHTML = `<section class="section">
+      ${kicker("Trades", "The trade ledger")}
+      <div class="card" style="padding:20px">No trades detected this season.</div>
+    </section>`;
+    return;
+  }
+
+  const playerList = (items, cls) => items.length
+    ? `<ul class="t-players ${cls}">` + items.map((p) =>
+        `<li><span>${esc(p.name)}</span><b>${f1(p.points_since)}</b></li>`).join("") + "</ul>"
+    : "";
+
+  const sideHtml = (side) => {
+    const t = team(side.team_id);
+    const wl = side.wins_with !== side.wins_without
+      ? `record ${side.wins_with}W with the deal, ${side.wins_without}W without`
+      : `no change in wins`;
+    return `<div class="trade-side">
+      <div class="ts-head">
+        <span class="ts-team">${esc(t.name)}</span>
+        <span class="ts-delta ${side.delta_fpts >= 0 ? "pos" : "neg"}">
+          ${side.delta_fpts >= 0 ? "+" : "−"}${Math.abs(side.delta_fpts).toFixed(1)}
+        </span>
+      </div>
+      <div class="ts-label">Got</div>
+      ${playerList(side.received, "got") || '<div class="ts-none">nothing visible</div>'}
+      <div class="ts-label">Gave</div>
+      ${playerList(side.sent, "gave") || '<div class="ts-none">nothing visible</div>'}
+      ${side.dropped?.length ? `<div class="ts-label">Cut for room</div>${playerList(side.dropped, "gave")}` : ""}
+      <div class="ts-wl">${wl}</div>
+    </div>`;
+  };
+
+  let html = `<section class="section">
+    ${kicker("Ledger", "Who won every trade", "best-lineup points swing since the deal; ranked by impact")}
+    <div class="trade-list">`;
+
+  for (const deal of deals) {
+    const winner = team(deal.verdict.winner_id);
+    html += `<div class="card trade-card">
+      <div class="trade-head">
+        <span class="trade-week">Week ${deal.week}</span>
+        <span class="trade-verdict">${esc(winner.abbrev)} won this deal
+          <b>+${deal.verdict.margin_fpts.toFixed(1)} FPts</b></span>
+      </div>
+      <div class="trade-sides">${deal.teams.map(sideHtml).join("")}</div>
+    </div>`;
+  }
+  html += `</div>
+    <p class="method-note">Player numbers are fantasy points since the trade. A team's +/− is
+    its best-possible-lineup points swing versus a season where the deal never happened;
+    wins are the same replay applied to actual matchups.</p>
+  </section>`;
+
+  view().innerHTML = html;
 }
 
 /* ---------- records ---------- */

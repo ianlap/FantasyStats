@@ -7,7 +7,7 @@ import argparse
 import json
 from datetime import datetime, timezone
 
-from pipeline import stats
+from pipeline import stats, trades
 from pipeline.config import RAW_DIR, SITE_DATA
 
 
@@ -23,7 +23,12 @@ def load_season(season):
     return {"meta": meta, "weeks": weeks}
 
 
-def assemble(season):
+def load_optional(season, filename):
+    path = RAW_DIR / str(season) / filename
+    return json.loads(path.read_text()) if path.exists() else None
+
+
+def assemble(season, transactions=None, manual_trades=None):
     meta = season["meta"]
     table = stats.standings(season)
     ap = stats.allplay(season)
@@ -88,6 +93,7 @@ def assemble(season):
         "records": stats.season_records(season),
         "champion": stats.champion(season),
         "h2h": stats.h2h_matrix(season),
+        "trades": trades.analyze_all(season, transactions, manual_trades),
     }
 
 
@@ -96,7 +102,11 @@ def main():
     parser.add_argument("--season", type=int, default=2025)
     args = parser.parse_args()
 
-    payload = assemble(load_season(args.season))
+    payload = assemble(
+        load_season(args.season),
+        transactions=load_optional(args.season, "transactions.json"),
+        manual_trades=load_optional(args.season, "trades_manual.json"),
+    )
     SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA.write_text(json.dumps(payload, separators=(",", ":")))
     size_kb = SITE_DATA.stat().st_size // 1024

@@ -597,6 +597,97 @@ tr.playoff-cut td { border-bottom: 2px solid rgba(240, 180, 40, 0.4); }
   margin-right: 6px;
 }
 
+/* ---------- trades ---------- */
+
+.trade-list { display: grid; gap: 14px; }
+
+.trade-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.trade-week {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.trade-verdict {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+}
+.trade-verdict b { color: var(--ink); }
+
+.trade-sides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 18px;
+  padding: 12px 16px 14px;
+}
+
+.trade-side .ts-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.ts-team {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.02em;
+}
+.ts-delta {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 21px;
+  font-variant-numeric: tabular-nums;
+}
+.ts-label {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin: 8px 0 2px;
+}
+.t-players {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.t-players li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 0;
+  border-bottom: 1px solid var(--grid);
+}
+.t-players li:last-child { border-bottom: none; }
+.t-players b { font-variant-numeric: tabular-nums; color: var(--ink-2); }
+.ts-none { color: var(--ink-3); font-size: 12.5px; font-style: italic; }
+.ts-wl { color: var(--ink-2); font-size: 12.5px; margin-top: 8px; }
+
+.method-note {
+  color: var(--ink-3);
+  font-size: 12.5px;
+  max-width: 620px;
+}
+
+@media (max-width: 560px) {
+  .trade-sides { grid-template-columns: 1fr; gap: 14px; }
+}
+
 /* ---------- footer ---------- */
 
 footer {
