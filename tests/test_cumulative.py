@@ -115,6 +115,18 @@ def test_records_tagged_with_season(payloads):
     assert rec["points"] == 190.0 and rec["season"] == 2026
 
 
+def test_games_concatenated_with_season_tags(payloads):
+    for p in payloads:
+        for t in p["teams"]:
+            t["weekly"] = [{"week": 1, "opponent_id": 3 - t["id"],
+                            "points": 100.0, "opponent_points": 90.0,
+                            "result": "W", "margin": 10.0, "is_playoff": False}]
+    cum = aggregate(payloads)
+    one = next(t for t in cum["teams"] if t["id"] == 1)
+    assert [g["season"] for g in one["games"]] == [2025, 2026]
+    assert one["games"][0]["opponent_id"] == 2
+
+
 def test_h2h_summed(payloads):
     cum = aggregate(payloads)
     assert cum["h2h"][1][2] == {"wins": 3, "losses": 1}

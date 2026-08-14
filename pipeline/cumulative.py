@@ -53,6 +53,10 @@ def aggregate(payloads):
                 "wins": t["wins"], "losses": t["losses"], "ties": t["ties"],
                 "champion": is_champ,
             })
+            # Game-level results power the all-time head-to-head drill-down.
+            row.setdefault("games", []).extend(
+                {**g, "season": payload["season"]} for g in t.get("weekly", [])
+            )
 
     teams = list(franchises.values())
     for row in teams:

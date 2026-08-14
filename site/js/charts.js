@@ -253,6 +253,182 @@ export function pointsChart(host, weekly, medians, regWeeks) {
   host.appendChild(svg);
 }
 
+/* ---------- weekly lineup efficiency (percent line vs median) ---------- */
+
+export function efficiencyChart(host, rows, medians, regWeeks) {
+  host.innerHTML = "";
+  const W = Math.max(520, host.clientWidth || 640);
+  const H = 240;
+  const pad = { l: 44, r: 16, t: 14, b: 26 };
+  const nWeeks = Math.max(...rows.map((d) => d.week));
+  const all = rows.map((d) => d.eff * 100).concat(
+    medians.filter((m) => m != null).map((m) => m * 100));
+  const lo = Math.max(0, Math.floor(Math.min(...all) / 10) * 10);
+  const hi = 100;
+  const x = (w) => pad.l + ((w - 1) / (nWeeks - 1)) * (W - pad.l - pad.r);
+  const y = (v) => pad.t + (1 - (v - lo) / (hi - lo)) * (H - pad.t - pad.b);
+
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+  svg.appendChild(el("title", {}, "Weekly lineup efficiency vs league median"));
+
+  if (nWeeks > regWeeks) {
+    svg.appendChild(el("rect", {
+      x: x(regWeeks + 0.5), y: pad.t,
+      width: x(nWeeks) - x(regWeeks + 0.5) + 8, height: H - pad.t - pad.b,
+      fill: "rgba(240,180,40,0.05)",
+    }));
+  }
+  for (let v = lo; v <= hi; v += 10) {
+    svg.appendChild(el("line", {
+      x1: pad.l, x2: W - pad.r, y1: y(v), y2: y(v), stroke: C.grid, "stroke-width": 1,
+    }));
+    svg.appendChild(el("text", {
+      x: pad.l - 6, y: y(v) + 4, fill: C.axis, "font-size": 11, "text-anchor": "end",
+    }, `${v}%`));
+  }
+  for (let wk = 1; wk <= nWeeks; wk++) {
+    if (wk === 1 || wk % 2 === 0) {
+      svg.appendChild(el("text", {
+        x: x(wk), y: H - 8, fill: C.axis, "font-size": 11, "text-anchor": "middle",
+      }, String(wk)));
+    }
+  }
+
+  const medPts = medians
+    .map((m, i) => (m == null ? null : [x(i + 1), y(m * 100)]))
+    .filter(Boolean);
+  svg.appendChild(el("path", {
+    d: medPts.map(([px, py], i) => `${i ? "L" : "M"}${px},${py}`).join(" "),
+    fill: "none", stroke: C.axis, "stroke-width": 2, "stroke-dasharray": "5 5",
+  }));
+
+  svg.appendChild(el("path", {
+    d: rows.map((d, i) => `${i ? "L" : "M"}${x(d.week)},${y(d.eff * 100)}`).join(" "),
+    fill: "none", stroke: C.gold, "stroke-width": 2.5,
+    "stroke-linejoin": "round", "stroke-linecap": "round",
+  }));
+  for (const d of rows) {
+    svg.appendChild(el("circle", {
+      cx: x(d.week), cy: y(d.eff * 100), r: 3.5, fill: C.gold,
+    }));
+  }
+
+  const crosshair = el("line", {
+    y1: pad.t, y2: H - pad.b, stroke: C.axis, "stroke-width": 1, opacity: 0,
+  });
+  svg.appendChild(crosshair);
+  const overlay = el("rect", {
+    x: pad.l, y: pad.t, width: W - pad.l - pad.r, height: H - pad.t - pad.b,
+    fill: "transparent",
+  });
+  overlay.addEventListener("pointermove", (e) => {
+    const wk = Math.max(1, Math.min(nWeeks,
+      Math.round(1 + (e.offsetX - pad.l) / ((W - pad.l - pad.r) / (nWeeks - 1)))));
+    const d = rows.find((r) => r.week === wk);
+    if (!d) return;
+    crosshair.setAttribute("x1", x(wk));
+    crosshair.setAttribute("x2", x(wk));
+    crosshair.setAttribute("opacity", 0.5);
+    const med = medians[wk - 1];
+    showTip(
+      `<div class="tt-title">Week ${wk}</div>` +
+      `<div class="tt-row"><span>Efficiency</span><b>${Math.round(d.eff * 100)}%</b></div>` +
+      `<div class="tt-row"><span>Started</span><b>${fmt1(d.actual)}</b></div>` +
+      `<div class="tt-row"><span>Optimal</span><b>${fmt1(d.optimal)}</b></div>` +
+      (med != null ? `<div class="tt-row"><span>League median</span><b>${Math.round(med * 100)}%</b></div>` : ""),
+      e.clientX, e.clientY,
+    );
+  });
+  overlay.addEventListener("pointerleave", () => {
+    crosshair.setAttribute("opacity", 0);
+    hideTip();
+  });
+  svg.appendChild(overlay);
+
+  host.appendChild(svg);
+}
+
+/* ---------- weekly bench points (bars vs median line) ---------- */
+
+export function benchBarChart(host, rows, medians, regWeeks) {
+  host.innerHTML = "";
+  const W = Math.max(520, host.clientWidth || 640);
+  const H = 240;
+  const pad = { l: 40, r: 16, t: 14, b: 26 };
+  const nWeeks = Math.max(...rows.map((d) => d.week));
+  const maxV = Math.max(10, ...rows.map((d) => d.wasted),
+    ...medians.filter((m) => m != null));
+  const hi = Math.ceil(maxV / 10) * 10;
+  const band = (W - pad.l - pad.r) / nWeeks;
+  const barW = Math.max(6, band * 0.55);
+  const xMid = (w) => pad.l + (w - 0.5) * band;
+  const y = (v) => pad.t + (1 - v / hi) * (H - pad.t - pad.b);
+
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+  svg.appendChild(el("title", {}, "Weekly points left on the bench vs league median"));
+
+  if (nWeeks > regWeeks) {
+    svg.appendChild(el("rect", {
+      x: xMid(regWeeks + 1) - band / 2, y: pad.t,
+      width: (nWeeks - regWeeks) * band, height: H - pad.t - pad.b,
+      fill: "rgba(240,180,40,0.05)",
+    }));
+  }
+  for (let v = 0; v <= hi; v += hi / 4) {
+    svg.appendChild(el("line", {
+      x1: pad.l, x2: W - pad.r, y1: y(v), y2: y(v), stroke: C.grid, "stroke-width": 1,
+    }));
+    svg.appendChild(el("text", {
+      x: pad.l - 6, y: y(v) + 4, fill: C.axis, "font-size": 11, "text-anchor": "end",
+    }, String(Math.round(v))));
+  }
+  for (let wk = 1; wk <= nWeeks; wk++) {
+    if (wk === 1 || wk % 2 === 0) {
+      svg.appendChild(el("text", {
+        x: xMid(wk), y: H - 8, fill: C.axis, "font-size": 11, "text-anchor": "middle",
+      }, String(wk)));
+    }
+  }
+
+  for (const d of rows) {
+    const h = Math.max(1, y(0) - y(d.wasted));
+    svg.appendChild(el("rect", {
+      x: xMid(d.week) - barW / 2, y: y(d.wasted), width: barW, height: h,
+      rx: 3, fill: C.gold,
+    }));
+  }
+
+  const medPts = medians
+    .map((m, i) => (m == null ? null : [xMid(i + 1), y(m)]))
+    .filter(Boolean);
+  svg.appendChild(el("path", {
+    d: medPts.map(([px, py], i) => `${i ? "L" : "M"}${px},${py}`).join(" "),
+    fill: "none", stroke: C.axis, "stroke-width": 2, "stroke-dasharray": "5 5",
+  }));
+
+  for (const d of rows) {
+    const hit = el("rect", {
+      x: xMid(d.week) - band / 2, y: pad.t, width: band, height: H - pad.t - pad.b,
+      fill: "transparent",
+    });
+    hit.addEventListener("pointermove", (e) => {
+      const med = medians[d.week - 1];
+      showTip(
+        `<div class="tt-title">Week ${d.week}</div>` +
+        `<div class="tt-row"><span>Left on bench</span><b>${fmt1(d.wasted)}</b></div>` +
+        `<div class="tt-row"><span>Started</span><b>${fmt1(d.actual)}</b></div>` +
+        `<div class="tt-row"><span>Optimal</span><b>${fmt1(d.optimal)}</b></div>` +
+        (med != null ? `<div class="tt-row"><span>League median</span><b>${fmt1(med)}</b></div>` : ""),
+        e.clientX, e.clientY,
+      );
+    });
+    hit.addEventListener("pointerleave", hideTip);
+    svg.appendChild(hit);
+  }
+
+  host.appendChild(svg);
+}
+
 /* ---------- diverging luck bars ---------- */
 
 export function luckChart(host, teams) {
