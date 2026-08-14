@@ -90,28 +90,7 @@ function renderStandings() {
     </section>`;
   }
 
-  html += `<section class="section">
-    ${kicker("Final", "Standings", "regular season, weeks 1–" + D.regular_season_weeks)}
-    <div class="card table-scroll"><table>
-      <thead><tr>
-        <th></th><th class="l">Team</th><th>W–L</th><th>PF</th><th>PA</th>
-        <th>Streak</th><th>All-play</th><th>Luck</th>
-      </tr></thead>
-      <tbody>
-        ${D.teams.map((t) => `
-          <tr class="rowlink ${t.place === D.playoff_teams ? "playoff-cut" : ""}" data-team="${t.id}" tabindex="0">
-            <td class="place-cell">${t.place}</td>
-            <td class="l"><span class="team-cell"><span class="tname">${esc(t.name)}</span><span class="owner">${esc(t.owner)}</span></span></td>
-            <td>${t.wins}–${t.losses}${t.ties ? "–" + t.ties : ""}</td>
-            <td>${f1(t.points_for)}</td>
-            <td>${f1(t.points_against)}</td>
-            <td class="streak-${(t.current_streak?.kind || "").toLowerCase()}">${streakText(t.current_streak)}</td>
-            <td>${t.allplay_wins}–${t.allplay_losses}</td>
-            <td class="${t.luck >= 0 ? "pos" : "neg"}">${luckText(t.luck)}</td>
-          </tr>`).join("")}
-      </tbody>
-    </table></div>
-  </section>`;
+  html += `<section class="section" id="standings-block"></section>`;
 
   html += `<section class="section">
     ${kicker("The Race", "Place by week", "tap a line for the team page")}
@@ -128,10 +107,155 @@ function renderStandings() {
   view().innerHTML = html;
 
   if (champ) pennant(document.getElementById("pennant-host"), "CHAMPS");
+  renderStandingsBlock();
   bumpChart(document.getElementById("bump-host"), D.teams, {
     onSelect: (id) => { location.hash = `#/teams/${id}`; },
   });
-  for (const row of view().querySelectorAll("tr.rowlink")) {
+}
+
+/* ---------- sortable standings table (season + all-time) ---------- */
+
+const ST = { view: "regular", mode: "total", sort: null };
+
+function streakValue(t) {
+  const s = t.current_streak;
+  return s ? (s.kind === "W" ? s.length : -s.length) : 0;
+}
+
+function standingsColumns() {
+  const perGame = ST.mode === "pergame";
+  const games = (t) => ST.view === "playoff"
+    ? t.playoff_games
+    : t.wins + t.losses + t.ties;
+  const pts = (raw, t) => {
+    const g = games(t);
+    if (!g) return null;
+    return perGame ? raw / g : raw;
+  };
+  const ptsCell = (raw, t) => {
+    const v = pts(raw, t);
+    return v == null ? "–" : f1(v);
+  };
+
+  if (ST.view === "playoff") {
+    return [
+      { key: "record", label: "W–L", val: (t) => t.playoff_wins,
+        td: (t) => `<td>${t.playoff_games ? `${t.playoff_wins}–${t.playoff_losses}` : "–"}</td>` },
+      { key: "gp", label: "GP", val: (t) => t.playoff_games,
+        td: (t) => `<td>${t.playoff_games}</td>` },
+      { key: "pf", label: "PF", val: (t) => pts(t.playoff_pf, t) ?? -1,
+        td: (t) => `<td>${ptsCell(t.playoff_pf, t)}</td>` },
+      { key: "pa", label: "PA", val: (t) => pts(t.playoff_pa, t) ?? -1,
+        td: (t) => `<td>${ptsCell(t.playoff_pa, t)}</td>` },
+    ];
+  }
+
+  const cols = [
+    { key: "record", label: "W–L", val: (t) => t.wins,
+      td: (t) => `<td>${t.wins}–${t.losses}${t.ties ? "–" + t.ties : ""}</td>` },
+    { key: "pf", label: "PF", val: (t) => pts(t.points_for, t) ?? -1,
+      td: (t) => `<td>${ptsCell(t.points_for, t)}</td>` },
+    { key: "pa", label: "PA", val: (t) => pts(t.points_against, t) ?? -1,
+      td: (t) => `<td>${ptsCell(t.points_against, t)}</td>` },
+  ];
+  if (D.cumulative) {
+    cols.push({ key: "titles", label: "Titles", val: (t) => t.titles,
+      td: (t) => `<td>${t.titles ? "🏆".repeat(t.titles) : ""}</td>` });
+  } else {
+    cols.push({ key: "streak", label: "Streak", val: streakValue,
+      td: (t) => `<td class="streak-${(t.current_streak?.kind || "").toLowerCase()}">${streakText(t.current_streak)}</td>` });
+  }
+  cols.push({ key: "allplay", label: "All-play", val: (t) => t.allplay_wins,
+    td: (t) => `<td>${t.allplay_wins}–${t.allplay_losses}</td>` });
+  cols.push({ key: "luck", label: "Luck", val: (t) => t.luck,
+    td: (t) => `<td class="${t.luck >= 0 ? "pos" : "neg"}">${luckText(t.luck)}</td>` });
+  return cols;
+}
+
+function renderStandingsBlock() {
+  const block = document.getElementById("standings-block");
+  if (!block) return;
+  const cols = standingsColumns();
+
+  const rows = [...D.teams];
+  if (ST.sort) {
+    const col = cols.find((c) => c.key === ST.sort.key);
+    if (col) {
+      const dir = ST.sort.dir === "desc" ? 1 : -1;
+      rows.sort((a, b) => (col.val(b) - col.val(a)) * dir);
+    }
+  }
+
+  const chipText = ST.view === "playoff" ? "Playoffs"
+    : D.cumulative ? "All-time" : "Final";
+  const note = ST.view === "playoff"
+    ? "playoff weeks, consolation included"
+    : D.cumulative
+      ? `${D.seasons.length} season${D.seasons.length === 1 ? "" : "s"} · ranked by win %`
+      : `regular season, weeks 1–${D.regular_season_weeks}`;
+
+  const control = (attr, value, label, active) =>
+    `<button class="select-chip" ${attr}="${value}" aria-pressed="${active}">${label}</button>`;
+
+  const ths = cols.map((c) => {
+    const state = ST.sort?.key === c.key
+      ? (ST.sort.dir === "desc" ? "descending" : "ascending") : "none";
+    const mark = state === "none" ? "" : (state === "descending" ? "▼" : "▲");
+    return `<th data-sort="${c.key}" aria-sort="${state}" tabindex="0"
+      title="Sort by ${c.label}">${c.label}<span class="sort-mark">${mark}</span></th>`;
+  }).join("");
+
+  const showCut = !D.cumulative && ST.view === "regular" && !ST.sort;
+  block.innerHTML = `
+    ${kicker(chipText, "Standings", note)}
+    <div class="chip-row st-controls">
+      ${control("data-stview", "regular", "Regular season", ST.view === "regular")}
+      ${control("data-stview", "playoff", "Playoffs", ST.view === "playoff")}
+      <span class="spacer"></span>
+      ${control("data-stmode", "total", "Totals", ST.mode === "total")}
+      ${control("data-stmode", "pergame", "Per game", ST.mode === "pergame")}
+    </div>
+    <div class="card table-scroll"><table>
+      <thead><tr><th></th><th class="l">Team</th>${ths}</tr></thead>
+      <tbody>
+        ${rows.map((t) => `
+          <tr class="rowlink ${showCut && t.place === D.playoff_teams ? "playoff-cut" : ""}" data-team="${t.id}" tabindex="0">
+            <td class="place-cell">${t.place}</td>
+            <td class="l"><span class="team-cell"><span class="tname">${esc(t.name)}</span><span class="owner">${esc(t.owner)}</span></span></td>
+            ${cols.map((c) => c.td(t)).join("")}
+          </tr>`).join("")}
+      </tbody>
+    </table></div>`;
+
+  for (const chip of block.querySelectorAll("[data-stview]")) {
+    chip.addEventListener("click", () => {
+      if (ST.view !== chip.dataset.stview) {
+        ST.view = chip.dataset.stview;
+        ST.sort = null;
+        renderStandingsBlock();
+      }
+    });
+  }
+  for (const chip of block.querySelectorAll("[data-stmode]")) {
+    chip.addEventListener("click", () => {
+      if (ST.mode !== chip.dataset.stmode) {
+        ST.mode = chip.dataset.stmode;
+        renderStandingsBlock();
+      }
+    });
+  }
+  for (const th of block.querySelectorAll("th[data-sort]")) {
+    const cycle = () => {
+      const key = th.dataset.sort;
+      if (ST.sort?.key !== key) ST.sort = { key, dir: "desc" };
+      else if (ST.sort.dir === "desc") ST.sort = { key, dir: "asc" };
+      else ST.sort = null;
+      renderStandingsBlock();
+    };
+    th.addEventListener("click", cycle);
+    th.addEventListener("keydown", (e) => { if (e.key === "Enter") cycle(); });
+  }
+  for (const row of block.querySelectorAll("tr.rowlink")) {
     const go = () => { location.hash = `#/teams/${row.dataset.team}`; };
     row.addEventListener("click", go);
     row.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
@@ -150,36 +274,10 @@ function renderStandingsCumulative() {
     </div>
   </section>`;
 
-  html += `<section class="section">
-    ${kicker("All-time", "Standings",
-      `${nSeasons} season${nSeasons === 1 ? "" : "s"} · ranked by win %`)}
-    <div class="card table-scroll"><table>
-      <thead><tr>
-        <th></th><th class="l">Team</th><th>W–L</th><th>PF</th><th>PA</th>
-        <th>Titles</th><th>All-play</th><th>Luck</th>
-      </tr></thead>
-      <tbody>
-        ${D.teams.map((t) => `
-          <tr class="rowlink" data-team="${t.id}" tabindex="0">
-            <td class="place-cell">${t.place}</td>
-            <td class="l"><span class="team-cell"><span class="tname">${esc(t.name)}</span><span class="owner">${esc(t.owner)}</span></span></td>
-            <td>${t.wins}–${t.losses}${t.ties ? "–" + t.ties : ""}</td>
-            <td>${f1(t.points_for)}</td>
-            <td>${f1(t.points_against)}</td>
-            <td>${t.titles ? "🏆".repeat(t.titles) : ""}</td>
-            <td>${t.allplay_wins}–${t.allplay_losses}</td>
-            <td class="${t.luck >= 0 ? "pos" : "neg"}">${luckText(t.luck)}</td>
-          </tr>`).join("")}
-      </tbody>
-    </table></div>
-  </section>`;
+  html += `<section class="section" id="standings-block"></section>`;
 
   view().innerHTML = html;
-  for (const row of view().querySelectorAll("tr.rowlink")) {
-    const go = () => { location.hash = `#/teams/${row.dataset.team}`; };
-    row.addEventListener("click", go);
-    row.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
-  }
+  renderStandingsBlock();
 }
 
 const AWARD_LABELS = {

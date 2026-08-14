@@ -23,6 +23,8 @@ def team(tid, name, **kw):
         "points_for": 0.0, "points_against": 0.0,
         "allplay_wins": 0, "allplay_losses": 0, "luck": 0.0,
         "optimal_points": 0.0, "points_benched": 0.0, "efficiency": None,
+        "playoff_wins": 1, "playoff_losses": 1, "playoff_pf": 100.0,
+        "playoff_pa": 100.0, "playoff_games": 2,
     }
     base.update(kw)
     return base
@@ -77,6 +79,8 @@ def test_franchise_totals_and_latest_identity(payloads):
     assert one["allplay_wins"] == 170
     assert one["luck"] == pytest.approx(2.0)
     assert one["points_benched"] == pytest.approx(500.0)
+    assert one["playoff_games"] == 4
+    assert one["playoff_pf"] == pytest.approx(200.0)
 
 
 def test_efficiency_is_weighted_not_averaged(payloads):

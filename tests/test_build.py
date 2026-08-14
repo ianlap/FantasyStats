@@ -10,6 +10,8 @@ TEAM_KEYS = {
     "points_for", "points_against", "allplay_wins", "allplay_losses", "luck",
     "longest_win", "longest_loss", "current_streak", "optimal_points",
     "points_benched", "efficiency", "weekly", "places",
+    "playoff_wins", "playoff_losses", "playoff_pf", "playoff_pa",
+    "playoff_games",
 }
 
 
@@ -70,6 +72,17 @@ def test_weekly_awards_present(payload):
 
 def test_luck_zero_sum(payload):
     assert sum(t["luck"] for t in payload["teams"]) == pytest.approx(0, abs=0.05)
+
+
+def test_playoff_aggregates(payload):
+    teams = payload["teams"]
+    # Seeds 1-2 sit out week 15 in the fixture bracket: 2 playoff games; the
+    # other eight teams play all 3 playoff weeks.
+    assert sorted(t["playoff_games"] for t in teams) == [2, 2] + [3] * 8
+    assert sum(t["playoff_wins"] for t in teams) == sum(
+        t["playoff_losses"] for t in teams)
+    for t in teams:
+        assert t["playoff_pf"] > 0
 
 
 def test_trades_key_present(payload):

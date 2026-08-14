@@ -283,6 +283,19 @@ th {
 }
 th.l, td.l { text-align: left; }
 
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--ink-2); }
+th .sort-mark {
+  display: inline-block;
+  width: 12px;
+  font-size: 9px;
+  margin-left: 2px;
+  color: var(--gold);
+}
+
+.st-controls { align-items: center; margin-bottom: 10px; }
+.st-controls .spacer { flex: 1; }
+
 td {
   padding: 9px 12px;
   text-align: right;

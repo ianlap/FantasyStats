@@ -11,6 +11,8 @@ SUMMED = [
     "wins", "losses", "ties", "points_for", "points_against",
     "allplay_wins", "allplay_losses", "luck",
     "optimal_points", "points_benched",
+    "playoff_wins", "playoff_losses", "playoff_pf", "playoff_pa",
+    "playoff_games",
 ]
 
 RECORD_KEYS = {
@@ -54,7 +56,8 @@ def aggregate(payloads):
     teams = list(franchises.values())
     for row in teams:
         for k in ("points_for", "points_against", "luck",
-                  "optimal_points", "points_benched"):
+                  "optimal_points", "points_benched",
+                  "playoff_pf", "playoff_pa"):
             row[k] = round(row[k], 2)
         row["efficiency"] = (
             round(row["points_for"] / row["optimal_points"], 4)
