@@ -642,8 +642,11 @@ function renderRecords() {
 
 /* ---------- boot & season switching ---------- */
 
-async function fetchJson(path) {
-  const res = await fetch(path);
+let dataVersion = "";
+
+async function fetchJson(path, bustCache = false) {
+  const v = bustCache ? Date.now() : dataVersion;
+  const res = await fetch(v ? `${path}?v=${encodeURIComponent(v)}` : path);
   return res.ok ? res.json() : null;
 }
 
@@ -703,7 +706,8 @@ async function loadSeason(key) {
 }
 
 async function boot() {
-  const manifest = await fetchJson("data/index.json");
+  const manifest = await fetchJson("data/index.json", true);
+  dataVersion = manifest?.generated_at || "";
   if (!manifest || !manifest.seasons?.length) {
     view().innerHTML = `<section class="section"><div class="card" style="padding:20px">
       League data has not been generated yet. Run the pipeline, then reload.
