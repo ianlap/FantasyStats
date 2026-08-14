@@ -1,13 +1,17 @@
-"""Compile raw season data into site/data/league.json for the frontend.
+"""Compile raw data into per-season payloads plus an all-time aggregate.
 
-Run: uv run python -m pipeline.build [--season 2025]
+Run: uv run python -m pipeline.build            # every season + cumulative
+     uv run python -m pipeline.build --season 2025   # one season only
+
+Outputs under site/data/: <season>.json per season, cumulative.json,
+and index.json (the manifest the site loads first).
 """
 
 import argparse
 import json
 from datetime import datetime, timezone
 
-from pipeline import stats, trades
+from pipeline import cumulative, stats, trades
 from pipeline.config import RAW_DIR, SITE_DATA
 
 
@@ -97,21 +101,55 @@ def assemble(season, transactions=None, manual_trades=None):
     }
 
 
+def discover_seasons():
+    """Season directories under data/raw/ that contain at least one week."""
+    seasons = []
+    for path in sorted(RAW_DIR.iterdir()) if RAW_DIR.exists() else []:
+        if path.is_dir() and path.name.isdigit() and list(path.glob("week_*.json")):
+            seasons.append(int(path.name))
+    return seasons
+
+
+def build_season(season):
+    return assemble(
+        load_season(season),
+        transactions=load_optional(season, "transactions.json"),
+        manual_trades=load_optional(season, "trades_manual.json"),
+    )
+
+
+def write(path, payload):
+    path.write_text(json.dumps(payload, separators=(",", ":")))
+    print(f"Wrote {path} ({path.stat().st_size // 1024} KB)")
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--season", type=int, default=2025)
+    parser.add_argument("--season", type=int, default=None,
+                        help="build one season only (skips cumulative/manifest)")
     args = parser.parse_args()
 
-    payload = assemble(
-        load_season(args.season),
-        transactions=load_optional(args.season, "transactions.json"),
-        manual_trades=load_optional(args.season, "trades_manual.json"),
-    )
-    SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
-    SITE_DATA.write_text(json.dumps(payload, separators=(",", ":")))
-    size_kb = SITE_DATA.stat().st_size // 1024
-    print(f"Wrote {SITE_DATA} ({size_kb} KB, season {payload['season']}, "
-          f"{len(payload['weeks'])} weeks)")
+    out_dir = SITE_DATA.parent
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.season is not None:
+        write(out_dir / f"{args.season}.json", build_season(args.season))
+        return
+
+    seasons = discover_seasons()
+    if not seasons:
+        raise SystemExit(f"No season data under {RAW_DIR}; run a pull first.")
+    payloads = [build_season(s) for s in seasons]
+    for payload in payloads:
+        write(out_dir / f"{payload['season']}.json", payload)
+    write(out_dir / "cumulative.json", cumulative.aggregate(payloads))
+    write(out_dir / "index.json", {
+        "seasons": sorted(seasons, reverse=True),
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    })
+    legacy = out_dir / "league.json"
+    if legacy.exists():
+        legacy.unlink()
 
 
 if __name__ == "__main__":

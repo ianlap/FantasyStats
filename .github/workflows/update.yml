@@ -57,7 +57,7 @@ jobs:
         run: uv run pytest -q
 
       - name: Build site data
-        run: uv run python -m pipeline.build --season "${{ steps.season.outputs.season }}"
+        run: uv run python -m pipeline.build
 
       - name: Commit refreshed data
         run: |

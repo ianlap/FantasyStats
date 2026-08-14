@@ -69,6 +69,10 @@ function navigate() {
 /* ---------- standings ---------- */
 
 function renderStandings() {
+  if (D.cumulative) {
+    renderStandingsCumulative();
+    return;
+  }
   const champ = D.champion ? team(D.champion.team_id) : null;
   const lastWeek = D.weeks[D.weeks.length - 1];
 
@@ -134,6 +138,50 @@ function renderStandings() {
   }
 }
 
+function renderStandingsCumulative() {
+  const nSeasons = D.seasons.length;
+  let html = `<section class="section">
+    ${kicker("Banners", "Champions")}
+    <div class="awards">
+      ${D.champions.map((c) => `
+        <div class="award"><span class="a-label">${c.season}</span>
+          <span class="a-value"><b>${tname(c.team_id)}</b></span></div>`).join("")
+        || '<div class="award"><span class="a-value">No completed seasons yet.</span></div>'}
+    </div>
+  </section>`;
+
+  html += `<section class="section">
+    ${kicker("All-time", "Standings",
+      `${nSeasons} season${nSeasons === 1 ? "" : "s"} · ranked by win %`)}
+    <div class="card table-scroll"><table>
+      <thead><tr>
+        <th></th><th class="l">Team</th><th>W–L</th><th>PF</th><th>PA</th>
+        <th>Titles</th><th>All-play</th><th>Luck</th>
+      </tr></thead>
+      <tbody>
+        ${D.teams.map((t) => `
+          <tr class="rowlink" data-team="${t.id}" tabindex="0">
+            <td class="place-cell">${t.place}</td>
+            <td class="l"><span class="team-cell"><span class="tname">${esc(t.name)}</span><span class="owner">${esc(t.owner)}</span></span></td>
+            <td>${t.wins}–${t.losses}${t.ties ? "–" + t.ties : ""}</td>
+            <td>${f1(t.points_for)}</td>
+            <td>${f1(t.points_against)}</td>
+            <td>${t.titles ? "🏆".repeat(t.titles) : ""}</td>
+            <td>${t.allplay_wins}–${t.allplay_losses}</td>
+            <td class="${t.luck >= 0 ? "pos" : "neg"}">${luckText(t.luck)}</td>
+          </tr>`).join("")}
+      </tbody>
+    </table></div>
+  </section>`;
+
+  view().innerHTML = html;
+  for (const row of view().querySelectorAll("tr.rowlink")) {
+    const go = () => { location.hash = `#/teams/${row.dataset.team}`; };
+    row.addEventListener("click", go);
+    row.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+  }
+}
+
 const AWARD_LABELS = {
   top_score: "Top score",
   low_score: "Toilet bowl",
@@ -161,6 +209,10 @@ function awardsHtml(awards) {
 /* ---------- matchups ---------- */
 
 function renderMatchups(weekNum) {
+  if (D.cumulative) {
+    renderStandings();
+    return;
+  }
   const week = D.weeks.find((w) => w.week === weekNum) || D.weeks[D.weeks.length - 1];
 
   const chips = D.weeks.map((w) => `
@@ -267,7 +319,7 @@ function renderTeams(teamId) {
     <div class="chip-row" role="group" aria-label="Pick a team">${chips}</div>
     <div class="team-head">
       <h3>${esc(t.name)}</h3>
-      <span class="sub">${esc(t.owner)} · ${ordinal(t.place)} place · ${t.wins}–${t.losses}</span>
+      <span class="sub">${esc(t.owner)} · ${ordinal(t.place)} ${D.cumulative ? "all-time" : "place"} · ${t.wins}–${t.losses}${D.cumulative && t.titles ? " · " + "🏆".repeat(t.titles) : ""}</span>
     </div>
     <div class="statgrid">
       <div class="stat"><div class="s-label">Points for</div><div class="s-value">${f1(t.points_for)}</div></div>
@@ -275,20 +327,22 @@ function renderTeams(teamId) {
       <div class="stat"><div class="s-label">All-play</div><div class="s-value">${t.allplay_wins}–${t.allplay_losses}</div></div>
       <div class="stat"><div class="s-label">Luck</div><div class="s-value ${t.luck >= 0 ? "pos" : "neg"}">${luckText(t.luck)}</div><div class="s-sub">wins vs deserved</div></div>
       <div class="stat"><div class="s-label">Efficiency</div><div class="s-value">${effPct}</div><div class="s-sub">of optimal lineups</div></div>
-      <div class="stat"><div class="s-label">Left on bench</div><div class="s-value">${f1(t.points_benched)}</div><div class="s-sub">season total</div></div>
+      <div class="stat"><div class="s-label">Left on bench</div><div class="s-value">${f1(t.points_benched)}</div><div class="s-sub">${D.cumulative ? "career total" : "season total"}</div></div>
     </div>
   </section>`;
 
-  html += `<section class="section">
-    ${kicker("Form", "Weekly points", "vs league median (dashed)")}
-    <div class="card chart-card">
-      <div class="legend">
-        <span><span class="swatch" style="background:#C98500"></span>${esc(t.abbrev)}</span>
-        <span><span class="swatch" style="background:#667080"></span>League median</span>
+  if (!D.cumulative) {
+    html += `<section class="section">
+      ${kicker("Form", "Weekly points", "vs league median (dashed)")}
+      <div class="card chart-card">
+        <div class="legend">
+          <span><span class="swatch" style="background:#C98500"></span>${esc(t.abbrev)}</span>
+          <span><span class="swatch" style="background:#667080"></span>League median</span>
+        </div>
+        <div class="chart-host" id="points-host"></div>
       </div>
-      <div class="chart-host" id="points-host"></div>
-    </div>
-  </section>`;
+    </section>`;
+  }
 
   html += `<section class="section">
     ${kicker("H2H", "Head to head", "regular season")}
@@ -303,26 +357,45 @@ function renderTeams(teamId) {
     </div>
   </section>`;
 
-  html += `<section class="section">
-    ${kicker("Log", "Season results")}
-    <div class="card table-scroll"><table>
-      <thead><tr><th>Wk</th><th class="l">Opponent</th><th>Score</th><th>Result</th></tr></thead>
-      <tbody>
-        ${t.weekly.map((g) => `
-          <tr>
-            <td>${g.week}${g.is_playoff ? '<span class="p-mark">P</span>' : ""}</td>
-            <td class="l">${tname(g.opponent_id)}</td>
-            <td>${f1(g.points)}–${f1(g.opponent_points)}</td>
-            <td class="streak-${g.result.toLowerCase()}">${g.result}</td>
-          </tr>`).join("")}
-      </tbody>
-    </table></div>
-  </section>`;
+  if (D.cumulative) {
+    html += `<section class="section">
+      ${kicker("History", "Season by season")}
+      <div class="card table-scroll"><table>
+        <thead><tr><th class="l">Season</th><th>Finish</th><th>W–L</th><th></th></tr></thead>
+        <tbody>
+          ${t.finishes.map((f) => `
+            <tr>
+              <td class="l">${f.season}</td>
+              <td>${ordinal(f.place)}</td>
+              <td>${f.wins}–${f.losses}${f.ties ? "–" + f.ties : ""}</td>
+              <td>${f.champion ? "🏆 Champion" : ""}</td>
+            </tr>`).join("")}
+        </tbody>
+      </table></div>
+    </section>`;
+  } else {
+    html += `<section class="section">
+      ${kicker("Log", "Season results")}
+      <div class="card table-scroll"><table>
+        <thead><tr><th>Wk</th><th class="l">Opponent</th><th>Score</th><th>Result</th></tr></thead>
+        <tbody>
+          ${t.weekly.map((g) => `
+            <tr>
+              <td>${g.week}${g.is_playoff ? '<span class="p-mark">P</span>' : ""}</td>
+              <td class="l">${tname(g.opponent_id)}</td>
+              <td>${f1(g.points)}–${f1(g.opponent_points)}</td>
+              <td class="streak-${g.result.toLowerCase()}">${g.result}</td>
+            </tr>`).join("")}
+        </tbody>
+      </table></div>
+    </section>`;
+  }
 
   view().innerHTML = html;
 
-  const weeklyMedians = medians.slice();
-  pointsChart(document.getElementById("points-host"), t.weekly, weeklyMedians, D.regular_season_weeks);
+  if (!D.cumulative) {
+    pointsChart(document.getElementById("points-host"), t.weekly, medians.slice(), D.regular_season_weeks);
+  }
 
   for (const chip of view().querySelectorAll(".select-chip")) {
     chip.addEventListener("click", () => {
@@ -377,7 +450,7 @@ function renderTrades() {
     const winner = team(deal.verdict.winner_id);
     html += `<div class="card trade-card">
       <div class="trade-head">
-        <span class="trade-week">Week ${deal.week}</span>
+        <span class="trade-week">${deal.season ? `${deal.season} · ` : ""}Week ${deal.week}</span>
         <span class="trade-verdict">${esc(winner.abbrev)} won this deal
           <b>+${deal.verdict.margin_fpts.toFixed(1)} FPts</b></span>
       </div>
@@ -404,17 +477,18 @@ function renderRecords() {
       <div class="t-context">${context}</div>
     </div>`;
 
+  const when = (rec) => `week ${rec.week}${rec.season ? `, ${rec.season}` : ""}`;
   let html = `<section class="section">
-    ${kicker("Season", "Records")}
+    ${kicker(D.cumulative ? "All-time" : "Season", "Records")}
     <div class="tilegrid">
       ${tile("Highest score", f1(r.highest_score.points),
-        `${tname(r.highest_score.team_id)}, week ${r.highest_score.week}`)}
+        `${tname(r.highest_score.team_id)}, ${when(r.highest_score)}`)}
       ${tile("Lowest score", f1(r.lowest_score.points),
-        `${tname(r.lowest_score.team_id)}, week ${r.lowest_score.week}`)}
+        `${tname(r.lowest_score.team_id)}, ${when(r.lowest_score)}`)}
       ${tile("Biggest beatdown", f1(r.biggest_blowout.margin),
-        `${tname(r.biggest_blowout.winner_id)} ${f1(r.biggest_blowout.winner_points)}–${f1(r.biggest_blowout.loser_points)} ${tname(r.biggest_blowout.loser_id)}, week ${r.biggest_blowout.week}`)}
+        `${tname(r.biggest_blowout.winner_id)} ${f1(r.biggest_blowout.winner_points)}–${f1(r.biggest_blowout.loser_points)} ${tname(r.biggest_blowout.loser_id)}, ${when(r.biggest_blowout)}`)}
       ${tile("Closest call", f1(r.closest_game.margin),
-        `${tname(r.closest_game.winner_id)} edges ${tname(r.closest_game.loser_id)}, week ${r.closest_game.week}`)}
+        `${tname(r.closest_game.winner_id)} edges ${tname(r.closest_game.loser_id)}, ${when(r.closest_game)}`)}
     </div>
   </section>`;
 
@@ -456,35 +530,35 @@ function renderRecords() {
     { fmt: (v) => Math.round(v) + "%", title: "Lineup efficiency" });
 }
 
-/* ---------- boot ---------- */
+/* ---------- boot & season switching ---------- */
 
-async function boot() {
-  const res = await fetch("data/league.json");
-  if (!res.ok) {
-    view().innerHTML = `<section class="section"><div class="card" style="padding:20px">
-      League data has not been generated yet. Run the pipeline, then reload.
-    </div></section>`;
-    return;
-  }
-  D = await res.json();
-  teamById = new Map(D.teams.map((t) => [t.id, t]));
+async function fetchJson(path) {
+  const res = await fetch(path);
+  return res.ok ? res.json() : null;
+}
 
-  const nWeeks = Math.max(...D.weeks.map((w) => w.week));
+function computeMedians() {
   medians = [];
+  if (!D.weeks) return;
+  const nWeeks = Math.max(...D.weeks.map((w) => w.week));
   for (let wk = 1; wk <= nWeeks; wk++) {
     const week = D.weeks.find((w) => w.week === wk);
     const scores = week
       ? week.matchups.flatMap((m) => [m.home.score, m.away.score]) : [];
     medians.push(week && !week.is_playoff ? median(scores) : null);
   }
+}
 
+function applyHeader() {
   const nameEl = document.querySelector(".league-name");
   const words = D.league_name.split(" ");
   const last = words.pop();
   nameEl.innerHTML = `${esc(words.join(" "))} <span class="accent">${esc(last)}</span>`;
-  document.title = `${D.league_name} · ${D.season}`;
+  const label = D.cumulative ? "All-time" : D.season;
+  document.title = `${D.league_name} · ${label}`;
 
-  document.getElementById("season-badge").textContent = D.season;
+  const old = document.querySelector(".badge.demo");
+  if (old) old.remove();
   if (D.demo) {
     const demo = document.createElement("span");
     demo.className = "badge demo";
@@ -492,10 +566,54 @@ async function boot() {
     demo.title = "Showing generated sample data until ESPN cookies are configured.";
     document.querySelector(".bug-meta").appendChild(demo);
   }
-  const updated = new Date(D.generated_at);
+  const updated = D.generated_at ? new Date(D.generated_at) : null;
   document.getElementById("footer-meta").textContent =
-    `Updated ${updated.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}` +
+    (updated ? `Updated ${updated.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}` : "") +
     (D.demo ? " · sample data — connect ESPN cookies for the real league" : "");
+}
+
+function applyTabVisibility() {
+  const matchupsTab = document.querySelector('.tab[data-page="matchups"]');
+  matchupsTab.hidden = Boolean(D.cumulative);
+  if (D.cumulative && parseHash().page === "matchups") {
+    location.hash = "#/standings";
+  }
+}
+
+async function loadSeason(key) {
+  const data = await fetchJson(`data/${key}.json`);
+  if (!data) return false;
+  D = data;
+  localStorage.setItem("ffs-season", key);
+  teamById = new Map(D.teams.map((t) => [t.id, t]));
+  computeMedians();
+  applyHeader();
+  applyTabVisibility();
+  return true;
+}
+
+async function boot() {
+  const manifest = await fetchJson("data/index.json");
+  if (!manifest || !manifest.seasons?.length) {
+    view().innerHTML = `<section class="section"><div class="card" style="padding:20px">
+      League data has not been generated yet. Run the pipeline, then reload.
+    </div></section>`;
+    return;
+  }
+
+  const select = document.getElementById("season-select");
+  select.innerHTML =
+    manifest.seasons.map((s) => `<option value="${s}">${s}</option>`).join("") +
+    `<option value="cumulative">All-time</option>`;
+
+  const valid = [...manifest.seasons.map(String), "cumulative"];
+  const saved = localStorage.getItem("ffs-season");
+  const key = valid.includes(saved) ? saved : String(manifest.seasons[0]);
+  select.value = key;
+
+  select.addEventListener("change", async () => {
+    if (await loadSeason(select.value)) navigate();
+  });
 
   for (const btn of document.querySelectorAll(".tab")) {
     btn.addEventListener("click", () => { location.hash = `#/${btn.dataset.page}`; });
@@ -508,7 +626,7 @@ async function boot() {
     resizeTimer = setTimeout(navigate, 150);
   });
 
-  navigate();
+  if (await loadSeason(key)) navigate();
 }
 
 boot();
