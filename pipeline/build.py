@@ -55,12 +55,22 @@ def assemble(season):
             "places": places[tid],
         })
 
+    slots = meta["starting_slots"]
     weeks = []
     for week_data in season["weeks"]:
+        matchups = []
+        for m in week_data["matchups"]:
+            enriched = dict(m)
+            for side_key in ("home", "away"):
+                side = dict(m[side_key])
+                if side["lineup"]:
+                    side["optimal"] = stats.optimal_points(side["lineup"], slots)
+                enriched[side_key] = side
+            matchups.append(enriched)
         weeks.append({
             "week": week_data["week"],
             "is_playoff": week_data["is_playoff"],
-            "matchups": week_data["matchups"],
+            "matchups": matchups,
             "awards": stats.weekly_awards(season, week_data),
         })
 
@@ -71,6 +81,7 @@ def assemble(season):
         "demo": meta.get("demo", False),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "regular_season_weeks": meta["regular_season_weeks"],
+        "playoff_teams": meta["playoff_teams"],
         "starting_slots": meta["starting_slots"],
         "teams": teams,
         "weeks": weeks,

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>League Stats</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🏈</text></svg>">
+</head>
+<body>
+  <header class="scorebug">
+    <div class="scorebug-inner">
+      <h1 class="league-name">League Stats</h1>
+      <div class="bug-meta">
+        <span class="badge" id="season-badge"></span>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" data-page="standings" aria-selected="true">Standings</button>
+      <button class="tab" role="tab" data-page="matchups" aria-selected="false">Matchups</button>
+      <button class="tab" role="tab" data-page="teams" aria-selected="false">Teams</button>
+      <button class="tab" role="tab" data-page="records" aria-selected="false">Records</button>
+    </nav>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <footer><span id="footer-meta"></span></footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
