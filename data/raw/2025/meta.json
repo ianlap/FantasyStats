@@ -1,0 +1,93 @@
+{
+ "season": 2025,
+ "league_id": 451795550,
+ "league_name": "Generic ass name",
+ "demo": false,
+ "regular_season_weeks": 14,
+ "playoff_teams": 6,
+ "starting_slots": [
+  "WR",
+  "RB",
+  "QB",
+  "RB",
+  "WR",
+  "FLEX",
+  "TE",
+  "D/ST",
+  "K"
+ ],
+ "teams": [
+  {
+   "id": 1,
+   "name": "My Leg Hurts",
+   "abbrev": "8=B",
+   "owner": "Ian Lapinski"
+  },
+  {
+   "id": 2,
+   "name": "Joe's Toe :)",
+   "abbrev": "BRRR",
+   "owner": "Richard Castagna"
+  },
+  {
+   "id": 3,
+   "name": "The McBridesmaids",
+   "abbrev": "CCT",
+   "owner": "Connor Smith"
+  },
+  {
+   "id": 4,
+   "name": "Goon in Blue",
+   "abbrev": "COP",
+   "owner": "Chris Armbrust"
+  },
+  {
+   "id": 5,
+   "name": "Lights Kamara Action ",
+   "abbrev": "TTT",
+   "owner": "Taylor Zampelli"
+  },
+  {
+   "id": 6,
+   "name": "Big Nix Energy",
+   "abbrev": "BNE",
+   "owner": "Stephen Nace"
+  },
+  {
+   "id": 7,
+   "name": "Kareem Abdul Ja'marr",
+   "abbrev": "NHB ",
+   "owner": "Shaquille Mitchell"
+  },
+  {
+   "id": 8,
+   "name": "McCaff Me If You Can",
+   "abbrev": "CMC",
+   "owner": "Randy Bahmueller"
+  },
+  {
+   "id": 9,
+   "name": "Dead Dynasty",
+   "abbrev": "DD",
+   "owner": "Conner Strous"
+  },
+  {
+   "id": 10,
+   "name": "I chase brown kids",
+   "abbrev": "DDT",
+   "owner": "Dalton Gough"
+  },
+  {
+   "id": 11,
+   "name": "Smokin Darts W Ur Mom",
+   "abbrev": "Yuh",
+   "owner": "Andrew Nace"
+  },
+  {
+   "id": 12,
+   "name": "Njigbas in Paris",
+   "abbrev": "JST",
+   "owner": "Josh Kodish"
+  }
+ ]
+}

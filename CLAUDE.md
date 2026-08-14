@@ -6,27 +6,31 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Stat-tracking and display (likely a webpage) for Ian's ESPN fantasy football league: pull league data, show standings, matchups, lineups, scores, and fun historical stats.
 
-## Current State
+## Commands
 
-Empty project — nothing scaffolded yet. No build/test/lint commands exist. When the stack is chosen and scaffolded, document the commands here.
+```bash
+uv sync                                        # install deps (Python 3.11+, uv-managed)
+uv run pytest                                  # run tests (tests/ over pipeline/)
+uv run pytest tests/test_stats.py -k luck      # run a single test
+uv run python -m pipeline.fixtures             # regenerate deterministic sample season
+uv run python -m pipeline.pull --season 2025   # pull real ESPN data (needs .env cookies)
+uv run python -m pipeline.build --season 2025  # compile site/data/league.json
+python3 -m http.server 8000 -d site            # preview site locally
+```
 
-## Data Strategy (decided)
+## Architecture
 
-ESPN exposes an unofficial-but-stable v3 fantasy API. **Do not build a screenshot/manual-upload pipeline** — direct API access works.
+One-way data flow, three layers:
 
-- **Primary tool**: the [`espn-api` Python package](https://github.com/cwendt94/espn-api) (`pip install espn_api`). Actively maintained, wraps league, teams, rosters, box scores, matchups, free agents, and historical seasons.
-  ```python
-  from espn_api.football import League
-  league = League(league_id=..., year=2026, espn_s2="...", swid="...")
-  ```
-- **Auth**: public leagues need only `league_id` + `year`. Private leagues need two browser cookies from a logged-in espn.com session: `espn_s2` and `SWID` (Chrome DevTools → Application → Cookies → espn.com). These are user credentials — keep them in `.env` / untracked config, never committed.
-- **Raw endpoint** (if going without the package): `https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{year}/segments/0/leagues/{league_id}` (2018+); `.../leagueHistory/{league_id}?seasonId={year}` for 2017 and earlier. Player queries use the `X-Fantasy-Filter` header. Useful views: `mTeam`, `mRoster`, `mMatchup`, `mBoxscore`, `mSettings`.
-- Because the API is unofficial, ESPN can change it without notice. Cache/snapshot pulled data locally (JSON files or SQLite) so the site never depends on a live ESPN call, and so history survives API changes.
+1. **`pipeline/pull.py`** — ESPN via `espn-api` → normalized raw JSON in `data/raw/<season>/` (`meta.json` + `week_NN.json`). The schema is documented in `pipeline/config.py`. `pipeline/fixtures.py` generates a deterministic sample season in the same schema.
+2. **`pipeline/stats.py`** — pure functions over `{"meta", "weeks"}`: standings, all-play/luck, optimal lineups, streaks, records, awards, champion. All record math uses regular-season weeks only. Keep functions pure; display rounding happens in `build.py`, not here (the zero-sum luck test depends on it).
+3. **`pipeline/build.py`** → `site/data/league.json`, the single payload the static site (`site/`, vanilla JS SPA with hash routing + hand-rolled SVG charts in `site/js/charts.js`) renders. `tests/test_build.py` pins this schema — update it when changing the payload.
 
-## Open Decisions
+`.github/workflows/update.yml` runs pull → test → build → commit data → deploy Pages on a cron schedule (daily + after each NFL game window, DST-safe UTC times). Raw snapshots are committed so git history is the season archive; the season is auto-computed (year, or year−1 before September).
 
-- Web stack for the display layer (not chosen; data layer is Python).
-- Hosting (a static site regenerated from cached data would be the simplest fit).
+## ESPN Data
+
+The league (id 451795550) is **private**: pulls need `ESPN_S2` and `SWID` cookies from a logged-in espn.com browser session, stored in `.env` locally (gitignored) and as GitHub Actions repo secrets. The API is ESPN's unofficial v3 (`lm-api-reads.fantasy.espn.com`), accessed through the [`espn-api` package](https://github.com/cwendt94/espn-api) — it can change without notice, which is why raw snapshots are committed and the site never depends on a live ESPN call. `pull.py` refuses to overwrite an existing week file with a smaller response, and surfaces expired cookies (401) with re-auth instructions.
 
 ## User Notes
 
