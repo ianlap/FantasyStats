@@ -375,6 +375,7 @@ tr.playoff-cut td { border-bottom: 2px solid rgba(240, 180, 40, 0.4); }
   border-left: 3px solid transparent;
 }
 .matchup.final { border-left-color: var(--gold); }
+.matchup[open] { grid-column: 1 / -1; }
 
 .matchup summary {
   list-style: none;
@@ -437,6 +438,12 @@ tr.playoff-cut td { border-bottom: 2px solid rgba(240, 180, 40, 0.4); }
 .lineups table { font-size: 12.5px; }
 .lineups td, .lineups th { padding: 3px 6px; }
 .lineups .slot { color: var(--ink-3); width: 38px; }
+.lineups td.pname {
+  width: 100%;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .lineups .benched-note {
   grid-column: 1 / -1;
   margin-top: 10px;

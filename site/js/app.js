@@ -212,11 +212,16 @@ function matchupCard(m, idx) {
   </details>`;
 }
 
+const SLOT_DISPLAY_ORDER = ["QB", "RB", "WR", "TE", "FLEX", "D/ST", "K"];
+
 function lineupsHtml(m) {
-  const slotOrder = D.starting_slots;
+  const rank = (slot) => {
+    const i = SLOT_DISPLAY_ORDER.indexOf(slot);
+    return i === -1 ? SLOT_DISPLAY_ORDER.length : i;
+  };
   const side = (s) => {
     const starters = s.lineup.filter((p) => p.slot !== "BE" && p.slot !== "IR");
-    starters.sort((a, b) => slotOrder.indexOf(a.slot) - slotOrder.indexOf(b.slot));
+    starters.sort((a, b) => rank(a.slot) - rank(b.slot));
     const bench = s.lineup.filter((p) => p.slot === "BE" || p.slot === "IR");
     const left = s.optimal != null ? (s.optimal - s.score) : null;
     return `<div>
@@ -225,7 +230,7 @@ function lineupsHtml(m) {
         ${starters.map((p) => `
           <tr>
             <td class="slot l">${esc(p.slot)}</td>
-            <td class="l">${esc(p.name)}</td>
+            <td class="l pname">${esc(p.name)}</td>
             <td>${f1(p.points)}</td>
           </tr>`).join("")}
       </table>
@@ -234,7 +239,7 @@ function lineupsHtml(m) {
           ${bench.map((p) => `
             <tr>
               <td class="slot l">${esc(p.position)}</td>
-              <td class="l">${esc(p.name)}</td>
+              <td class="l pname">${esc(p.name)}</td>
               <td>${f1(p.points)}</td>
             </tr>`).join("")}
         </table>
