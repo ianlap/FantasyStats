@@ -1,0 +1,81 @@
+{
+ "season": 2025,
+ "league_id": 0,
+ "league_name": "Demo League",
+ "demo": true,
+ "regular_season_weeks": 14,
+ "playoff_teams": 6,
+ "starting_slots": [
+  "QB",
+  "RB",
+  "RB",
+  "WR",
+  "WR",
+  "TE",
+  "FLEX",
+  "D/ST",
+  "K"
+ ],
+ "teams": [
+  {
+   "id": 1,
+   "name": "Bijan Mustard",
+   "abbrev": "MSTD",
+   "owner": "Alex"
+  },
+  {
+   "id": 2,
+   "name": "Hurts So Good",
+   "abbrev": "HURT",
+   "owner": "Sam"
+  },
+  {
+   "id": 3,
+   "name": "Breece's Pieces",
+   "abbrev": "BRPC",
+   "owner": "Jordan"
+  },
+  {
+   "id": 4,
+   "name": "Kittle Corn",
+   "abbrev": "KORN",
+   "owner": "Casey"
+  },
+  {
+   "id": 5,
+   "name": "Dak to the Future",
+   "abbrev": "DAKF",
+   "owner": "Riley"
+  },
+  {
+   "id": 6,
+   "name": "Chubb Hub",
+   "abbrev": "CHUB",
+   "owner": "Morgan"
+  },
+  {
+   "id": 7,
+   "name": "Lamarvelous",
+   "abbrev": "LMRV",
+   "owner": "Taylor"
+  },
+  {
+   "id": 8,
+   "name": "Waddle Waddle",
+   "abbrev": "WDDL",
+   "owner": "Jamie"
+  },
+  {
+   "id": 9,
+   "name": "The Gridiron Gentlemen",
+   "abbrev": "GENT",
+   "owner": "Drew"
+  },
+  {
+   "id": 10,
+   "name": "Justin Time",
+   "abbrev": "JSTN",
+   "owner": "Pat"
+  }
+ ]
+}

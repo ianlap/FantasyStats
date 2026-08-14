@@ -1,0 +1,17 @@
+[project]
+name = "fantasystats"
+version = "0.1.0"
+description = "Stat tracking and static site for an ESPN fantasy football league"
+requires-python = ">=3.11"
+dependencies = [
+    "espn-api>=0.44",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
