@@ -21,73 +21,85 @@
    "id": 1,
    "name": "My Leg Hurts",
    "abbrev": "8=B",
-   "owner": "Ian Lapinski"
+   "owner": "Ian Lapinski",
+   "final_standing": 11
   },
   {
    "id": 2,
    "name": "Joe's Toe :)",
    "abbrev": "BRRR",
-   "owner": "Richard Castagna"
+   "owner": "Richard Castagna",
+   "final_standing": 5
   },
   {
    "id": 3,
    "name": "The McBridesmaids",
    "abbrev": "CCT",
-   "owner": "Connor Smith"
+   "owner": "Connor Smith",
+   "final_standing": 1
   },
   {
    "id": 4,
    "name": "Goon in Blue",
    "abbrev": "COP",
-   "owner": "Chris Armbrust"
+   "owner": "Chris Armbrust",
+   "final_standing": 4
   },
   {
    "id": 5,
    "name": "Lights Kamara Action ",
    "abbrev": "TTT",
-   "owner": "Taylor Zampelli"
+   "owner": "Taylor Zampelli",
+   "final_standing": 12
   },
   {
    "id": 6,
    "name": "Big Nix Energy",
    "abbrev": "BNE",
-   "owner": "Stephen Nace"
+   "owner": "Stephen Nace",
+   "final_standing": 10
   },
   {
    "id": 7,
    "name": "Kareem Abdul Ja'marr",
    "abbrev": "NHB ",
-   "owner": "Shaquille Mitchell"
+   "owner": "Shaquille Mitchell",
+   "final_standing": 7
   },
   {
    "id": 8,
    "name": "McCaff Me If You Can",
    "abbrev": "CMC",
-   "owner": "Randy Bahmueller"
+   "owner": "Randy Bahmueller",
+   "final_standing": 3
   },
   {
    "id": 9,
    "name": "Dead Dynasty",
    "abbrev": "DD",
-   "owner": "Conner Strous"
+   "owner": "Conner Strous",
+   "final_standing": 9
   },
   {
    "id": 10,
    "name": "I chase brown kids",
    "abbrev": "DDT",
-   "owner": "Dalton Gough"
+   "owner": "Dalton Gough",
+   "final_standing": 2
   },
   {
    "id": 11,
    "name": "Smokin Darts W Ur Mom",
    "abbrev": "Yuh",
-   "owner": "Andrew Nace"
+   "owner": "Andrew Nace",
+   "final_standing": 8
   },
   {
    "id": 12,
    "name": "Njigbas in Paris",
    "abbrev": "JST",
-   "owner": "Josh Kodish"
+   "owner": "Josh Kodish",
+   "final_standing": 6
   }
  ],
  "finalized": true

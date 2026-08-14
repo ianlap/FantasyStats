@@ -470,12 +470,13 @@ function renderTeams(teamId) {
     html += `<section class="section">
       ${kicker("History", "Season by season")}
       <div class="card table-scroll"><table>
-        <thead><tr><th class="l">Season</th><th>Finish</th><th>W–L</th><th></th></tr></thead>
+        <thead><tr><th class="l">Season</th><th>RS finish</th><th>Final</th><th>W–L</th><th></th></tr></thead>
         <tbody>
           ${t.finishes.map((f) => `
             <tr>
               <td class="l">${f.season}</td>
               <td>${ordinal(f.place)}</td>
+              <td>${f.final ? ordinal(f.final) : "–"}</td>
               <td>${f.wins}–${f.losses}${f.ties ? "–" + f.ties : ""}</td>
               <td>${f.champion ? "🏆 Champion" : ""}</td>
             </tr>`).join("")}

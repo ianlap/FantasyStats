@@ -24,7 +24,7 @@ def team(tid, name, **kw):
         "allplay_wins": 0, "allplay_losses": 0, "luck": 0.0,
         "optimal_points": 0.0, "points_benched": 0.0, "efficiency": None,
         "playoff_wins": 1, "playoff_losses": 1, "playoff_pf": 100.0,
-        "playoff_pa": 100.0, "playoff_games": 2,
+        "playoff_pa": 100.0, "playoff_games": 2, "final_standing": None,
     }
     base.update(kw)
     return base
@@ -38,7 +38,7 @@ def payloads():
             team(1, "Alpha", place=1, wins=10, losses=4, points_for=1500.0,
                  points_against=1300.0, allplay_wins=100, allplay_losses=54,
                  luck=1.5, optimal_points=1800.0, points_benched=300.0,
-                 efficiency=0.8333),
+                 efficiency=0.8333, final_standing=1),
             team(2, "Bravo", place=2, wins=4, losses=10, points_for=1200.0,
                  points_against=1400.0, allplay_wins=54, allplay_losses=100,
                  luck=-1.5, optimal_points=1500.0, points_benched=300.0,
@@ -96,6 +96,7 @@ def test_titles_and_finishes(payloads):
     assert one["titles"] == 1 and two["titles"] == 1
     assert [f["season"] for f in one["finishes"]] == [2025, 2026]
     assert one["finishes"][0]["champion"] is True
+    assert one["finishes"][0]["final"] == 1
     assert cum["champions"] == [
         {"season": 2025, "team_id": 1}, {"season": 2026, "team_id": 2},
     ]

@@ -11,7 +11,7 @@ TEAM_KEYS = {
     "longest_win", "longest_loss", "current_streak", "optimal_points",
     "points_benched", "efficiency", "weekly", "places",
     "playoff_wins", "playoff_losses", "playoff_pf", "playoff_pa",
-    "playoff_games",
+    "playoff_games", "final_standing",
 }
 
 

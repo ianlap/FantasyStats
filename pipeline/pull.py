@@ -96,6 +96,8 @@ def pull_season(season):
                 "name": t.team_name,
                 "abbrev": t.team_abbrev,
                 "owner": owner_name(t),
+                # ESPN's bracket-inclusive final placement; 0 until season end.
+                "final_standing": getattr(t, "final_standing", 0) or None,
             }
             for t in league.teams
         ],

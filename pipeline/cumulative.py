@@ -49,6 +49,7 @@ def aggregate(payloads):
             row["finishes"].append({
                 "season": payload["season"],
                 "place": t["place"],
+                "final": t.get("final_standing"),
                 "wins": t["wins"], "losses": t["losses"], "ties": t["ties"],
                 "champion": is_champ,
             })

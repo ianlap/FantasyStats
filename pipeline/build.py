@@ -47,6 +47,7 @@ def assemble(season, transactions=None, manual_trades=None):
         info = next(t for t in meta["teams"] if t["id"] == tid)
         playoff_games = [g for g in weekly_scores[tid] if g["is_playoff"]]
         teams.append({
+            "final_standing": info.get("final_standing"),
             "playoff_wins": sum(1 for g in playoff_games if g["result"] == "W"),
             "playoff_losses": sum(1 for g in playoff_games if g["result"] == "L"),
             "playoff_pf": round(sum(g["points"] for g in playoff_games), 2),
