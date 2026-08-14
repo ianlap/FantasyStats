@@ -136,6 +136,15 @@ function standingsColumns() {
     const v = pts(raw, t);
     return v == null ? "–" : f1(v);
   };
+  const diffCol = (getDiff) => ({
+    key: "diff", label: "+/−",
+    val: (t) => pts(getDiff(t), t) ?? 0,
+    td: (t) => {
+      const v = pts(getDiff(t), t);
+      if (v == null) return "<td>–</td>";
+      return `<td class="${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(1)}</td>`;
+    },
+  });
 
   if (ST.view === "playoff") {
     return [
@@ -147,6 +156,7 @@ function standingsColumns() {
         td: (t) => `<td>${ptsCell(t.playoff_pf, t)}</td>` },
       { key: "pa", label: "PA", val: (t) => pts(t.playoff_pa, t) ?? -1,
         td: (t) => `<td>${ptsCell(t.playoff_pa, t)}</td>` },
+      diffCol((t) => t.playoff_pf - t.playoff_pa),
     ];
   }
 
@@ -157,6 +167,7 @@ function standingsColumns() {
       td: (t) => `<td>${ptsCell(t.points_for, t)}</td>` },
     { key: "pa", label: "PA", val: (t) => pts(t.points_against, t) ?? -1,
       td: (t) => `<td>${ptsCell(t.points_against, t)}</td>` },
+    diffCol((t) => t.points_for - t.points_against),
   ];
   if (D.cumulative) {
     cols.push({ key: "titles", label: "Titles", val: (t) => t.titles,
