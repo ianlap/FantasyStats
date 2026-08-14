@@ -16,7 +16,8 @@ uv run pytest                                  # run tests (tests/ over pipeline
 uv run pytest tests/test_stats.py -k luck      # run a single test
 uv run python -m pipeline.fixtures             # regenerate deterministic sample season
 uv run python -m pipeline.pull --season 2025   # pull real ESPN data (needs .env cookies)
-uv run python -m pipeline.build --season 2025  # compile site/data/league.json
+uv run python -m pipeline.build                # compile all seasons + cumulative + manifest
+uv run python -m pipeline.freeze 2025          # mark a finished season immutable (pulls skip it)
 python3 -m http.server 8000 -d site            # preview site locally
 ```
 

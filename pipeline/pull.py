@@ -60,7 +60,17 @@ def owner_name(team):
     return team.team_abbrev
 
 
+def is_finalized(season):
+    meta_path = RAW_DIR / str(season) / "meta.json"
+    if not meta_path.exists():
+        return False
+    return bool(json.loads(meta_path.read_text()).get("finalized"))
+
+
 def pull_season(season):
+    if is_finalized(season):
+        print(f"Season {season} is finalized; skipping pull.")
+        return
     espn_s2, swid = load_cookies()
     league = League(
         league_id=LEAGUE_ID, year=season, espn_s2=espn_s2, swid=swid
