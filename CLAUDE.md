@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Goal
 
-Stat-tracking and display (likely a webpage) for Ian's ESPN fantasy football league: pull league data, show standings, matchups, lineups, scores, and fun historical stats.
+Stat-tracking site for Ian's ESPN fantasy football league ("Generic ass name", 12 teams): standings, matchups, lineups, luck/efficiency stats, records.
+
+**Deployed**: https://ianlap.github.io/FantasyStats/ from the public repo `ianlap/FantasyStats` (GitHub Pages, source: Actions). Cookie secrets `ESPN_S2`/`SWID` are set on the repo; the schedule keeps data fresh.
 
 ## Commands
 
