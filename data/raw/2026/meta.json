@@ -1,0 +1,105 @@
+{
+ "season": 2026,
+ "league_id": 451795550,
+ "league_name": "Generic ass name",
+ "demo": false,
+ "regular_season_weeks": 14,
+ "playoff_teams": 6,
+ "starting_slots": [
+  "RB",
+  "WR",
+  "FLEX",
+  "RB",
+  "QB",
+  "WR",
+  "TE",
+  "D/ST",
+  "K"
+ ],
+ "teams": [
+  {
+   "id": 1,
+   "name": "Puka NoJewa",
+   "abbrev": "8==B",
+   "owner": "Ian Lapinski",
+   "final_standing": null
+  },
+  {
+   "id": 2,
+   "name": "Joe's Toe :)",
+   "abbrev": "BRRR",
+   "owner": "Richard Castagna",
+   "final_standing": null
+  },
+  {
+   "id": 3,
+   "name": "Dianna Russini",
+   "abbrev": "CMS",
+   "owner": "Connor Smith",
+   "final_standing": null
+  },
+  {
+   "id": 4,
+   "name": "Pigs in a Blanket ",
+   "abbrev": "COP",
+   "owner": "Chris Armbrust",
+   "final_standing": null
+  },
+  {
+   "id": 5,
+   "name": "Egbukakke Party",
+   "abbrev": "TTT",
+   "owner": "Taylor Zampelli",
+   "final_standing": null
+  },
+  {
+   "id": 6,
+   "name": "Daddy Hurts Me",
+   "abbrev": "Ddd",
+   "owner": "Stephen Nace",
+   "final_standing": null
+  },
+  {
+   "id": 7,
+   "name": "The Plot Pickens",
+   "abbrev": "NHB ",
+   "owner": "Shaquille Mitchell",
+   "final_standing": null
+  },
+  {
+   "id": 8,
+   "name": "Saquon deez nutz",
+   "abbrev": "Sdn",
+   "owner": "Randy Bahmueller",
+   "final_standing": null
+  },
+  {
+   "id": 9,
+   "name": "Jaylen is Jewish",
+   "abbrev": "JJ",
+   "owner": "Conner Strous",
+   "final_standing": null
+  },
+  {
+   "id": 10,
+   "name": "I chase brown kids",
+   "abbrev": "DDT",
+   "owner": "Dalton Gough",
+   "final_standing": null
+  },
+  {
+   "id": 11,
+   "name": "Smokin Darts W Ur Mom",
+   "abbrev": "Yuh",
+   "owner": "Andrew Nace",
+   "final_standing": null
+  },
+  {
+   "id": 12,
+   "name": "Ceedees Darts",
+   "abbrev": "WIN",
+   "owner": "Josh Kodish",
+   "final_standing": null
+  }
+ ]
+}
