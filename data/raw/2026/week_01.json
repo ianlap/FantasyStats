@@ -678,6 +678,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 5.09
+     },
+     {
+      "id": 3929645,
+      "name": "Juwan Johnson",
+      "position": "TE",
+      "slot": "BE",
+      "points": 0,
+      "projected": 8.83
      }
     ]
    },
@@ -793,7 +801,7 @@
       "id": -16017,
       "name": "Patriots D/ST",
       "position": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0,
       "projected": 4.65
      },
@@ -812,6 +820,14 @@
       "slot": "K",
       "points": 0,
       "projected": 8.97
+     },
+     {
+      "id": -16030,
+      "name": "Jaguars D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
+      "points": 0,
+      "projected": 8.19
      }
     ]
    }
@@ -1295,7 +1311,7 @@
       "id": 4426338,
       "name": "Bo Nix",
       "position": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0,
       "projected": 16.2
      },
@@ -1327,7 +1343,7 @@
       "id": 3917315,
       "name": "Kyler Murray",
       "position": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0,
       "projected": 16.39
      },
