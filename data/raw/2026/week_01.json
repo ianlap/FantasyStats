@@ -15,7 +15,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 21.53
+      "projected": 21.65
      },
      {
       "id": 4428331,
@@ -87,7 +87,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.21
+      "projected": 9.22
      },
      {
       "id": 4429059,
@@ -261,7 +261,7 @@
       "position": "QB",
       "slot": "BE",
       "points": 0,
-      "projected": 15.8
+      "projected": 15.79
      },
      {
       "id": 4702555,
@@ -286,7 +286,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 18.82
+      "projected": 18.83
      },
      {
       "id": 4890973,
@@ -420,7 +420,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 14.87
+      "projected": 14.88
      },
      {
       "id": 4262921,
@@ -500,7 +500,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 5.26
+      "projected": 5.25
      },
      {
       "id": 4362081,
@@ -524,7 +524,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 5.99
+      "projected": 0.0
      },
      {
       "id": 4428850,
@@ -603,7 +603,7 @@
       "id": 3040151,
       "name": "George Kittle",
       "position": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0,
       "projected": 8.36
      },
@@ -683,7 +683,7 @@
       "id": 3929645,
       "name": "Juwan Johnson",
       "position": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0,
       "projected": 8.83
      }
@@ -737,7 +737,7 @@
       "id": 16737,
       "name": "Mike Evans",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 10.64
      },
@@ -755,7 +755,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 11.18
+      "projected": 11.46
      },
      {
       "id": 4360310,
@@ -769,7 +769,7 @@
       "id": 4362249,
       "name": "Jayden Reed",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 10.18
      },
@@ -803,7 +803,7 @@
       "position": "D/ST",
       "slot": "BE",
       "points": 0,
-      "projected": 4.65
+      "projected": 4.66
      },
      {
       "id": 4429022,
@@ -1002,7 +1002,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 12.37
+      "projected": 12.86
      },
      {
       "id": 4431459,
@@ -1016,9 +1016,9 @@
       "id": 4432620,
       "name": "Parker Washington",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
-      "projected": 10.77
+      "projected": 10.78
      },
      {
       "id": 4431611,
@@ -1040,7 +1040,7 @@
       "id": 4701936,
       "name": "Matthew Golden",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 11.06
      },
@@ -1074,7 +1074,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 5.94
+      "projected": 5.95
      },
      {
       "id": 4362619,
@@ -1082,7 +1082,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 4.39
+      "projected": 4.85
      },
      {
       "id": 5082424,
@@ -1289,7 +1289,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 12.14
+      "projected": 12.13
      },
      {
       "id": 4360248,
@@ -1329,7 +1329,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 8.67
+      "projected": 8.68
      },
      {
       "id": -16023,
@@ -1434,7 +1434,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 11.75
+      "projected": 11.46
      },
      {
       "id": 3116165,
@@ -1450,7 +1450,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.4
+      "projected": 10.41
      },
      {
       "id": 4429096,
@@ -1474,7 +1474,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 7.16
+      "projected": 7.14
      },
      {
       "id": 4597500,
@@ -1584,7 +1584,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.12
+      "projected": 10.13
      },
      {
       "id": 4683062,
@@ -1608,7 +1608,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 8.38
+      "projected": 8.36
      },
      {
       "id": 4430834,
