@@ -262,6 +262,33 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
+  "id": "5d2f3da3-fb94-4627-955d-902674fc4f36",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4361529,
+    "toLineupSlotId": 21,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{0DFF1955-5CCF-4086-BF19-555CCF70862F}",
+  "proposedDate": 1788453353304,
+  "rating": 0,
+  "scoringPeriodId": 1,
+  "status": "EXECUTED",
+  "teamId": 2,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
   "id": "963140df-4494-4610-aea5-1bd84e054c8b",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
@@ -1259,6 +1286,33 @@
   "status": "EXECUTED",
   "teamId": 6,
   "type": "DRAFT"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "011541f3-b3bb-4586-9da7-e1239ffdf570",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3917792,
+    "toLineupSlotId": 20,
+    "toTeamId": 2,
+    "type": "ADD"
+   }
+  ],
+  "memberId": "{0DFF1955-5CCF-4086-BF19-555CCF70862F}",
+  "proposedDate": 1788456745899,
+  "rating": 0,
+  "scoringPeriodId": 1,
+  "status": "EXECUTED",
+  "teamId": 2,
+  "type": "FREEAGENT"
  },
  {
   "bidAmount": 0,
@@ -5671,6 +5725,22 @@
   "status": "EXECUTED",
   "teamId": 9,
   "type": "DRAFT"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "7d392162-9353-43eb-b53c-c7d8345d8739",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{0DFF1955-5CCF-4086-BF19-555CCF70862F}",
+  "proposedDate": 1788451354631,
+  "rating": 0,
+  "relatedTransactionId": "edb513c9-0dcc-4e00-8af7-717decddeb53",
+  "scoringPeriodId": 1,
+  "status": "EXECUTED",
+  "teamId": 2,
+  "type": "TRADE_DECLINE"
  },
  {
   "bidAmount": 0,

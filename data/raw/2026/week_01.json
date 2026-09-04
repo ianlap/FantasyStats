@@ -522,7 +522,7 @@
       "id": 4361529,
       "name": "Isiah Pacheco",
       "position": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0,
       "projected": 0.0
      },
@@ -541,6 +541,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 6.81
+     },
+     {
+      "id": 3917792,
+      "name": "Daniel Jones",
+      "position": "QB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 15.16
      }
     ]
    }
