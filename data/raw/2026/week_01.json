@@ -1061,14 +1061,6 @@
       "projected": 9.08
      },
      {
-      "id": 4682745,
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 2.89
-     },
-     {
       "id": 4869645,
       "name": "Caleb Douglas",
       "position": "WR",
@@ -1107,6 +1099,14 @@
       "slot": "D/ST",
       "points": 0,
       "projected": 4.46
+     },
+     {
+      "id": 4432577,
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 16.23
      }
     ]
    }
