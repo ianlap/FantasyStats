@@ -1364,20 +1364,20 @@
       "projected": 9.2
      },
      {
-      "id": 4360939,
-      "name": "Rashod Bateman",
-      "position": "WR",
-      "slot": "BE",
-      "points": 0,
-      "projected": 7.31
-     },
-     {
       "id": 17427,
       "name": "Cairo Santos",
       "position": "K",
       "slot": "K",
       "points": 0,
       "projected": 8.24
+     },
+     {
+      "id": 4696044,
+      "name": "Kaelon Black",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 3.13
      }
     ]
    }
