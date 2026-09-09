@@ -890,9 +890,9 @@
       "id": 4432710,
       "name": "TreVeyon Henderson",
       "position": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0,
-      "projected": 0.01
+      "projected": 0.0
      },
      {
       "id": 4429023,
@@ -973,6 +973,14 @@
       "slot": "D/ST",
       "points": 0,
       "projected": 7.36
+     },
+     {
+      "id": 4569559,
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "slot": "BE",
+      "points": 0,
+      "projected": 9.31
      }
     ]
    },
