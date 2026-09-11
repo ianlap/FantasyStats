@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 6,
-    "score": 0.0,
+    "score": 10.0,
     "lineup": [
      {
       "id": 4429795,
@@ -126,7 +126,7 @@
       "name": "Eddy Pineiro",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 10.0,
       "projected": 8.66
      },
      {
@@ -141,7 +141,7 @@
    },
    "away": {
     "team_id": 8,
-    "score": 0.0,
+    "score": 5.6,
     "lineup": [
      {
       "id": 3929630,
@@ -172,7 +172,7 @@
       "name": "Davante Adams",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 5.6,
       "projected": 13.82
      },
      {
@@ -228,7 +228,7 @@
       "name": "Brock Purdy",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 21.1,
       "projected": 15.48
      },
      {
@@ -557,14 +557,14 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 7.0,
+    "score": 22.6,
     "lineup": [
      {
       "id": 4426515,
       "name": "Puka Nacua",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 12.4,
       "projected": 21.04
      },
      {
@@ -611,8 +611,8 @@
       "id": 3040151,
       "name": "George Kittle",
       "position": "TE",
-      "slot": "BE",
-      "points": 0,
+      "slot": "TE",
+      "points": 3.2,
       "projected": 8.37
      },
      {
@@ -691,7 +691,7 @@
       "id": 3929645,
       "name": "Juwan Johnson",
       "position": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0,
       "projected": 8.83
      }
@@ -746,7 +746,7 @@
       "name": "Mike Evans",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 16.9,
       "projected": 10.65
      },
      {
@@ -761,7 +761,7 @@
       "id": 4241416,
       "name": "Chuba Hubbard",
       "position": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 11.75
      },
@@ -777,7 +777,7 @@
       "id": 4362249,
       "name": "Jayden Reed",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 10.04
      },
@@ -939,7 +939,7 @@
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 18.0,
       "projected": 8.89
      },
      {
@@ -1123,14 +1123,14 @@
    "bracket": null,
    "home": {
     "team_id": 4,
-    "score": 9.82,
+    "score": 23.62,
     "lineup": [
      {
       "id": 3117251,
       "name": "Christian McCaffrey",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 13.8,
       "projected": 18.39
      },
      {
@@ -1336,7 +1336,7 @@
       "name": "De'Zhaun Stribling",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 9.6
      },
      {
@@ -1384,7 +1384,7 @@
       "name": "Kaelon Black",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 8.0,
       "projected": 3.13
      }
     ]
@@ -1394,7 +1394,7 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 21.8,
+    "score": 22.8,
     "lineup": [
      {
       "id": 4362628,
@@ -1473,7 +1473,7 @@
       "name": "Blake Corum",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 5.4,
       "projected": 9.37
      },
      {
@@ -1481,7 +1481,7 @@
       "name": "Matthew Stafford",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 4.1,
       "projected": 17.49
      },
      {
@@ -1505,7 +1505,7 @@
       "name": "Harrison Mevis",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 1.0,
       "projected": 9.34
      },
      {
@@ -1528,7 +1528,7 @@
    },
    "away": {
     "team_id": 11,
-    "score": 26.2,
+    "score": 42.7,
     "lineup": [
      {
       "id": 4430878,
@@ -1551,7 +1551,7 @@
       "name": "Kyren Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 15.5,
       "projected": 13.67
      },
      {
@@ -1615,7 +1615,7 @@
       "name": "Rams D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 1.0,
       "projected": 6.12
      },
      {
