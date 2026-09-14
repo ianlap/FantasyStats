@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 6,
-    "score": 165.62,
+    "score": 168.02,
     "lineup": [
      {
       "id": 4429795,
@@ -46,7 +46,7 @@
       "name": "Jalen Hurts",
       "position": "QB",
       "slot": "QB",
-      "points": 24.92,
+      "points": 24.72,
       "projected": 21.05
      },
      {
@@ -54,7 +54,7 @@
       "name": "Christian Watson",
       "position": "WR",
       "slot": "FLEX",
-      "points": 30.1,
+      "points": 32.7,
       "projected": 10.92
      },
      {
@@ -134,14 +134,14 @@
       "name": "Jordan Love",
       "position": "QB",
       "slot": "BE",
-      "points": 17.16,
+      "points": 19.48,
       "projected": 14.88
      }
     ]
    },
    "away": {
     "team_id": 8,
-    "score": 70.0,
+    "score": 84.4,
     "lineup": [
      {
       "id": 3929630,
@@ -196,7 +196,7 @@
       "name": "Dak Prescott",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 14.4,
       "projected": 16.75
      },
      {
@@ -278,7 +278,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 94.76,
+    "score": 111.26,
     "lineup": [
      {
       "id": 4374302,
@@ -301,7 +301,7 @@
       "name": "Malik Nabers",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 12.9,
       "projected": 12.71
      },
      {
@@ -357,7 +357,7 @@
       "name": "Jake Ferguson",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 2.6,
       "projected": 9.81
      },
      {
@@ -365,7 +365,7 @@
       "name": "Brandon Aubrey",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 1.0,
       "projected": 9.87
      },
      {
@@ -412,7 +412,7 @@
    },
    "away": {
     "team_id": 2,
-    "score": 112.56,
+    "score": 140.36,
     "lineup": [
      {
       "id": 4379399,
@@ -483,7 +483,7 @@
       "name": "Isaiah Likely",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 27.8,
       "projected": 9.48
      },
      {
@@ -557,7 +557,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 82.46,
+    "score": 106.66,
     "lineup": [
      {
       "id": 4426515,
@@ -580,7 +580,7 @@
       "name": "Javonte Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 24.2,
       "projected": 15.29
      },
      {
@@ -778,7 +778,7 @@
       "name": "Jayden Reed",
       "position": "WR",
       "slot": "BE",
-      "points": 3.3,
+      "points": 5.0,
       "projected": 10.04
      },
      {
@@ -844,7 +844,7 @@
    "bracket": null,
    "home": {
     "team_id": 12,
-    "score": 73.5,
+    "score": 115.5,
     "lineup": [
      {
       "id": 4429160,
@@ -859,7 +859,7 @@
       "name": "CeeDee Lamb",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 15.4,
       "projected": 17.26
      },
      {
@@ -923,7 +923,7 @@
       "name": "Jaxson Dart",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 26.6,
       "projected": 18.52
      },
      {
@@ -986,7 +986,7 @@
    },
    "away": {
     "team_id": 7,
-    "score": 119.56,
+    "score": 134.16,
     "lineup": [
      {
       "id": 4430807,
@@ -1009,7 +1009,7 @@
       "name": "George Pickens",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 5.8,
       "projected": 14.69
      },
      {
@@ -1049,7 +1049,7 @@
       "name": "Jordan Mason",
       "position": "RB",
       "slot": "BE",
-      "points": 11.6,
+      "points": 11.9,
       "projected": 9.6
      },
      {
@@ -1057,7 +1057,7 @@
       "name": "Matthew Golden",
       "position": "WR",
       "slot": "FLEX",
-      "points": 10.7,
+      "points": 15.5,
       "projected": 11.0
      },
      {
@@ -1089,7 +1089,7 @@
       "name": "Dominic Zvada",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 4.0,
       "projected": 7.95
      },
      {
@@ -1123,7 +1123,7 @@
    "bracket": null,
    "home": {
     "team_id": 4,
-    "score": 73.52,
+    "score": 87.62,
     "lineup": [
      {
       "id": 3117251,
@@ -1154,7 +1154,7 @@
       "name": "Cam Skattebo",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 14.1,
       "projected": 13.71
      },
      {
@@ -1647,7 +1647,7 @@
       "name": "Malachi Fields",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 4.5,
       "projected": 6.89
      },
      {
