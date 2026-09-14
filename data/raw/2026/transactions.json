@@ -766,6 +766,22 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
+  "id": "e8a91e5a-39e6-43fa-9c22-439f6443b0ca",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{DE41A788-02CE-4173-AF54-2F8D779FDE9F}",
+  "proposedDate": 1789402950588,
+  "rating": 0,
+  "relatedTransactionId": "c52e72d6-cbe4-4bc0-bd93-2aee5a2cae28",
+  "scoringPeriodId": 1,
+  "status": "EXECUTED",
+  "teamId": 8,
+  "type": "TRADE_DECLINE"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
   "id": "c3a2ac69-0375-4191-8118-750bb6d15615",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
