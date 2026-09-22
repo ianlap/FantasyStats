@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 65.48,
+    "score": 104.98,
     "lineup": [
      {
       "id": 3929630,
@@ -38,7 +38,7 @@
       "name": "Davante Adams",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 39.5,
       "projected": 15.5
      },
      {
@@ -149,7 +149,7 @@
    },
    "away": {
     "team_id": 2,
-    "score": 87.28,
+    "score": 95.58,
     "lineup": [
      {
       "id": 4379399,
@@ -220,7 +220,7 @@
       "name": "Isaiah Likely",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 8.3,
       "projected": 10.96
      },
      {
@@ -715,7 +715,7 @@
    },
    "away": {
     "team_id": 5,
-    "score": 120.84,
+    "score": 121.94,
     "lineup": [
      {
       "id": 4374302,
@@ -738,7 +738,7 @@
       "name": "Malik Nabers",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 1.1,
       "projected": 14.93
      },
      {
@@ -1001,7 +1001,7 @@
       "name": "Puka Nacua",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1139,7 +1139,7 @@
    "bracket": null,
    "home": {
     "team_id": 11,
-    "score": 98.58,
+    "score": 125.28,
     "lineup": [
      {
       "id": 4430878,
@@ -1162,7 +1162,7 @@
       "name": "Kyren Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 15.7,
       "projected": 14.47
      },
      {
@@ -1226,7 +1226,7 @@
       "name": "Rams D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 11.0,
       "projected": 5.74
      },
      {
@@ -1258,7 +1258,7 @@
       "name": "Malachi Fields",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 5.0,
       "projected": 6.14
      },
      {
@@ -1273,7 +1273,7 @@
    },
    "away": {
     "team_id": 12,
-    "score": 105.3,
+    "score": 106.1,
     "lineup": [
      {
       "id": 4429160,
@@ -1344,7 +1344,7 @@
       "name": "Jaxson Dart",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 0.8,
       "projected": 18.18
      },
      {
@@ -1410,7 +1410,7 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 121.62,
+    "score": 124.62,
     "lineup": [
      {
       "id": 4362628,
@@ -1489,7 +1489,7 @@
       "name": "Blake Corum",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 10.2,
       "projected": 9.73
      },
      {
@@ -1497,7 +1497,7 @@
       "name": "Matthew Stafford",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 26.98,
       "projected": 18.21
      },
      {
@@ -1521,7 +1521,7 @@
       "name": "Harrison Mevis",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 3.0,
       "projected": 9.34
      },
      {
@@ -1544,7 +1544,7 @@
    },
    "away": {
     "team_id": 4,
-    "score": 125.82,
+    "score": 135.32,
     "lineup": [
      {
       "id": 3117251,
@@ -1575,7 +1575,7 @@
       "name": "Cam Skattebo",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 9.5,
       "projected": 12.83
      },
      {
