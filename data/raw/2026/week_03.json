@@ -155,7 +155,7 @@
       "id": 3929630,
       "name": "Saquon Barkley",
       "position": "RB",
-      "slot": "RB",
+      "slot": "FLEX",
       "points": 0,
       "projected": 17.37
      },
@@ -171,7 +171,7 @@
       "id": 4239996,
       "name": "Travis Etienne Jr.",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "RB",
       "points": 0,
       "projected": 11.93
      },
@@ -219,7 +219,7 @@
       "id": 4572680,
       "name": "Tucker Kraft",
       "position": "TE",
-      "slot": "BE",
+      "slot": "TE",
       "points": 0,
       "projected": 10.27
      },
@@ -227,7 +227,7 @@
       "id": 3121023,
       "name": "Dallas Goedert",
       "position": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -753,7 +753,7 @@
       "id": 4426388,
       "name": "Jameson Williams",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 10.93
      },
@@ -833,7 +833,7 @@
       "id": 4569559,
       "name": "Devaughn Vele",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 11.52
      },
@@ -1448,7 +1448,7 @@
       "id": 4432710,
       "name": "TreVeyon Henderson",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 10.5
      },
@@ -1488,7 +1488,7 @@
       "id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 11.49
      },
