@@ -10305,6 +10305,916 @@
  },
  {
   "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "9f726b45-62dd-45a2-81ad-8407bcc611b0",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4695883,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4600981,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790119251601,
+  "rating": 0,
+  "scoringPeriodId": 8,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "FUTURE_ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "fc022798-5b9c-4fe0-a60b-8d6760159193",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4695883,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4248528,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790204585492,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "5c4a7a8d-5fc9-4f85-bb8e-f37503ae10cb",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16029,
+    "toLineupSlotId": 16,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 16,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16033,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790155025920,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "CANCEL",
+  "id": "890464d9-3246-4df0-9451-fb32b8cb9cfb",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3117256,
+    "toLineupSlotId": -1,
+    "toTeamId": 3,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 3,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4429022,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "{ABC0B444-5649-4EDF-80B4-445649FEDFB5}",
+  "proposedDate": 1790132279198,
+  "rating": 0,
+  "relatedTransactionId": "f9a1acf4-c677-4cab-8ee3-1292a271c567",
+  "scoringPeriodId": 3,
+  "status": "CANCELED",
+  "teamId": 3,
+  "type": "WAIVER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "4d48ce53-5be0-47a8-94ed-51df7c416185",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1790215801295,
+  "rating": 0,
+  "relatedTransactionId": "c934c319-eb6f-45df-9bdb-2f33df28a904",
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "TRADE_VETO"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "CANCEL",
+  "id": "d2eb647f-d0f8-41ce-bc08-443f786a2f60",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4431299,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 2,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4429160,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 2,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4035538,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4248528,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4036378,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4241985,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   }
+  ],
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790203789244,
+  "rating": 0,
+  "relatedTransactionId": "7f3d62e7-c947-4192-b7ac-a087effa419b",
+  "scoringPeriodId": 3,
+  "status": "CANCELED",
+  "teamId": 12,
+  "type": "TRADE_PROPOSAL"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "266151f3-dbc0-4aaf-b16e-965394042de6",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4695883,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4428331,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790204136609,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "044c0690-2b07-4503-a753-6f2e8268fccc",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 2,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3929630,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4239996,
+    "toLineupSlotId": 2,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4572680,
+    "toLineupSlotId": 6,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 6,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3121023,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{DE41A788-02CE-4173-AF54-2F8D779FDE9F}",
+  "proposedDate": 1790074979175,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 8,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "8550bf07-422c-4f7c-8c97-d1c4282b75dc",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4362628,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3916433,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{DD93C7FA-29D1-47C8-80A8-ADAA48BC06C4}",
+  "proposedDate": 1790216182669,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "409c7c9d-7691-4ae4-b2b8-326a8ac4ea6b",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4034949,
+    "toLineupSlotId": 17,
+    "toTeamId": 9,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 17,
+    "fromTeamId": 9,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 17427,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1790172776322,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "FREEAGENT"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "d294f2f4-058d-4577-b327-b90dfbf4546e",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3117256,
+    "toLineupSlotId": 6,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 6,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4723086,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{ABC0B444-5649-4EDF-80B4-445649FEDFB5}",
+  "proposedDate": 1790180733806,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 3,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "dbeed9f2-300c-4c07-ae44-627a821a2425",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3916433,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4362628,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{DD93C7FA-29D1-47C8-80A8-ADAA48BC06C4}",
+  "proposedDate": 1790216176261,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "4aae8b75-7f78-4fac-bf7b-14ac3f110a51",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4432665,
+    "toLineupSlotId": 6,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 6,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4429086,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{DD93C7FA-29D1-47C8-80A8-ADAA48BC06C4}",
+  "proposedDate": 1790216660252,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "CANCEL",
+  "id": "81167322-99e5-4663-9f43-a1a108d56037",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3122840,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4686658,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790128131281,
+  "rating": 0,
+  "relatedTransactionId": "fa26bef4-52de-4710-9eeb-ea615454c285",
+  "scoringPeriodId": 3,
+  "status": "CANCELED",
+  "teamId": 12,
+  "type": "WAIVER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "b5a7b997-2da8-4a1b-b2a9-83a6b3421cf2",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16004,
+    "toLineupSlotId": 20,
+    "toTeamId": 9,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 9,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16002,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1790182398099,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "FREEAGENT"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "7fd47a83-8d1e-462a-808e-ec1541e434ab",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16016,
+    "toLineupSlotId": 16,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 16,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16017,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{ABC0B444-5649-4EDF-80B4-445649FEDFB5}",
+  "proposedDate": 1790161620670,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 3,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "5577e995-4e8a-4809-9d77-d49ac9bb372c",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790204563551,
+  "rating": 0,
+  "relatedTransactionId": "c934c319-eb6f-45df-9bdb-2f33df28a904",
+  "scoringPeriodId": 3,
+  "teamId": 6,
+  "type": "TRADE_ACCEPT"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "d3b96e5a-bd43-4a32-b36b-b3cf76f46ac6",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4258173,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4701936,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{A11DB9D0-5A75-45FB-BBE1-152BDC5B6FE4}",
+  "proposedDate": 1790151628579,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 7,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "CANCEL",
+  "id": "673fe1d0-c5f7-4fa9-9712-aaf617592649",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 3917792,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 0,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4689114,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790128136486,
+  "rating": 0,
+  "relatedTransactionId": "cb326204-ad11-4cc4-8a40-b9cb2fdc1d31",
+  "scoringPeriodId": 3,
+  "status": "CANCELED",
+  "teamId": 12,
+  "type": "WAIVER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "0d1e3790-62ec-49c7-8681-5967b5bcd431",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4695883,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4600981,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790119266840,
+  "rating": 0,
+  "scoringPeriodId": 12,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "FUTURE_ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "503484ee-e451-4f3d-a3ea-964c07395b08",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4695883,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4600981,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790119262229,
+  "rating": 0,
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "FUTURE_ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "512ed81c-b784-4c33-a097-f993e095d0a1",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4038815,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4683062,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{655FBAA0-FE50-42B0-BB05-B3780760CD41}",
+  "proposedDate": 1790215701084,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 11,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "85127a04-9f92-4128-a4f1-10b2e20a6ed2",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4426388,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4569559,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1790082432639,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "79abb7e4-0942-4892-be10-132c055f69f9",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4685278,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4595348,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{4009905C-9553-4795-8990-5C955327955E}",
+  "proposedDate": 1790068652334,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 5,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
   "executionType": "CANCEL",
   "id": "a12de517-30f6-463d-ae0d-16010285c435",
   "isActingAsTeamOwner": false,
@@ -10350,43 +11260,6 @@
   "status": "CANCELED",
   "teamId": 6,
   "type": "TRADE_PROPOSAL"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "9f726b45-62dd-45a2-81ad-8407bcc611b0",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4695883,
-    "toLineupSlotId": 4,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 4,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4600981,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
-  "proposedDate": 1790119251601,
-  "rating": 0,
-  "scoringPeriodId": 8,
-  "status": "EXECUTED",
-  "teamId": 6,
-  "type": "FUTURE_ROSTER"
  },
  {
   "bidAmount": 0,
@@ -10519,34 +11392,34 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
-  "id": "5c4a7a8d-5fc9-4f85-bb8e-f37503ae10cb",
+  "id": "7e1f5919-bd69-40bc-8183-cba7f2c44406",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
   "isPending": false,
   "items": [
    {
-    "fromLineupSlotId": 20,
+    "fromLineupSlotId": 4,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": -16029,
-    "toLineupSlotId": 16,
+    "playerId": 4428331,
+    "toLineupSlotId": 20,
     "toTeamId": 0,
     "type": "LINEUP"
    },
    {
-    "fromLineupSlotId": 16,
+    "fromLineupSlotId": 20,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": -16033,
-    "toLineupSlotId": 20,
+    "playerId": 4429615,
+    "toLineupSlotId": 4,
     "toTeamId": 0,
     "type": "LINEUP"
    }
   ],
   "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
-  "proposedDate": 1790155025920,
+  "proposedDate": 1790203808510,
   "rating": 0,
   "scoringPeriodId": 3,
   "status": "EXECUTED",
@@ -10629,41 +11502,77 @@
  },
  {
   "bidAmount": 0,
-  "executionType": "CANCEL",
-  "id": "890464d9-3246-4df0-9451-fb32b8cb9cfb",
+  "executionType": "EXECUTE",
+  "id": "8b13995f-faf7-4ce2-987f-fc63f7becede",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
   "isPending": false,
   "items": [
    {
-    "fromLineupSlotId": -1,
+    "fromLineupSlotId": 20,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 3117256,
-    "toLineupSlotId": -1,
-    "toTeamId": 3,
-    "type": "ADD"
+    "playerId": -16004,
+    "toLineupSlotId": 16,
+    "toTeamId": 0,
+    "type": "LINEUP"
    },
    {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 3,
+    "fromLineupSlotId": 16,
+    "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 4429022,
-    "toLineupSlotId": -1,
+    "playerId": -16023,
+    "toLineupSlotId": 20,
     "toTeamId": 0,
-    "type": "DROP"
+    "type": "LINEUP"
    }
   ],
-  "memberId": "{ABC0B444-5649-4EDF-80B4-445649FEDFB5}",
-  "proposedDate": 1790132279198,
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1790182404734,
   "rating": 0,
-  "relatedTransactionId": "f9a1acf4-c677-4cab-8ee3-1292a271c567",
   "scoringPeriodId": 3,
-  "status": "CANCELED",
-  "teamId": 3,
-  "type": "WAIVER"
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "8f239be3-f586-4784-9a75-578254377620",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4428331,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4248528,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790204581641,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 6,
+  "type": "ROSTER"
  },
  {
   "bidAmount": 0,
@@ -10742,17 +11651,17 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
-  "id": "044c0690-2b07-4503-a753-6f2e8268fccc",
+  "id": "c0e4de77-b731-4837-b73b-5849f2942bb3",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
   "isPending": false,
   "items": [
    {
-    "fromLineupSlotId": 2,
+    "fromLineupSlotId": 20,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 3929630,
+    "playerId": 4688813,
     "toLineupSlotId": 23,
     "toTeamId": 0,
     "type": "LINEUP"
@@ -10762,38 +11671,55 @@
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 4239996,
-    "toLineupSlotId": 2,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4572680,
-    "toLineupSlotId": 6,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 6,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 3121023,
+    "playerId": 4432710,
     "toLineupSlotId": 20,
     "toTeamId": 0,
     "type": "LINEUP"
    }
   ],
-  "memberId": "{DE41A788-02CE-4173-AF54-2F8D779FDE9F}",
-  "proposedDate": 1790074979175,
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790263770082,
   "rating": 0,
   "scoringPeriodId": 3,
   "status": "EXECUTED",
-  "teamId": 8,
+  "teamId": 12,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "21eda4df-e8f5-4752-94a7-0939febe9850",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4432710,
+    "toLineupSlotId": 23,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 23,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4361432,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790183282882,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 12,
   "type": "ROSTER"
  },
  {
@@ -10893,40 +11819,108 @@
  },
  {
   "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "409c7c9d-7691-4ae4-b2b8-326a8ac4ea6b",
+  "executionType": "CANCEL",
+  "id": "8930aed6-1e70-4076-a151-8cae02da1d2e",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
   "isPending": false,
   "items": [
    {
-    "fromLineupSlotId": -1,
+    "fromLineupSlotId": 2,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4035538,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4036378,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 6,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4248528,
+    "toLineupSlotId": -1,
+    "toTeamId": 12,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 2,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4429160,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4431299,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 12,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4429023,
+    "toLineupSlotId": -1,
+    "toTeamId": 6,
+    "type": "TRADE"
+   }
+  ],
+  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
+  "proposedDate": 1790203990961,
+  "rating": 0,
+  "relatedTransactionId": "fc33ca2a-62ac-4b71-8429-10c82b30cdef",
+  "scoringPeriodId": 3,
+  "status": "CANCELED",
+  "teamId": 12,
+  "type": "TRADE_PROPOSAL"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "eaa92935-6a87-4f39-a7ad-dbaa2ebfb6c8",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 20,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 4034949,
-    "toLineupSlotId": 17,
-    "toTeamId": 9,
-    "type": "ADD"
-   },
-   {
-    "fromLineupSlotId": 17,
-    "fromTeamId": 9,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 17427,
-    "toLineupSlotId": -1,
+    "playerId": 4426348,
+    "toLineupSlotId": 21,
     "toTeamId": 0,
-    "type": "DROP"
+    "type": "LINEUP"
    }
   ],
-  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
-  "proposedDate": 1790172776322,
+  "memberId": "{4009905C-9553-4795-8990-5C955327955E}",
+  "proposedDate": 1790204864498,
   "rating": 0,
   "scoringPeriodId": 3,
   "status": "EXECUTED",
-  "teamId": 9,
-  "type": "FREEAGENT"
+  "teamId": 5,
+  "type": "ROSTER"
  },
  {
   "bidAmount": 0,
@@ -10967,77 +11961,39 @@
  },
  {
   "bidAmount": 0,
-  "executionType": "CANCEL",
-  "id": "81167322-99e5-4663-9f43-a1a108d56037",
+  "executionType": "EXECUTE",
+  "id": "01a954f4-e9ec-476b-bfd8-f97ff2a60003",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
   "isPending": false,
   "items": [
    {
-    "fromLineupSlotId": -1,
+    "fromLineupSlotId": 21,
     "fromTeamId": 0,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 3122840,
-    "toLineupSlotId": -1,
-    "toTeamId": 12,
-    "type": "ADD"
+    "playerId": 4429615,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
    },
    {
     "fromLineupSlotId": 20,
-    "fromTeamId": 12,
+    "fromTeamId": 6,
     "isKeeper": false,
     "overallPickNumber": 0,
-    "playerId": 4686658,
+    "playerId": 4241474,
     "toLineupSlotId": -1,
     "toTeamId": 0,
     "type": "DROP"
    }
   ],
-  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
-  "proposedDate": 1790128131281,
-  "rating": 0,
-  "relatedTransactionId": "fa26bef4-52de-4710-9eeb-ea615454c285",
-  "scoringPeriodId": 3,
-  "status": "CANCELED",
-  "teamId": 12,
-  "type": "WAIVER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "7fd47a83-8d1e-462a-808e-ec1541e434ab",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": -16016,
-    "toLineupSlotId": 16,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 16,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": -16017,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{ABC0B444-5649-4EDF-80B4-445649FEDFB5}",
-  "proposedDate": 1790161620670,
+  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
+  "proposedDate": 1790203797766,
   "rating": 0,
   "scoringPeriodId": 3,
   "status": "EXECUTED",
-  "teamId": 3,
+  "teamId": 6,
   "type": "ROSTER"
  },
  {
@@ -11076,43 +12032,6 @@
   "status": "EXECUTED",
   "teamId": 6,
   "type": "FUTURE_ROSTER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "d3b96e5a-bd43-4a32-b36b-b3cf76f46ac6",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4258173,
-    "toLineupSlotId": 23,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 23,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4701936,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{A11DB9D0-5A75-45FB-BBE1-152BDC5B6FE4}",
-  "proposedDate": 1790151628579,
-  "rating": 0,
-  "scoringPeriodId": 3,
-  "status": "EXECUTED",
-  "teamId": 7,
-  "type": "ROSTER"
  },
  {
   "bidAmount": 0,
@@ -11196,6 +12115,43 @@
   "scoringPeriodId": 3,
   "status": "EXECUTED",
   "teamId": 12,
+  "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "85d0b3a6-156b-48bc-af24-954b25cce060",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": 4,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 2976212,
+    "toLineupSlotId": 20,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": 4426515,
+    "toLineupSlotId": 4,
+    "toTeamId": 0,
+    "type": "LINEUP"
+   }
+  ],
+  "memberId": "{906B527D-1268-493A-AB52-7D1268593A4A}",
+  "proposedDate": 1790203160910,
+  "rating": 0,
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 1,
   "type": "ROSTER"
  },
  {
@@ -11311,155 +12267,6 @@
  },
  {
   "bidAmount": 0,
-  "executionType": "CANCEL",
-  "id": "673fe1d0-c5f7-4fa9-9712-aaf617592649",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": -1,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 3917792,
-    "toLineupSlotId": -1,
-    "toTeamId": 12,
-    "type": "ADD"
-   },
-   {
-    "fromLineupSlotId": 0,
-    "fromTeamId": 12,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4689114,
-    "toLineupSlotId": -1,
-    "toTeamId": 0,
-    "type": "DROP"
-   }
-  ],
-  "memberId": "{E80AB287-D176-4E32-BC44-EB9CA354E26E}",
-  "proposedDate": 1790128136486,
-  "rating": 0,
-  "relatedTransactionId": "cb326204-ad11-4cc4-8a40-b9cb2fdc1d31",
-  "scoringPeriodId": 3,
-  "status": "CANCELED",
-  "teamId": 12,
-  "type": "WAIVER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "0d1e3790-62ec-49c7-8681-5967b5bcd431",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4695883,
-    "toLineupSlotId": 4,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 4,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4600981,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
-  "proposedDate": 1790119266840,
-  "rating": 0,
-  "scoringPeriodId": 12,
-  "status": "EXECUTED",
-  "teamId": 6,
-  "type": "FUTURE_ROSTER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "503484ee-e451-4f3d-a3ea-964c07395b08",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4695883,
-    "toLineupSlotId": 4,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 4,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4600981,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{7AFCFC5B-CEF8-4B48-87B3-827FBCAE38E6}",
-  "proposedDate": 1790119262229,
-  "rating": 0,
-  "scoringPeriodId": 11,
-  "status": "EXECUTED",
-  "teamId": 6,
-  "type": "FUTURE_ROSTER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "85127a04-9f92-4128-a4f1-10b2e20a6ed2",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 23,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4426388,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4569559,
-    "toLineupSlotId": 23,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
-  "proposedDate": 1790082432639,
-  "rating": 0,
-  "scoringPeriodId": 3,
-  "status": "EXECUTED",
-  "teamId": 9,
-  "type": "ROSTER"
- },
- {
-  "bidAmount": 0,
   "executionType": "EXECUTE",
   "id": "fbfa2219-f553-4a9e-bfb2-fc7021c4ea59",
   "isActingAsTeamOwner": false,
@@ -11530,43 +12337,6 @@
   "scoringPeriodId": 3,
   "status": "EXECUTED",
   "teamId": 9,
-  "type": "ROSTER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "EXECUTE",
-  "id": "79abb7e4-0942-4892-be10-132c055f69f9",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": 23,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4685278,
-    "toLineupSlotId": 20,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   },
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": 4595348,
-    "toLineupSlotId": 23,
-    "toTeamId": 0,
-    "type": "LINEUP"
-   }
-  ],
-  "memberId": "{4009905C-9553-4795-8990-5C955327955E}",
-  "proposedDate": 1790068652334,
-  "rating": 0,
-  "scoringPeriodId": 3,
-  "status": "EXECUTED",
-  "teamId": 5,
   "type": "ROSTER"
  },
  {
@@ -11951,45 +12721,6 @@
  {
   "bidAmount": 0,
   "executionType": "PROCESS",
-  "id": "fd2a417d-f21c-4b87-818e-941f9bf78ccd",
-  "isActingAsTeamOwner": false,
-  "isLeagueManager": false,
-  "isPending": false,
-  "items": [
-   {
-    "fromLineupSlotId": -1,
-    "fromTeamId": 0,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": -16016,
-    "toLineupSlotId": 20,
-    "toTeamId": 3,
-    "type": "ADD"
-   },
-   {
-    "fromLineupSlotId": 20,
-    "fromTeamId": 3,
-    "isKeeper": false,
-    "overallPickNumber": 0,
-    "playerId": -16030,
-    "toLineupSlotId": -1,
-    "toTeamId": 0,
-    "type": "DROP"
-   }
-  ],
-  "memberId": "NightlyLeagueUpdateTaskProcessor",
-  "processDate": 1790148456027,
-  "proposedDate": 1790148455953,
-  "rating": 0,
-  "relatedTransactionId": "95759899-4b36-4375-82e0-9dbdf2fee544",
-  "scoringPeriodId": 3,
-  "status": "EXECUTED",
-  "teamId": 3,
-  "type": "WAIVER"
- },
- {
-  "bidAmount": 0,
-  "executionType": "PROCESS",
   "id": "f811aeea-efdb-4335-a812-ff8d5fac0939",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
@@ -12060,6 +12791,45 @@
   "proposedDate": 1790148455953,
   "rating": 0,
   "relatedTransactionId": "9d0d8b0e-0504-4112-921d-79ffaf5473c0",
+  "scoringPeriodId": 3,
+  "status": "EXECUTED",
+  "teamId": 3,
+  "type": "WAIVER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "PROCESS",
+  "id": "fd2a417d-f21c-4b87-818e-941f9bf78ccd",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "items": [
+   {
+    "fromLineupSlotId": -1,
+    "fromTeamId": 0,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16016,
+    "toLineupSlotId": 20,
+    "toTeamId": 3,
+    "type": "ADD"
+   },
+   {
+    "fromLineupSlotId": 20,
+    "fromTeamId": 3,
+    "isKeeper": false,
+    "overallPickNumber": 0,
+    "playerId": -16030,
+    "toLineupSlotId": -1,
+    "toTeamId": 0,
+    "type": "DROP"
+   }
+  ],
+  "memberId": "NightlyLeagueUpdateTaskProcessor",
+  "processDate": 1790148456027,
+  "proposedDate": 1790148455953,
+  "rating": 0,
+  "relatedTransactionId": "95759899-4b36-4375-82e0-9dbdf2fee544",
   "scoringPeriodId": 3,
   "status": "EXECUTED",
   "teamId": 3,
