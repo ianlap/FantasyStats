@@ -595,7 +595,7 @@
       "id": 4429615,
       "name": "Zay Flowers",
       "position": "WR",
-      "slot": "WR",
+      "slot": "FLEX",
       "points": 0,
       "projected": 15.65
      },
@@ -635,7 +635,7 @@
       "id": 4695883,
       "name": "Jalen Coker",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "WR",
       "points": 0,
       "projected": 13.83
      },
@@ -1129,7 +1129,7 @@
       "id": 4426515,
       "name": "Puka Nacua",
       "position": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -1185,7 +1185,7 @@
       "id": 2976212,
       "name": "Stefon Diggs",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 10.81
      },
