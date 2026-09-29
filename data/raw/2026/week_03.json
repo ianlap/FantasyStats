@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 3,
-    "score": 99.68,
+    "score": 112.18,
     "lineup": [
      {
       "id": 4685382,
@@ -30,7 +30,7 @@
       "name": "Colston Loveland",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 7.1,
       "projected": 9.69
      },
      {
@@ -38,7 +38,7 @@
       "name": "DeVonta Smith",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 12.5,
       "projected": 15.62
      },
      {
@@ -149,14 +149,14 @@
    },
    "away": {
     "team_id": 8,
-    "score": 114.78,
+    "score": 123.78,
     "lineup": [
      {
       "id": 3929630,
       "name": "Saquon Barkley",
       "position": "RB",
       "slot": "FLEX",
-      "points": 0,
+      "points": 9.0,
       "projected": 17.37
      },
      {
@@ -228,7 +228,7 @@
       "name": "Dallas Goedert",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -405,7 +405,7 @@
       "name": "Dontayvion Wicks",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 5.2,
       "projected": 9.9
      },
      {
@@ -421,7 +421,7 @@
       "name": "Kalif Raymond",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 21.0,
       "projected": 7.15
      }
     ]
@@ -483,7 +483,7 @@
       "name": "Caleb Williams",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -573,7 +573,7 @@
    "bracket": null,
    "home": {
     "team_id": 6,
-    "score": 109.2,
+    "score": 121.82,
     "lineup": [
      {
       "id": 4429795,
@@ -604,7 +604,7 @@
       "name": "Jalen Hurts",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 12.62,
       "projected": 19.8
      },
      {
@@ -684,7 +684,7 @@
       "name": "Rome Odunze",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 7.4,
       "projected": 9.94
      },
      {
@@ -907,7 +907,7 @@
       "name": "Luther Burden III",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 19.8,
       "projected": 11.16
      },
      {
@@ -923,7 +923,7 @@
       "name": "Makai Lemon",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 5.9,
       "projected": 7.49
      },
      {
@@ -1123,7 +1123,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 136.24,
+    "score": 135.24,
     "lineup": [
      {
       "id": 4426515,
@@ -1194,7 +1194,7 @@
       "name": "Kyle Monangai",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 3.1,
       "projected": 8.46
      },
      {
@@ -1218,7 +1218,7 @@
       "name": "Eagles D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": -1.0,
       "projected": 8.02
      },
      {
@@ -1265,7 +1265,7 @@
    },
    "away": {
     "team_id": 10,
-    "score": 103.56,
+    "score": 114.36,
     "lineup": [
      {
       "id": 4362628,
@@ -1296,7 +1296,7 @@
       "name": "D'Andre Swift",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 10.8,
       "projected": 12.83
      },
      {
