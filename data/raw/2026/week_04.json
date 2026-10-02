@@ -15,7 +15,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 14.2
+      "projected": 14.29
      },
      {
       "id": 4426502,
@@ -24,14 +24,6 @@
       "slot": "FLEX",
       "points": 0,
       "projected": 16.71
-     },
-     {
-      "id": 4239996,
-      "name": "Travis Etienne Jr.",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 0.0
      },
      {
       "id": 16800,
@@ -144,6 +136,14 @@
       "slot": "D/ST",
       "points": 0,
       "projected": 5.88
+     },
+     {
+      "id": 4569559,
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "slot": "BE",
+      "points": 0,
+      "projected": 10.63
      }
     ]
    },
@@ -385,14 +385,6 @@
       "projected": 5.45
      },
      {
-      "id": 4569559,
-      "name": "Devaughn Vele",
-      "position": "WR",
-      "slot": "BE",
-      "points": 0,
-      "projected": 10.63
-     },
-     {
       "id": 4685472,
       "name": "Tetairoa McMillan",
       "position": "WR",
@@ -431,6 +423,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 7.77
+     },
+     {
+      "id": 4239996,
+      "name": "Travis Etienne Jr.",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 0.0
      }
     ]
    },
@@ -468,7 +468,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 15.55
+      "projected": 0.0
      },
      {
       "id": 3128429,
@@ -779,7 +779,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 15.6,
-      "projected": 16.51
+      "projected": 16.96
      },
      {
       "id": 4361050,
@@ -827,7 +827,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.86
+      "projected": 11.14
      },
      {
       "id": 4242512,
@@ -1329,7 +1329,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 7.51
+      "projected": 10.42
      },
      {
       "id": 4242355,
