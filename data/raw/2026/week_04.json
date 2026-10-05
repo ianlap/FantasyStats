@@ -1101,20 +1101,28 @@
       "projected": 9.52
      },
      {
-      "id": 4599739,
-      "name": "Kendre Miller",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 8.8
-     },
-     {
       "id": 4432577,
       "name": "C.J. Stroud",
       "position": "QB",
       "slot": "BE",
       "points": 23.08,
       "projected": 16.82
+     },
+     {
+      "id": 3116406,
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "slot": "IR",
+      "points": 0,
+      "projected": 0
+     },
+     {
+      "id": 3116385,
+      "name": "Joe Mixon",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 0
      }
     ]
    }
