@@ -7,14 +7,14 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 17.3,
+    "score": 98.8,
     "lineup": [
      {
       "id": 16800,
       "name": "Davante Adams",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 7.2,
       "projected": 15.63
      },
      {
@@ -30,39 +30,39 @@
       "name": "Rhamondre Stevenson",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 11.58
+      "points": 18.4,
+      "projected": 11.59
      },
      {
       "id": 2577417,
       "name": "Dak Prescott",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
-      "projected": 17.28
+      "points": 18.1,
+      "projected": 17.27
      },
      {
       "id": 4569587,
       "name": "Wan'Dale Robinson",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 9.18
+      "points": 11.0,
+      "projected": 9.19
      },
      {
       "id": 4572680,
       "name": "Tucker Kraft",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
-      "projected": 8.89
+      "points": 16.5,
+      "projected": 8.9
      },
      {
       "id": 3121023,
       "name": "Dallas Goedert",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -70,7 +70,7 @@
       "name": "Brock Purdy",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 19.62,
       "projected": 18.74
      },
      {
@@ -78,7 +78,7 @@
       "name": "Tank Dell",
       "position": "WR",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -86,7 +86,7 @@
       "name": "Ka'imi Fairbairn",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 16.0,
       "projected": 9.85
      },
      {
@@ -110,7 +110,7 @@
       "name": "Tyler Higbee",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 11.7,
       "projected": 7.68
      },
      {
@@ -118,8 +118,8 @@
       "name": "Buccaneers D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 5.88
+      "points": 7.0,
+      "projected": 5.77
      },
      {
       "id": 4569559,
@@ -134,7 +134,7 @@
       "name": "A.J. Brown",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -142,14 +142,14 @@
       "name": "Jonathan Taylor",
       "position": "RB",
       "slot": "RB",
-      "points": 17.3,
-      "projected": 20.33
+      "points": 22.7,
+      "projected": 20.35
      }
     ]
    },
    "away": {
     "team_id": 7,
-    "score": 0.0,
+    "score": 112.62,
     "lineup": [
      {
       "id": 4430807,
@@ -164,15 +164,15 @@
       "name": "Nico Collins",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 15.29
+      "points": 30.8,
+      "projected": 15.3
      },
      {
       "id": 4426354,
       "name": "George Pickens",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 9.5,
       "projected": 13.74
      },
      {
@@ -180,15 +180,15 @@
       "name": "Parker Washington",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 15.33
+      "points": 2.0,
+      "projected": 15.34
      },
      {
       "id": 4431611,
       "name": "Caleb Williams",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -196,7 +196,7 @@
       "name": "Jordan Mason",
       "position": "RB",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -205,14 +205,14 @@
       "position": "WR",
       "slot": "BE",
       "points": 11.4,
-      "projected": 9.46
+      "projected": 9.45
      },
      {
       "id": 4887558,
       "name": "Emanuel Wilson",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 27.0,
       "projected": 11.51
      },
      {
@@ -220,8 +220,8 @@
       "name": "Sam Darnold",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
-      "projected": 17.0
+      "points": 13.32,
+      "projected": 16.99
      },
      {
       "id": 3916945,
@@ -229,14 +229,14 @@
       "position": "WR",
       "slot": "BE",
       "points": 0.0,
-      "projected": 3.13
+      "projected": 0.0
      },
      {
       "id": 4832955,
       "name": "Emmett Johnson",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 2.0,
       "projected": 5.05
      },
      {
@@ -244,7 +244,7 @@
       "name": "Jaylen Wright",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.7,
       "projected": 7.48
      },
      {
@@ -252,7 +252,7 @@
       "name": "Will Reichard",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 19.0,
       "projected": 9.08
      },
      {
@@ -260,15 +260,15 @@
       "name": "D'Andre Swift",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 14.64
+      "points": 7.4,
+      "projected": 14.66
      },
      {
       "id": 4432665,
       "name": "Brock Bowers",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 20.6,
       "projected": 15.91
      },
      {
@@ -277,15 +277,15 @@
       "position": "QB",
       "slot": "BE",
       "points": 5.34,
-      "projected": 18.56
+      "projected": 18.52
      },
      {
       "id": -16009,
       "name": "Packers D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 6.19
+      "points": 10.0,
+      "projected": 6.14
      }
     ]
    }
@@ -294,14 +294,14 @@
    "bracket": null,
    "home": {
     "team_id": 9,
-    "score": 5.0,
+    "score": 70.58,
     "lineup": [
      {
       "id": 4567048,
       "name": "Kenneth Walker III",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 30.9,
       "projected": 20.5
      },
      {
@@ -309,7 +309,7 @@
       "name": "Jaylen Waddle",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 14.5,
       "projected": 11.91
      },
      {
@@ -333,8 +333,8 @@
       "name": "Dalton Kincaid",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
-      "projected": 10.69
+      "points": 1.7,
+      "projected": 10.7
      },
      {
       "id": -16023,
@@ -342,14 +342,14 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 5.0,
-      "projected": 8.06
+      "projected": 8.19
      },
      {
       "id": 3917315,
       "name": "Kyler Murray",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 11.48,
       "projected": 19.21
      },
      {
@@ -357,7 +357,7 @@
       "name": "Kaelon Black",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 1.3,
       "projected": 5.45
      },
      {
@@ -373,7 +373,7 @@
       "name": "Eddy Pineiro",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 5.0,
       "projected": 9.22
      },
      {
@@ -381,8 +381,8 @@
       "name": "Brian Thomas Jr.",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 8.2
+      "points": 9.7,
+      "projected": 8.21
      },
      {
       "id": 4241474,
@@ -397,8 +397,8 @@
       "name": "Tre' Harris",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 7.77
+      "points": 9.0,
+      "projected": 7.78
      },
      {
       "id": 4239996,
@@ -421,29 +421,29 @@
       "name": "Saquon Barkley",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 14.31
+      "points": 2.0,
+      "projected": 14.32
      },
      {
       "id": 4371733,
       "name": "Kenny Gainwell",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
-      "projected": 8.26
+      "points": 10.7,
+      "projected": 8.27
      }
     ]
    },
    "away": {
     "team_id": 3,
-    "score": 3.0,
+    "score": 80.28,
     "lineup": [
      {
       "id": 4685382,
       "name": "Omarion Hampton",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 13.3,
       "projected": 10.74
      },
      {
@@ -451,7 +451,7 @@
       "name": "Chase Brown",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 19.1,
       "projected": 16.2
      },
      {
@@ -459,15 +459,15 @@
       "name": "Colston Loveland",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
-      "projected": 8.63
+      "points": 11.7,
+      "projected": 8.66
      },
      {
       "id": 4241478,
       "name": "DeVonta Smith",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -475,7 +475,7 @@
       "name": "Courtland Sutton",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 1.4,
       "projected": 10.53
      },
      {
@@ -483,7 +483,7 @@
       "name": "Mike Evans",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 12.6,
       "projected": 11.8
      },
      {
@@ -507,7 +507,7 @@
       "name": "Trevor Lawrence",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 13.08,
       "projected": 18.49
      },
      {
@@ -515,7 +515,7 @@
       "name": "Ja'Kobi Lane",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -523,8 +523,8 @@
       "name": "Patriots D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 0,
-      "projected": 2.86
+      "points": 5.0,
+      "projected": 2.8
      },
      {
       "id": 17372,
@@ -539,7 +539,7 @@
       "name": "Dalton Schultz",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 2.9,
       "projected": 9.04
      },
      {
@@ -547,7 +547,7 @@
       "name": "Vikings D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 10.0,
       "projected": 8.5
      },
      {
@@ -555,15 +555,15 @@
       "name": "Jacoby Brissett",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
-      "projected": 15.96
+      "points": 10.44,
+      "projected": 15.95
      },
      {
       "id": 3916433,
       "name": "Jakobi Meyers",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 6.3,
       "projected": 10.79
      }
     ]
@@ -573,14 +573,14 @@
    "bracket": null,
    "home": {
     "team_id": 11,
-    "score": 0.0,
+    "score": 98.16,
     "lineup": [
      {
       "id": 4430878,
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 12.6,
       "projected": 21.86
      },
      {
@@ -588,24 +588,24 @@
       "name": "Derrick Henry",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 20.29
+      "points": 15.9,
+      "projected": 20.31
      },
      {
       "id": 4430737,
       "name": "Kyren Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 13.08
+      "points": 36.7,
+      "projected": 13.09
      },
      {
       "id": 3915416,
       "name": "DJ Moore",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 12.97
+      "points": 2.7,
+      "projected": 12.98
      },
      {
       "id": 4430027,
@@ -620,8 +620,8 @@
       "name": "Justin Herbert",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
-      "projected": 12.47
+      "points": 9.56,
+      "projected": 12.49
      },
      {
       "id": 4035687,
@@ -629,7 +629,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 3.5,
-      "projected": 9.73
+      "projected": 9.72
      },
      {
       "id": 4038815,
@@ -644,7 +644,7 @@
       "name": "Xavier Worthy",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 11.0,
       "projected": 9.8
      },
      {
@@ -652,15 +652,15 @@
       "name": "Rams D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 6.24
+      "points": 7.0,
+      "projected": 6.18
      },
      {
       "id": 4032473,
       "name": "Rashid Shaheed",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 12.3,
       "projected": 8.53
      },
      {
@@ -668,15 +668,15 @@
       "name": "Mark Andrews",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
-      "projected": 10.03
+      "points": 13.7,
+      "projected": 10.09
      },
      {
       "id": 4682648,
       "name": "Malachi Fields",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 13.2,
       "projected": 7.8
      },
      {
@@ -692,7 +692,7 @@
       "name": "T.J. Hockenson",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 24.9,
       "projected": 9.05
      },
      {
@@ -700,21 +700,21 @@
       "name": "Raiders D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 0,
-      "projected": 3.67
+      "points": 0.0,
+      "projected": 3.69
      }
     ]
    },
    "away": {
     "team_id": 2,
-    "score": 15.6,
+    "score": 99.62,
     "lineup": [
      {
       "id": 4379399,
       "name": "James Cook III",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 16.3,
       "projected": 17.41
      },
      {
@@ -722,7 +722,7 @@
       "name": "Justin Jefferson",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -730,7 +730,7 @@
       "name": "Breece Hall",
       "position": "RB",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -738,7 +738,7 @@
       "name": "Ladd McConkey",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 11.75
      },
      {
@@ -746,7 +746,7 @@
       "name": "Bucky Irving",
       "position": "RB",
       "slot": "FLEX",
-      "points": 0,
+      "points": 6.1,
       "projected": 15.93
      },
      {
@@ -754,7 +754,7 @@
       "name": "Joe Burrow",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 23.72,
       "projected": 18.1
      },
      {
@@ -762,8 +762,8 @@
       "name": "Michael Wilson",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 13.34
+      "points": 16.5,
+      "projected": 13.35
      },
      {
       "id": 4569987,
@@ -771,14 +771,14 @@
       "position": "RB",
       "slot": "RB",
       "points": 15.6,
-      "projected": 16.97
+      "projected": 16.95
      },
      {
       "id": 4361050,
       "name": "Isaiah Likely",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 13.6,
       "projected": 11.74
      },
      {
@@ -786,7 +786,7 @@
       "name": "Quentin Johnston",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 5.0,
       "projected": 8.53
      },
      {
@@ -794,15 +794,15 @@
       "name": "Texans D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 4.89
+      "points": 3.0,
+      "projected": 4.85
      },
      {
       "id": 4362081,
       "name": "Cameron Dicker",
       "position": "K",
-      "slot": "K",
-      "points": 0,
+      "slot": "BE",
+      "points": 12.0,
       "projected": 8.01
      },
      {
@@ -818,15 +818,15 @@
       "name": "Dontayvion Wicks",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 11.23
+      "points": 4.8,
+      "projected": 11.24
      },
      {
       "id": 4242512,
       "name": "Malik Willis",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 2.5,
       "projected": 11.8
      },
      {
@@ -834,8 +834,16 @@
       "name": "Kalif Raymond",
       "position": "WR",
       "slot": "BE",
+      "points": 2.6,
+      "projected": 9.96
+     },
+     {
+      "id": 10621,
+      "name": "Nick Folk",
+      "position": "K",
+      "slot": "K",
       "points": 0,
-      "projected": 9.93
+      "projected": 8.2
      }
     ]
    }
@@ -844,14 +852,14 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 4.1,
+    "score": 85.32,
     "lineup": [
      {
       "id": 4362628,
       "name": "Ja'Marr Chase",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 5.7,
       "projected": 20.43
      },
      {
@@ -859,15 +867,15 @@
       "name": "Josh Allen",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
-      "projected": 22.22
+      "points": 18.52,
+      "projected": 22.23
      },
      {
       "id": 4685512,
       "name": "Jadarian Price",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -875,7 +883,7 @@
       "name": "Marvin Harrison Jr.",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 8.2,
       "projected": 6.36
      },
      {
@@ -883,7 +891,7 @@
       "name": "Chris Godwin Jr.",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 9.1,
       "projected": 7.05
      },
      {
@@ -891,7 +899,7 @@
       "name": "Blake Corum",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 3.1,
       "projected": 8.11
      },
      {
@@ -899,15 +907,15 @@
       "name": "Matthew Stafford",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
-      "projected": 16.49
+      "points": 9.68,
+      "projected": 16.48
      },
      {
       "id": -16026,
       "name": "Seahawks D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 12.0,
       "projected": 7.86
      },
      {
@@ -915,7 +923,7 @@
       "name": "Adonai Mitchell",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -923,7 +931,7 @@
       "name": "Harrison Mevis",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 6.0,
       "projected": 8.47
      },
      {
@@ -931,7 +939,7 @@
       "name": "Michael Mayer",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 16.2,
       "projected": 6.45
      },
      {
@@ -939,15 +947,15 @@
       "name": "Matthew Golden",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
-      "projected": 12.87
+      "points": 11.7,
+      "projected": 12.89
      },
      {
       "id": 4882093,
       "name": "Bhayshul Tuten",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 11.1,
       "projected": 12.67
      },
      {
@@ -955,15 +963,15 @@
       "name": "Tyler Warren",
       "position": "TE",
       "slot": "TE",
-      "points": 4.1,
-      "projected": 13.04
+      "points": 9.1,
+      "projected": 13.05
      },
      {
       "id": 4429835,
       "name": "George Holani",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 3.0,
       "projected": 10.3
      },
      {
@@ -971,14 +979,14 @@
       "name": "Zach Charbonnet",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      }
     ]
    },
    "away": {
     "team_id": 6,
-    "score": 11.7,
+    "score": 79.32,
     "lineup": [
      {
       "id": 4429795,
@@ -993,7 +1001,7 @@
       "name": "Rashee Rice",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 0.0,
       "projected": 14.9
      },
      {
@@ -1001,16 +1009,16 @@
       "name": "Zay Flowers",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
-      "projected": 15.37
+      "points": 25.8,
+      "projected": 15.48
      },
      {
       "id": 4040715,
       "name": "Jalen Hurts",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
-      "projected": 17.6
+      "points": 13.52,
+      "projected": 17.62
      },
      {
       "id": 5083076,
@@ -1018,14 +1026,14 @@
       "position": "TE",
       "slot": "TE",
       "points": 11.7,
-      "projected": 11.22
+      "projected": 11.11
      },
      {
       "id": 4429205,
       "name": "Jordan Addison",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 9.1,
       "projected": 14.79
      },
      {
@@ -1033,7 +1041,7 @@
       "name": "RJ Harvey",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 19.3,
       "projected": 10.12
      },
      {
@@ -1049,7 +1057,7 @@
       "name": "Woody Marks",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 8.2,
       "projected": 8.46
      },
      {
@@ -1057,23 +1065,23 @@
       "name": "Ravens D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 6.69
+      "points": 7.0,
+      "projected": 6.59
      },
      {
       "id": 3046439,
       "name": "Hunter Henry",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
-      "projected": 8.91
+      "points": 11.2,
+      "projected": 8.92
      },
      {
       "id": 2985659,
       "name": "Wil Lutz",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 8.0,
       "projected": 7.12
      },
      {
@@ -1081,15 +1089,15 @@
       "name": "Rome Odunze",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 9.88
+      "points": 15.4,
+      "projected": 9.91
      },
      {
       "id": 4432710,
       "name": "TreVeyon Henderson",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 4.2,
       "projected": 9.52
      },
      {
@@ -1105,8 +1113,8 @@
       "name": "C.J. Stroud",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
-      "projected": 16.83
+      "points": 23.08,
+      "projected": 16.82
      }
     ]
    }
@@ -1115,14 +1123,14 @@
    "bracket": null,
    "home": {
     "team_id": 4,
-    "score": 0.0,
+    "score": 81.76,
     "lineup": [
      {
       "id": 3117251,
       "name": "Christian McCaffrey",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 16.0,
       "projected": 20.26
      },
      {
@@ -1138,23 +1146,23 @@
       "name": "Garrett Wilson",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 16.49
+      "points": 5.7,
+      "projected": 16.47
      },
      {
       "id": 4696981,
       "name": "Cam Skattebo",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
-      "projected": 16.11
+      "points": 7.6,
+      "projected": 16.12
      },
      {
       "id": 4431452,
       "name": "Drake Maye",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 26.16,
       "projected": 17.5
      },
      {
@@ -1162,15 +1170,15 @@
       "name": "Carnell Tate",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 11.89
+      "points": 21.5,
+      "projected": 11.91
      },
      {
       "id": 3042519,
       "name": "Aaron Jones Sr.",
       "position": "RB",
       "slot": "FLEX",
-      "points": 0,
+      "points": 16.8,
       "projected": 18.02
      },
      {
@@ -1178,15 +1186,15 @@
       "name": "Tony Pollard",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
-      "projected": 11.76
+      "points": 13.0,
+      "projected": 11.77
      },
      {
       "id": 15847,
       "name": "Travis Kelce",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 3.5,
       "projected": 11.79
      },
      {
@@ -1194,15 +1202,15 @@
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
       "slot": "BE",
-      "points": 5.9,
-      "projected": 11.11
+      "points": 7.0,
+      "projected": 11.13
      },
      {
       "id": 4569603,
       "name": "Malik Washington",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 12.0,
       "projected": 10.43
      },
      {
@@ -1210,7 +1218,7 @@
       "name": "Broncos D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 0,
+      "points": 1.0,
       "projected": 3.16
      },
      {
@@ -1226,7 +1234,7 @@
       "name": "Harrison Butker",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 6.0,
       "projected": 8.71
      },
      {
@@ -1235,7 +1243,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 12.9,
-      "projected": 10.56
+      "projected": 10.55
      },
      {
       "id": -16018,
@@ -1249,7 +1257,7 @@
    },
    "away": {
     "team_id": 5,
-    "score": 8.0,
+    "score": 84.0,
     "lineup": [
      {
       "id": 4374302,
@@ -1264,7 +1272,7 @@
       "name": "Ashton Jeanty",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 18.6,
       "projected": 18.87
      },
      {
@@ -1272,7 +1280,7 @@
       "name": "Malik Nabers",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 23.2,
       "projected": 13.62
      },
      {
@@ -1280,7 +1288,7 @@
       "name": "Emeka Egbuka",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 3.3,
       "projected": 11.2
      },
      {
@@ -1296,7 +1304,7 @@
       "name": "Josh Jacobs",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1304,8 +1312,8 @@
       "name": "Luther Burden III",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 12.4
+      "points": 11.4,
+      "projected": 12.43
      },
      {
       "id": 4697815,
@@ -1320,23 +1328,23 @@
       "name": "Makai Lemon",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 10.5
+      "points": 5.7,
+      "projected": 10.51
      },
      {
       "id": 4242355,
       "name": "Jake Ferguson",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
-      "projected": 8.13
+      "points": 4.1,
+      "projected": 8.14
      },
      {
       "id": 3953687,
       "name": "Brandon Aubrey",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 10.0,
       "projected": 9.5
      },
      {
@@ -1344,7 +1352,7 @@
       "name": "Tyjae Spears",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 1.6,
       "projected": 8.02
      },
      {
@@ -1352,7 +1360,7 @@
       "name": "Tyler Allgeier",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 12.9,
       "projected": 8.05
      },
      {
@@ -1368,7 +1376,7 @@
       "name": "Braelon Allen",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 8.7,
       "projected": 12.74
      },
      {
@@ -1376,7 +1384,7 @@
       "name": "Keaton Mitchell",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 11.3,
       "projected": 4.85
      },
      {
@@ -1385,7 +1393,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 8.0,
-      "projected": 6.5
+      "projected": 6.58
      }
     ]
    }
@@ -1394,23 +1402,23 @@
    "bracket": null,
    "home": {
     "team_id": 12,
-    "score": 26.2,
+    "score": 117.68,
     "lineup": [
      {
       "id": 4241389,
       "name": "CeeDee Lamb",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 16.89
+      "points": 41.3,
+      "projected": 16.9
      },
      {
       "id": 4361307,
       "name": "Trey McBride",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
-      "projected": 17.4
+      "points": 10.1,
+      "projected": 17.41
      },
      {
       "id": 4688813,
@@ -1418,14 +1426,14 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 4.6,
-      "projected": 13.59
+      "projected": 13.6
      },
      {
       "id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 23.8,
       "projected": 9.77
      },
      {
@@ -1433,7 +1441,7 @@
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 18.0,
       "projected": 10.76
      },
      {
@@ -1441,7 +1449,7 @@
       "name": "Mike Washington Jr.",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 2.7,
       "projected": 3.21
      },
      {
@@ -1449,7 +1457,7 @@
       "name": "Cam Little",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 14.0,
       "projected": 8.68
      },
      {
@@ -1457,7 +1465,7 @@
       "name": "J.K. Dobbins",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 7.2,
       "projected": 10.08
      },
      {
@@ -1473,23 +1481,23 @@
       "name": "Jordan Love",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
-      "projected": 14.82
+      "points": 13.08,
+      "projected": 14.86
      },
      {
       "id": 4248528,
       "name": "Christian Watson",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 14.44
+      "points": 7.7,
+      "projected": 14.45
      },
      {
       "id": 4035538,
       "name": "David Montgomery",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 4.3,
       "projected": 13.47
      },
      {
@@ -1497,7 +1505,7 @@
       "name": "Ollie Gordon II",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 18.0,
       "projected": 8.98
      },
      {
@@ -1505,7 +1513,7 @@
       "name": "Isaiah Davis",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 9.27
      },
      {
@@ -1514,36 +1522,36 @@
       "position": "WR",
       "slot": "BE",
       "points": 16.4,
-      "projected": 8.35
+      "projected": 8.34
      },
      {
       "id": -16002,
       "name": "Bills D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 6.36
+      "points": 1.0,
+      "projected": 6.24
      }
     ]
    },
    "away": {
     "team_id": 1,
-    "score": 0.0,
+    "score": 140.2,
     "lineup": [
      {
       "id": 4426515,
       "name": "Puka Nacua",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
-      "projected": 18.06
+      "points": 27.7,
+      "projected": 18.07
      },
      {
       "id": 4870808,
       "name": "Jeremiyah Love",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 6.5,
       "projected": 15.55
      },
      {
@@ -1551,7 +1559,7 @@
       "name": "Javonte Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 31.3,
       "projected": 14.55
      },
      {
@@ -1559,7 +1567,7 @@
       "name": "Tee Higgins",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 26.7,
       "projected": 13.66
      },
      {
@@ -1567,8 +1575,8 @@
       "name": "Lamar Jackson",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
-      "projected": 21.18
+      "points": 18.88,
+      "projected": 21.2
      },
      {
       "id": 4047650,
@@ -1576,14 +1584,14 @@
       "position": "WR",
       "slot": "BE",
       "points": 16.5,
-      "projected": 10.09
+      "projected": 10.08
      },
      {
       "id": 3040151,
       "name": "George Kittle",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 17.0,
       "projected": 13.73
      },
      {
@@ -1591,31 +1599,31 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "slot": "BE",
-      "points": 6.5,
-      "projected": 12.78
+      "points": 8.5,
+      "projected": 12.8
      },
      {
       "id": 4608686,
       "name": "Kyle Monangai",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
-      "projected": 8.25
+      "points": 28.0,
+      "projected": 8.26
      },
      {
       "id": 4373678,
       "name": "Khalil Shakir",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
-      "projected": 9.77
+      "points": 13.2,
+      "projected": 9.78
      },
      {
       "id": 3139477,
       "name": "Patrick Mahomes",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 17.0,
       "projected": 18.69
      },
      {
@@ -1623,7 +1631,7 @@
       "name": "Jason Myers",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 5.0,
       "projected": 9.72
      },
      {
@@ -1639,7 +1647,7 @@
       "name": "Tre Tucker",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 8.4,
       "projected": 9.26
      },
      {
@@ -1647,8 +1655,8 @@
       "name": "Kenyon Sadiq",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
-      "projected": 9.88
+      "points": 0.0,
+      "projected": 9.87
      },
      {
       "id": 3929645,
@@ -1663,8 +1671,8 @@
       "name": "Bears D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
-      "projected": 6.39
+      "points": 9.0,
+      "projected": 6.37
      }
     ]
    }
