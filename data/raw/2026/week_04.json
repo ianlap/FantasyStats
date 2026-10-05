@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 98.8,
+    "score": 120.26,
     "lineup": [
      {
       "id": 16800,
@@ -94,7 +94,7 @@
       "name": "Jared Goff",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 20.48,
       "projected": 17.31
      },
      {
@@ -102,7 +102,7 @@
       "name": "Bryce Young",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 21.46,
       "projected": 20.2
      },
      {
@@ -294,7 +294,7 @@
    "bracket": null,
    "home": {
     "team_id": 9,
-    "score": 70.58,
+    "score": 115.78,
     "lineup": [
      {
       "id": 4567048,
@@ -317,7 +317,7 @@
       "name": "Jameson Williams",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 16.2,
       "projected": 10.36
      },
      {
@@ -365,7 +365,7 @@
       "name": "Tetairoa McMillan",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 45.2,
       "projected": 15.85
      },
      {
@@ -436,7 +436,7 @@
    },
    "away": {
     "team_id": 3,
-    "score": 80.28,
+    "score": 106.18,
     "lineup": [
      {
       "id": 4685382,
@@ -499,7 +499,7 @@
       "name": "Chuba Hubbard",
       "position": "RB",
       "slot": "FLEX",
-      "points": 0,
+      "points": 25.9,
       "projected": 16.6
      },
      {
@@ -573,7 +573,7 @@
    "bracket": null,
    "home": {
     "team_id": 11,
-    "score": 98.16,
+    "score": 138.56,
     "lineup": [
      {
       "id": 4430878,
@@ -612,7 +612,7 @@
       "name": "Sam LaPorta",
       "position": "TE",
       "slot": "FLEX",
-      "points": 0,
+      "points": 22.4,
       "projected": 11.18
      },
      {
@@ -684,7 +684,7 @@
       "name": "Jake Bates",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 18.0,
       "projected": 8.62
      },
      {
@@ -986,14 +986,14 @@
    },
    "away": {
     "team_id": 6,
-    "score": 79.32,
+    "score": 97.02,
     "lineup": [
      {
       "id": 4429795,
       "name": "Jahmyr Gibbs",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 17.7,
       "projected": 26.15
      },
      {
@@ -1049,7 +1049,7 @@
       "name": "Jalen Coker",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1257,14 +1257,14 @@
    },
    "away": {
     "team_id": 5,
-    "score": 84.0,
+    "score": 99.5,
     "lineup": [
      {
       "id": 4374302,
       "name": "Amon-Ra St. Brown",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 15.5,
       "projected": 20.15
      },
      {
