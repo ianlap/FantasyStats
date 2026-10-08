@@ -82,14 +82,6 @@
       "projected": 0.0
      },
      {
-      "id": 4034949,
-      "name": "Eddy Pineiro",
-      "position": "K",
-      "slot": "K",
-      "points": 0,
-      "projected": 8.51
-     },
-     {
       "id": 4432773,
       "name": "Brian Thomas Jr.",
       "position": "WR",
@@ -143,7 +135,15 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 8.02
+      "projected": 9.77
+     },
+     {
+      "id": 4571557,
+      "name": "Spencer Shrader",
+      "position": "K",
+      "slot": "K",
+      "points": 0,
+      "projected": 8.83
      }
     ]
    },
@@ -173,7 +173,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 13.23
+      "projected": 13.27
      },
      {
       "id": 2577417,
@@ -197,7 +197,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 10.46
+      "projected": 10.44
      },
      {
       "id": 3121023,
@@ -205,7 +205,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 0.0
+      "projected": 10.85
      },
      {
       "id": 4361741,
@@ -219,7 +219,7 @@
       "id": 4366031,
       "name": "Tank Dell",
       "position": "WR",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -259,7 +259,7 @@
       "id": 4047646,
       "name": "A.J. Brown",
       "position": "WR",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0,
       "projected": 0.0
      },
@@ -277,7 +277,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 7.37
+      "projected": 7.42
      },
      {
       "id": 4715355,
@@ -285,7 +285,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.48
+      "projected": 9.2
      }
     ]
    }
@@ -382,7 +382,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 7.64
+      "projected": 7.66
      },
      {
       "id": 4567104,
@@ -532,7 +532,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 9.54
+      "projected": 9.53
      },
      {
       "id": 4682648,
@@ -611,7 +611,7 @@
       "id": 3128429,
       "name": "Courtland Sutton",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 10.24
      },
@@ -635,7 +635,7 @@
       "id": 4241416,
       "name": "Chuba Hubbard",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -677,7 +677,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 6.66
+      "projected": 6.75
      },
      {
       "id": 2578570,
@@ -739,7 +739,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 6.7
+      "projected": 6.69
      },
      {
       "id": 3116165,
@@ -747,7 +747,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 6.8
+      "projected": 6.81
      },
      {
       "id": 4429096,
@@ -779,7 +779,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.13
+      "projected": 0.0
      },
      {
       "id": 4574716,
@@ -803,7 +803,7 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 0,
-      "projected": 12.74
+      "projected": 12.72
      },
      {
       "id": 4882093,
@@ -868,7 +868,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 16.36
+      "projected": 0.0
      },
      {
       "id": 4612826,
@@ -900,7 +900,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 16.79
+      "projected": 16.78
      },
      {
       "id": 4569987,
@@ -948,7 +948,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.37
+      "projected": 10.07
      },
      {
       "id": 4635008,
@@ -1002,7 +1002,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 14.54
+      "projected": 14.74
      },
      {
       "id": 4696981,
@@ -1066,13 +1066,13 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.55
+      "projected": 11.09
      },
      {
       "id": -16007,
       "name": "Broncos D/ST",
       "position": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0,
       "projected": 6.15
      },
@@ -1101,12 +1101,12 @@
       "projected": 11.91
      },
      {
-      "id": -16018,
-      "name": "Saints D/ST",
-      "position": "D/ST",
-      "slot": "D/ST",
+      "id": 4430539,
+      "name": "Brenton Strange",
+      "position": "TE",
+      "slot": "BE",
       "points": 0,
-      "projected": 3.85
+      "projected": 9.71
      }
     ]
    }
@@ -1139,7 +1139,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 13.99
+      "projected": 13.96
      },
      {
       "id": 4040715,
@@ -1193,7 +1193,7 @@
       "id": -16033,
       "name": "Ravens D/ST",
       "position": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0,
       "projected": 2.66
      },
@@ -1203,7 +1203,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 7.69
+      "projected": 7.73
      },
      {
       "id": 2985659,
@@ -1227,7 +1227,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 10.52
+      "projected": 10.54
      },
      {
       "id": 3116406,
@@ -1238,20 +1238,20 @@
       "projected": 0
      },
      {
-      "id": 3116385,
-      "name": "Joe Mixon",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 0
-     },
-     {
       "id": 4426338,
       "name": "Bo Nix",
       "position": "QB",
       "slot": "BE",
       "points": 0,
       "projected": 16.2
+     },
+     {
+      "id": -16021,
+      "name": "Eagles D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
+      "points": 0,
+      "projected": 3.84
      }
     ]
    },
@@ -1273,13 +1273,13 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 18.72
+      "projected": 18.71
      },
      {
       "id": 4688813,
       "name": "Josh Downs",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 12.04
      },
@@ -1287,9 +1287,9 @@
       "id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
-      "projected": 10.94
+      "projected": 12.19
      },
      {
       "id": 3126486,
@@ -1345,7 +1345,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 13.8
+      "projected": 13.77
      },
      {
       "id": 4035538,
@@ -1361,7 +1361,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 10.88
+      "projected": 10.9
      },
      {
       "id": 4431492,
@@ -1377,7 +1377,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 10.35
+      "projected": 10.23
      },
      {
       "id": -16020,
@@ -1466,7 +1466,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.36
+      "projected": 10.07
      },
      {
       "id": 4242355,
@@ -1490,7 +1490,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 8.79
+      "projected": 8.78
      },
      {
       "id": 4360689,
@@ -1506,7 +1506,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 6.81
+      "projected": 14.13
      },
      {
       "id": 4596334,
@@ -1544,7 +1544,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 15.03
+      "projected": 15.02
      },
      {
       "id": 4361579,
@@ -1566,7 +1566,7 @@
       "id": 3916387,
       "name": "Lamar Jackson",
       "position": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -1635,20 +1635,12 @@
       "projected": 0.0
      },
      {
-      "id": 4428718,
-      "name": "Tre Tucker",
-      "position": "WR",
-      "slot": "BE",
-      "points": 0,
-      "projected": 9.12
-     },
-     {
       "id": 5083315,
       "name": "Kenyon Sadiq",
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 8.82
+      "projected": 9.5
      },
      {
       "id": 3929645,
@@ -1665,6 +1657,14 @@
       "slot": "D/ST",
       "points": 0,
       "projected": 5.46
+     },
+     {
+      "id": 8439,
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "slot": "QB",
+      "points": 0,
+      "projected": 15.9
      }
     ]
    }
