@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 9,
-    "score": 80.46,
+    "score": 100.86,
     "lineup": [
      {
       "id": 4567048,
@@ -38,7 +38,7 @@
       "name": "Kyle Pitts Sr.",
       "position": "TE",
       "slot": "BE",
-      "points": 0.0,
+      "points": 15.2,
       "projected": 7.14
      },
      {
@@ -94,7 +94,7 @@
       "name": "Brian Robinson Jr.",
       "position": "RB",
       "slot": "RB",
-      "points": 0.0,
+      "points": 1.6,
       "projected": 8.1
      },
      {
@@ -118,7 +118,7 @@
       "name": "Drake London",
       "position": "WR",
       "slot": "WR",
-      "points": 0.0,
+      "points": 18.8,
       "projected": 16.02
      },
      {
@@ -294,14 +294,14 @@
    "bracket": null,
    "home": {
     "team_id": 7,
-    "score": 138.0,
+    "score": 153.4,
     "lineup": [
      {
       "id": 4430807,
       "name": "Bijan Robinson",
       "position": "RB",
       "slot": "RB",
-      "points": 0.4,
+      "points": 15.8,
       "projected": 22.21
      },
      {
@@ -436,7 +436,7 @@
    },
    "away": {
     "team_id": 11,
-    "score": 61.34,
+    "score": 79.54,
     "lineup": [
      {
       "id": 4430878,
@@ -451,7 +451,7 @@
       "name": "Derrick Henry",
       "position": "RB",
       "slot": "RB",
-      "points": 2.8,
+      "points": 21.0,
       "projected": 16.77
      },
      {
@@ -531,7 +531,7 @@
       "name": "Mark Andrews",
       "position": "TE",
       "slot": "BE",
-      "points": -0.1,
+      "points": 4.8,
       "projected": 9.54
      },
      {
@@ -1131,7 +1131,7 @@
    "bracket": null,
    "home": {
     "team_id": 6,
-    "score": 78.3,
+    "score": 89.5,
     "lineup": [
      {
       "id": 4429795,
@@ -1154,7 +1154,7 @@
       "name": "Zay Flowers",
       "position": "WR",
       "slot": "FLEX",
-      "points": 3.4,
+      "points": 14.6,
       "projected": 13.99
      },
      {
