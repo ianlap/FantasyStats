@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 49.3,
+    "score": 58.0,
     "lineup": [
      {
       "id": 16800,
@@ -38,7 +38,7 @@
       "name": "Dak Prescott",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 11.02,
       "projected": 17.12
      },
      {
@@ -54,7 +54,7 @@
       "name": "Tucker Kraft",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 8.7,
       "projected": 12.11
      },
      {
@@ -142,7 +142,7 @@
       "name": "Pierre Strong Jr.",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 11.7,
       "projected": 8.44
      }
     ]
@@ -294,7 +294,7 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 110.6,
+    "score": 133.0,
     "lineup": [
      {
       "id": 4362628,
@@ -381,7 +381,7 @@
       "name": "Matthew Golden",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 22.4,
       "projected": 15.66
      },
      {
@@ -539,7 +539,7 @@
       "name": "MarShawn Lloyd",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 1.0,
       "projected": 10.95
      },
      {
@@ -715,7 +715,7 @@
    },
    "away": {
     "team_id": 7,
-    "score": 101.1,
+    "score": 114.4,
     "lineup": [
      {
       "id": 4430807,
@@ -738,7 +738,7 @@
       "name": "George Pickens",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 13.3,
       "projected": 13.55
      },
      {
@@ -860,14 +860,14 @@
    "bracket": null,
    "home": {
     "team_id": 12,
-    "score": 51.2,
+    "score": 96.84,
     "lineup": [
      {
       "id": 4241389,
       "name": "CeeDee Lamb",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 16.0,
       "projected": 18.61
      },
      {
@@ -931,7 +931,7 @@
       "name": "Jordan Love",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 20.24,
       "projected": 20.9
      },
      {
@@ -939,7 +939,7 @@
       "name": "Christian Watson",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 9.4,
       "projected": 16.33
      },
      {
@@ -1147,7 +1147,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 64.78,
+    "score": 77.78,
     "lineup": [
      {
       "id": 4426515,
@@ -1170,7 +1170,7 @@
       "name": "Javonte Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 13.0,
       "projected": 16.89
      },
      {
@@ -1434,7 +1434,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 86.0,
+    "score": 90.3,
     "lineup": [
      {
       "id": 4374302,
@@ -1481,7 +1481,7 @@
       "name": "Josh Jacobs",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1505,7 +1505,7 @@
       "name": "Jake Ferguson",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 3.3,
       "projected": 7.02
      },
      {
@@ -1513,7 +1513,7 @@
       "name": "Brandon Aubrey",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 1.0,
       "projected": 10.15
      },
      {
