@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 58.0,
+    "score": 79.06,
     "lineup": [
      {
       "id": 16800,
@@ -22,7 +22,7 @@
       "name": "Terry McLaurin",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 3.7,
       "projected": 12.34
      },
      {
@@ -70,7 +70,7 @@
       "name": "Brock Purdy",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 17.36,
       "projected": 21.38
      },
      {
@@ -149,7 +149,7 @@
    },
    "away": {
     "team_id": 11,
-    "score": 78.36,
+    "score": 82.36,
     "lineup": [
      {
       "id": 4430878,
@@ -284,7 +284,7 @@
       "name": "Eddy Pineiro",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 4.0,
       "projected": 8.9
      }
     ]
@@ -581,14 +581,14 @@
    "bracket": null,
    "home": {
     "team_id": 4,
-    "score": 80.4,
+    "score": 111.1,
     "lineup": [
      {
       "id": 3117251,
       "name": "Christian McCaffrey",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 30.7,
       "projected": 21.22
      },
      {
@@ -660,7 +660,7 @@
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -891,7 +891,7 @@
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1002,7 +1002,7 @@
    },
    "away": {
     "team_id": 3,
-    "score": 136.04,
+    "score": 148.44,
     "lineup": [
      {
       "id": 4685382,
@@ -1049,7 +1049,7 @@
       "name": "Mike Evans",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 12.4,
       "projected": 14.86
      },
      {
@@ -1147,7 +1147,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 77.78,
+    "score": 111.38,
     "lineup": [
      {
       "id": 4426515,
@@ -1202,7 +1202,7 @@
       "name": "George Kittle",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 17.9,
       "projected": 14.91
      },
      {
@@ -1210,7 +1210,7 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 16.4,
       "projected": 10.61
      },
      {
@@ -1282,7 +1282,7 @@
       "name": "Rachaad White",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 15.7,
       "projected": 10.48
      }
     ]
@@ -1434,7 +1434,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 90.3,
+    "score": 111.3,
     "lineup": [
      {
       "id": 4374302,
@@ -1473,7 +1473,7 @@
       "name": "Jayden Daniels",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 21.0,
       "projected": 19.94
      },
      {
