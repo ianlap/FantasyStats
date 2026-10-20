@@ -155,7 +155,7 @@
       "id": 16800,
       "name": "Davante Adams",
       "position": "WR",
-      "slot": "WR",
+      "slot": "IR",
       "points": 0,
       "projected": 0.0
      },
@@ -163,7 +163,7 @@
       "id": 3121422,
       "name": "Terry McLaurin",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -203,7 +203,7 @@
       "id": 3121023,
       "name": "Dallas Goedert",
       "position": "TE",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 11.03
      },
@@ -219,7 +219,7 @@
       "id": 4366031,
       "name": "Tank Dell",
       "position": "WR",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0,
       "projected": 1.73
      },
@@ -251,7 +251,7 @@
       "id": 4569559,
       "name": "Devaughn Vele",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 10.28
      },
@@ -694,14 +694,6 @@
       "slot": "BE",
       "points": 0,
       "projected": 9.36
-     },
-     {
-      "id": 2969939,
-      "name": "Jameis Winston",
-      "position": "QB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 0.0
      },
      {
       "id": 4360238,
