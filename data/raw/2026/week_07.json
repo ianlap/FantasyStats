@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 96.1,
+    "score": 104.8,
     "lineup": [
      {
       "id": 4362628,
@@ -54,7 +54,7 @@
       "name": "Matthew Stafford",
       "position": "QB",
       "slot": "QB",
-      "points": 17.8,
+      "points": 17.5,
       "projected": 18.58
      },
      {
@@ -62,7 +62,7 @@
       "name": "Seahawks D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 9.0,
       "projected": 4.76
      },
      {
@@ -110,7 +110,7 @@
       "name": "Zach Charbonnet",
       "position": "RB",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -294,14 +294,14 @@
    "bracket": null,
    "home": {
     "team_id": 11,
-    "score": 72.78,
+    "score": 108.18,
     "lineup": [
      {
       "id": 4430878,
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 31.3,
       "projected": 20.03
      },
      {
@@ -365,7 +365,7 @@
       "name": "Xavier Worthy",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 4.1,
       "projected": 12.41
      },
      {
@@ -381,7 +381,7 @@
       "name": "Rashid Shaheed",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 2.1,
       "projected": 7.87
      },
      {
@@ -428,7 +428,7 @@
    },
    "away": {
     "team_id": 4,
-    "score": 108.74,
+    "score": 120.14,
     "lineup": [
      {
       "id": 3117251,
@@ -499,7 +499,7 @@
       "name": "Travis Kelce",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 8.4,
       "projected": 10.08
      },
      {
@@ -539,7 +539,7 @@
       "name": "Harrison Butker",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 3.0,
       "projected": 10.21
      },
      {
@@ -565,14 +565,14 @@
    "bracket": null,
    "home": {
     "team_id": 9,
-    "score": 75.5,
+    "score": 85.2,
     "lineup": [
      {
       "id": 4567048,
       "name": "Kenneth Walker III",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 9.7,
       "projected": 19.1
      },
      {
@@ -818,7 +818,7 @@
       "name": "Emanuel Wilson",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 18.5,
       "projected": 10.68
      },
      {
@@ -852,7 +852,7 @@
    "bracket": null,
    "home": {
     "team_id": 7,
-    "score": 76.42,
+    "score": 75.42,
     "lineup": [
      {
       "id": 4430807,
@@ -907,7 +907,7 @@
       "name": "Sam Darnold",
       "position": "QB",
       "slot": "BE",
-      "points": 0,
+      "points": 13.98,
       "projected": 12.89
      },
      {
@@ -939,7 +939,7 @@
       "name": "Chiefs D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": -1.0,
       "projected": 6.81
      },
      {
@@ -986,7 +986,7 @@
    },
    "away": {
     "team_id": 1,
-    "score": 55.2,
+    "score": 69.2,
     "lineup": [
      {
       "id": 4426515,
@@ -1073,7 +1073,7 @@
       "name": "Patrick Mahomes",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 6.0,
       "projected": 15.61
      },
      {
@@ -1081,7 +1081,7 @@
       "name": "Jason Myers",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 8.0,
       "projected": 9.43
      },
      {
@@ -1559,7 +1559,7 @@
       "name": "Rashee Rice",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
