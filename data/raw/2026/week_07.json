@@ -196,7 +196,7 @@
       "name": "Dallas Goedert",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 9.8,
       "projected": 11.34
      },
      {
@@ -284,7 +284,7 @@
       "name": "Dontayvion Wicks",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      }
     ]
@@ -565,7 +565,7 @@
    "bracket": null,
    "home": {
     "team_id": 9,
-    "score": 85.2,
+    "score": 100.3,
     "lineup": [
      {
       "id": 4567048,
@@ -660,7 +660,7 @@
       "name": "Saquon Barkley",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 15.1,
       "projected": 15.2
      },
      {
@@ -700,21 +700,21 @@
       "name": "Dameon Pierce",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 11.8,
       "projected": 6.89
      }
     ]
    },
    "away": {
     "team_id": 12,
-    "score": 115.76,
+    "score": 140.16,
     "lineup": [
      {
       "id": 4241389,
       "name": "CeeDee Lamb",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 24.4,
       "projected": 18.53
      },
      {
@@ -852,7 +852,7 @@
    "bracket": null,
    "home": {
     "team_id": 7,
-    "score": 75.42,
+    "score": 91.12,
     "lineup": [
      {
       "id": 4430807,
@@ -875,7 +875,7 @@
       "name": "George Pickens",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 15.7,
       "projected": 13.2
      },
      {
@@ -986,7 +986,7 @@
    },
    "away": {
     "team_id": 1,
-    "score": 69.2,
+    "score": 90.7,
     "lineup": [
      {
       "id": 4426515,
@@ -1009,7 +1009,7 @@
       "name": "Javonte Williams",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 21.5,
       "projected": 16.83
      },
      {
@@ -1162,7 +1162,7 @@
       "name": "DeVonta Smith",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -1273,7 +1273,7 @@
    },
    "away": {
     "team_id": 5,
-    "score": 121.16,
+    "score": 135.16,
     "lineup": [
      {
       "id": 4374302,
@@ -1336,7 +1336,7 @@
       "name": "Jake Ferguson",
       "position": "TE",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 5.9
      },
      {
@@ -1344,7 +1344,7 @@
       "name": "Brandon Aubrey",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 14.0,
       "projected": 8.1
      },
      {
@@ -1410,7 +1410,7 @@
    "bracket": null,
    "home": {
     "team_id": 2,
-    "score": 98.78,
+    "score": 109.78,
     "lineup": [
      {
       "id": 4379399,
@@ -1537,14 +1537,14 @@
       "name": "Ryan Flournoy",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 11.0,
       "projected": 8.89
      }
     ]
    },
    "away": {
     "team_id": 6,
-    "score": 97.1,
+    "score": 124.38,
     "lineup": [
      {
       "id": 4429795,
@@ -1663,7 +1663,7 @@
       "name": "Dak Prescott",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 23.28,
       "projected": 16.72
      },
      {
@@ -1671,7 +1671,7 @@
       "name": "Cowboys D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 4.0,
       "projected": 6.36
      }
     ]
