@@ -31,7 +31,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 13.17
+      "projected": 13.21
      },
      {
       "id": 4569587,
@@ -189,7 +189,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 23.56
+      "projected": 23.58
      },
      {
       "id": 4871023,
@@ -277,7 +277,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 9.82
+      "projected": 9.83
      }
     ]
    }
@@ -308,7 +308,7 @@
       "id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0,
       "projected": 0.0
      },
@@ -316,7 +316,7 @@
       "id": 3126486,
       "name": "Deebo Samuel Sr.",
       "position": "WR",
-      "slot": "IR",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -332,7 +332,7 @@
       "id": 4241985,
       "name": "J.K. Dobbins",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 6.35
      },
@@ -377,14 +377,6 @@
       "projected": 14.39
      },
      {
-      "id": -16020,
-      "name": "Jets D/ST",
-      "position": "D/ST",
-      "slot": "D/ST",
-      "points": 0,
-      "projected": 5.17
-     },
-     {
       "id": 3045523,
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -396,7 +388,7 @@
       "id": 4887558,
       "name": "Emanuel Wilson",
       "position": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 8.75
      },
@@ -423,6 +415,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 6.8
+     },
+     {
+      "id": -16004,
+      "name": "Bengals D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
+      "points": 0,
+      "projected": 5.96
      }
     ]
    },
@@ -436,7 +436,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 21.68
+      "projected": 21.55
      },
      {
       "id": 3918298,
@@ -516,7 +516,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 14.71
+      "projected": 14.72
      },
      {
       "id": 4431459,
@@ -589,7 +589,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 11.68
+      "projected": 11.56
      },
      {
       "id": 4361579,
@@ -605,7 +605,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 15.31
+      "projected": 15.23
      },
      {
       "id": 3916387,
@@ -932,7 +932,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 7.98
+      "projected": 7.99
      },
      {
       "id": 4360689,
@@ -1107,6 +1107,22 @@
       "slot": "BE",
       "points": 0,
       "projected": 8.84
+     },
+     {
+      "id": 4702555,
+      "name": "Jonah Coleman",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 7.57
+     },
+     {
+      "id": 4869645,
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "slot": "BE",
+      "points": 0,
+      "projected": 9.15
      }
     ]
    }
@@ -1161,7 +1177,7 @@
       "id": 4568490,
       "name": "RJ Harvey",
       "position": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0,
       "projected": 9.31
      },
@@ -1201,9 +1217,9 @@
       "id": 4432710,
       "name": "TreVeyon Henderson",
       "position": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0,
-      "projected": 6.58
+      "projected": 6.6
      },
      {
       "id": 4427095,
@@ -1281,7 +1297,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 16.15
+      "projected": 16.17
      },
      {
       "id": 4431611,
@@ -1298,14 +1314,6 @@
       "slot": "FLEX",
       "points": 0,
       "projected": 9.49
-     },
-     {
-      "id": 3912547,
-      "name": "Sam Darnold",
-      "position": "QB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 14.77
      },
      {
       "id": 4259545,
@@ -1340,14 +1348,6 @@
       "projected": 5.14
      },
      {
-      "id": 5082424,
-      "name": "Dominic Zvada",
-      "position": "K",
-      "slot": "K",
-      "points": 0,
-      "projected": 0.0
-     },
-     {
       "id": 4688813,
       "name": "Josh Downs",
       "position": "WR",
@@ -1378,6 +1378,22 @@
       "slot": "D/ST",
       "points": 0,
       "projected": 7.4
+     },
+     {
+      "id": 4686468,
+      "name": "Seth McGowan",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 3.69
+     },
+     {
+      "id": 4363538,
+      "name": "Chad Ryland",
+      "position": "K",
+      "slot": "K",
+      "points": 0,
+      "projected": 9.54
      }
     ]
    }
@@ -1442,7 +1458,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 12.66
+      "projected": 12.67
      },
      {
       "id": 4569987,
@@ -1464,7 +1480,7 @@
       "id": -16034,
       "name": "Texans D/ST",
       "position": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -1509,12 +1525,12 @@
       "projected": 8.16
      },
      {
-      "id": 5083754,
-      "name": "Ryan Flournoy",
-      "position": "WR",
-      "slot": "BE",
+      "id": -16008,
+      "name": "Lions D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
       "points": 0,
-      "projected": 9.05
+      "projected": 5.63
      }
     ]
    },
@@ -1536,7 +1552,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 16.66
+      "projected": 16.64
      },
      {
       "id": 4723086,
@@ -1592,7 +1608,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 20.83
+      "projected": 20.85
      },
      {
       "id": 4870847,
@@ -1624,7 +1640,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.77
+      "projected": 10.78
      },
      {
       "id": 4428718,
