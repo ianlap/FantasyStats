@@ -55,7 +55,7 @@
       "position": "TE",
       "slot": "FLEX",
       "points": 0,
-      "projected": 10.08
+      "projected": 10.04
      },
      {
       "id": 4361741,
@@ -77,7 +77,7 @@
       "id": 2971573,
       "name": "Ka'imi Fairbairn",
       "position": "K",
-      "slot": "K",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -85,7 +85,7 @@
       "id": 3046779,
       "name": "Jared Goff",
       "position": "QB",
-      "slot": "QB",
+      "slot": "BE",
       "points": 0,
       "projected": 16.09
      },
@@ -93,7 +93,7 @@
       "id": 4685720,
       "name": "Bryce Young",
       "position": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0,
       "projected": 16.92
      },
@@ -122,28 +122,28 @@
       "projected": 15.86
      },
      {
-      "id": 4249836,
-      "name": "Pierre Strong Jr.",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 0.0
-     },
-     {
-      "id": -16005,
-      "name": "Browns D/ST",
+      "id": -16027,
+      "name": "Buccaneers D/ST",
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 6.24
+      "projected": 4.05
      },
      {
-      "id": 4428850,
-      "name": "Dontayvion Wicks",
-      "position": "WR",
+      "id": 3150744,
+      "name": "Chase McLaughlin",
+      "position": "K",
+      "slot": "K",
+      "points": 0,
+      "projected": 9.49
+     },
+     {
+      "id": 4430968,
+      "name": "Kimani Vidal",
+      "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 8.15
+      "projected": 7.94
      }
     ]
    },
@@ -350,7 +350,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 17.05
+      "projected": 17.06
      },
      {
       "id": 4248528,
@@ -358,7 +358,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 14.53
+      "projected": 14.54
      },
      {
       "id": 4035538,
@@ -390,7 +390,7 @@
       "position": "RB",
       "slot": "FLEX",
       "points": 0,
-      "projected": 8.75
+      "projected": 8.58
      },
      {
       "id": 2573401,
@@ -532,7 +532,7 @@
       "position": "RB",
       "slot": "IR",
       "points": 0,
-      "projected": 11.36
+      "projected": 10.71
      },
      {
       "id": 3917232,
@@ -621,13 +621,13 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 12.19
+      "projected": 12.2
      },
      {
       "id": 3040151,
       "name": "George Kittle",
       "position": "TE",
-      "slot": "TE",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -680,14 +680,6 @@
       "projected": 0.0
      },
      {
-      "id": 3929645,
-      "name": "Juwan Johnson",
-      "position": "TE",
-      "slot": "BE",
-      "points": 0,
-      "projected": 0.0
-     },
-     {
       "id": -16003,
       "name": "Bears D/ST",
       "position": "D/ST",
@@ -710,6 +702,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 12.43
+     },
+     {
+      "id": 4808766,
+      "name": "Mason Taylor",
+      "position": "TE",
+      "slot": "TE",
+      "points": 0,
+      "projected": 8.67
      }
     ]
    },
@@ -739,13 +739,13 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 17.89
+      "projected": 17.9
      },
      {
       "id": 3915416,
       "name": "DJ Moore",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 13.64
      },
@@ -785,7 +785,7 @@
       "id": 4683062,
       "name": "Xavier Worthy",
       "position": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0,
       "projected": 8.16
      },
@@ -793,7 +793,7 @@
       "id": -16014,
       "name": "Rams D/ST",
       "position": "D/ST",
-      "slot": "BE",
+      "slot": "D/ST",
       "points": 0,
       "projected": 7.64
      },
@@ -841,7 +841,7 @@
       "id": -16010,
       "name": "Titans D/ST",
       "position": "D/ST",
-      "slot": "D/ST",
+      "slot": "BE",
       "points": 0,
       "projected": 3.16
      }
@@ -900,7 +900,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 15.09
+      "projected": 15.1
      },
      {
       "id": 4685278,
@@ -959,14 +959,6 @@
       "projected": 6.82
      },
      {
-      "id": -16029,
-      "name": "Panthers D/ST",
-      "position": "D/ST",
-      "slot": "D/ST",
-      "points": 0,
-      "projected": 4.67
-     },
-     {
       "id": 3046439,
       "name": "Hunter Henry",
       "position": "TE",
@@ -981,6 +973,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 15.73
+     },
+     {
+      "id": -16028,
+      "name": "Commanders D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
+      "points": 0,
+      "projected": 7.07
      }
     ]
    },
@@ -1082,7 +1082,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 11.73
+      "projected": 14.07
      },
      {
       "id": 4571557,
@@ -1099,14 +1099,6 @@
       "slot": "BE",
       "points": 0,
       "projected": 10.54
-     },
-     {
-      "id": 4360238,
-      "name": "Dameon Pierce",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 8.84
      },
      {
       "id": 4702555,
@@ -1340,14 +1332,6 @@
       "projected": 0.0
      },
      {
-      "id": -16012,
-      "name": "Chiefs D/ST",
-      "position": "D/ST",
-      "slot": "BE",
-      "points": 0,
-      "projected": 5.14
-     },
-     {
       "id": 4688813,
       "name": "Josh Downs",
       "position": "WR",
@@ -1380,20 +1364,28 @@
       "projected": 7.4
      },
      {
-      "id": 4686468,
-      "name": "Seth McGowan",
-      "position": "RB",
-      "slot": "BE",
-      "points": 0,
-      "projected": 3.69
-     },
-     {
       "id": 4363538,
       "name": "Chad Ryland",
       "position": "K",
       "slot": "K",
       "points": 0,
       "projected": 9.54
+     },
+     {
+      "id": 4912274,
+      "name": "Sione Vaki",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 3.14
+     },
+     {
+      "id": 4686468,
+      "name": "Seth McGowan",
+      "position": "RB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 3.69
      }
     ]
    }
@@ -1458,7 +1450,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 12.67
+      "projected": 12.66
      },
      {
       "id": 4569987,
@@ -1568,7 +1560,7 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 0,
-      "projected": 15.02
+      "projected": 14.93
      },
      {
       "id": 3128429,
