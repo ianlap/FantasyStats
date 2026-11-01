@@ -31,7 +31,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 13.83
+      "projected": 15.86
      },
      {
       "id": 4569587,
@@ -55,7 +55,7 @@
       "position": "TE",
       "slot": "FLEX",
       "points": 0,
-      "projected": 10.96
+      "projected": 10.97
      },
      {
       "id": 4361741,
@@ -143,7 +143,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 10.17
+      "projected": 10.18
      }
     ]
    },
@@ -173,7 +173,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 14.04
+      "projected": 14.14
      },
      {
       "id": 4696981,
@@ -189,13 +189,13 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 22.48
+      "projected": 22.44
      },
      {
       "id": 4871023,
       "name": "Carnell Tate",
       "position": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -227,7 +227,7 @@
       "id": 4575131,
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
-      "slot": "BE",
+      "slot": "IR",
       "points": 0,
       "projected": 0.0
      },
@@ -251,7 +251,7 @@
       "id": 15818,
       "name": "Keenan Allen",
       "position": "WR",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 9.21
      },
@@ -267,7 +267,7 @@
       "id": 4832800,
       "name": "Denzel Boston",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 11.41
      },
@@ -275,7 +275,7 @@
       "id": 4430539,
       "name": "Brenton Strange",
       "position": "TE",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 9.83
      }
@@ -332,9 +332,9 @@
       "id": 4241985,
       "name": "J.K. Dobbins",
       "position": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
-      "projected": 9.72
+      "projected": 9.03
      },
      {
       "id": 4685702,
@@ -388,9 +388,9 @@
       "id": 4887558,
       "name": "Emanuel Wilson",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
-      "projected": 8.44
+      "projected": 6.94
      },
      {
       "id": 2573401,
@@ -398,7 +398,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 6.57
+      "projected": 8.9
      },
      {
       "id": 4567104,
@@ -422,7 +422,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 5.98
+      "projected": 5.99
      }
     ]
    },
@@ -436,7 +436,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 21.89
+      "projected": 21.88
      },
      {
       "id": 3918298,
@@ -468,7 +468,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 11.48
+      "projected": 11.51
      },
      {
       "id": 12483,
@@ -484,7 +484,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 5.82
+      "projected": 5.8
      },
      {
       "id": 4597500,
@@ -492,7 +492,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 7.47
+      "projected": 7.51
      },
      {
       "id": 4429086,
@@ -500,7 +500,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 7.38
+      "projected": 7.39
      },
      {
       "id": 4701936,
@@ -532,7 +532,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 10.52
+      "projected": 10.4
      },
      {
       "id": 3917232,
@@ -573,7 +573,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 22.42
+      "projected": 22.8
      },
      {
       "id": 4870808,
@@ -701,7 +701,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 8.67
+      "projected": 8.72
      }
     ]
    },
@@ -715,7 +715,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 21.81
+      "projected": 21.47
      },
      {
       "id": 3043078,
@@ -731,7 +731,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 17.9
+      "projected": 18.02
      },
      {
       "id": 3915416,
@@ -795,7 +795,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 8.09
+      "projected": 0.0
      },
      {
       "id": 3116365,
@@ -827,7 +827,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 18.45
+      "projected": 18.49
      },
      {
       "id": -16005,
@@ -860,7 +860,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 16.81
+      "projected": 16.83
      },
      {
       "id": 4595348,
@@ -874,7 +874,7 @@
       "id": 4567750,
       "name": "Emeka Egbuka",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -938,9 +938,9 @@
       "id": 4685247,
       "name": "Braelon Allen",
       "position": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
-      "projected": 10.83
+      "projected": 17.22
      },
      {
       "id": 4428557,
@@ -956,7 +956,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 10.47
+      "projected": 10.43
      },
      {
       "id": 3052587,
@@ -972,7 +972,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 6.94
+      "projected": 6.86
      }
     ]
    },
@@ -986,7 +986,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 19.86
+      "projected": 19.85
      },
      {
       "id": 4372016,
@@ -994,7 +994,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.82
+      "projected": 10.85
      },
      {
       "id": 4426388,
@@ -1074,7 +1074,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 14.02
+      "projected": 14.03
      },
      {
       "id": 4571557,
@@ -1090,7 +1090,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.54
+      "projected": 10.6
      },
      {
       "id": 4702555,
@@ -1098,7 +1098,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 9.82
+      "projected": 9.34
      },
      {
       "id": 4869645,
@@ -1114,7 +1114,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 0.0
+      "projected": 7.75
      }
     ]
    }
@@ -1209,9 +1209,9 @@
       "id": 4432710,
       "name": "TreVeyon Henderson",
       "position": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0,
-      "projected": 7.51
+      "projected": 0.0
      },
      {
       "id": 4427095,
@@ -1219,7 +1219,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 11.17
+      "projected": 11.12
      },
      {
       "id": 2576925,
@@ -1251,13 +1251,13 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 5.16
+      "projected": 5.15
      },
      {
       "id": 3116389,
       "name": "Samaje Perine",
       "position": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0,
       "projected": 7.44
      }
@@ -1329,7 +1329,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 16.09
+      "projected": 16.15
      },
      {
       "id": 4432577,
@@ -1393,7 +1393,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 15.55
+      "projected": 15.56
      }
     ]
    }
@@ -1426,7 +1426,7 @@
       "position": "RB",
       "slot": "BE",
       "points": 0,
-      "projected": 14.5
+      "projected": 0.0
      },
      {
       "id": 4612826,
@@ -1442,7 +1442,7 @@
       "position": "RB",
       "slot": "FLEX",
       "points": 0,
-      "projected": 17.21
+      "projected": 17.22
      },
      {
       "id": 3915511,
@@ -1576,7 +1576,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.56
+      "projected": 9.58
      },
      {
       "id": 16737,
@@ -1648,7 +1648,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 10.86
+      "projected": 10.9
      },
      {
       "id": 4685261,
