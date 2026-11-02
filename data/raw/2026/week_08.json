@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 8,
-    "score": 89.06,
+    "score": 107.96,
     "lineup": [
      {
       "id": 16800,
@@ -22,7 +22,7 @@
       "name": "Terry McLaurin",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -54,7 +54,7 @@
       "name": "Dallas Goedert",
       "position": "TE",
       "slot": "FLEX",
-      "points": 0,
+      "points": 7.2,
       "projected": 10.97
      },
      {
@@ -142,7 +142,7 @@
       "name": "Makai Lemon",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 11.7,
       "projected": 10.18
      }
     ]
@@ -228,7 +228,7 @@
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
       "slot": "IR",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
@@ -565,7 +565,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 76.4,
+    "score": 89.2,
     "lineup": [
      {
       "id": 4426515,
@@ -628,7 +628,7 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 12.8,
       "projected": 12.56
      },
      {
@@ -692,7 +692,7 @@
       "name": "Rachaad White",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 14.0,
       "projected": 12.43
      },
      {
@@ -844,7 +844,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 87.4,
+    "score": 116.38,
     "lineup": [
      {
       "id": 4374302,
@@ -883,7 +883,7 @@
       "name": "Jayden Daniels",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 14.98,
       "projected": 22.8
      },
      {
@@ -971,14 +971,14 @@
       "name": "Commanders D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 14.0,
       "projected": 6.86
      }
     ]
    },
    "away": {
     "team_id": 9,
-    "score": 82.5,
+    "score": 94.9,
     "lineup": [
      {
       "id": 4567048,
@@ -1073,7 +1073,7 @@
       "name": "Saquon Barkley",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 12.4,
       "projected": 14.03
      },
      {
@@ -1521,7 +1521,7 @@
       "name": "Antonio Williams",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 10.4,
       "projected": 8.16
      },
      {
@@ -1567,7 +1567,7 @@
       "name": "DeVonta Smith",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 0.0
      },
      {
