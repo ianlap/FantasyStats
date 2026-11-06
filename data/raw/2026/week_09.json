@@ -95,7 +95,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 16.36
+      "projected": 16.37
      },
      {
       "id": 4887558,
@@ -143,7 +143,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 10.05
+      "projected": 0.0
      }
     ]
    },
@@ -165,7 +165,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 14.91
+      "projected": 14.88
      },
      {
       "id": 4569587,
@@ -318,7 +318,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 12.72
+      "projected": 0.0
      },
      {
       "id": 4696981,
@@ -382,7 +382,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.84
+      "projected": 9.86
      },
      {
       "id": -16007,
@@ -500,7 +500,7 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 0,
-      "projected": 12.21
+      "projected": 12.61
      },
      {
       "id": 4608686,
@@ -556,7 +556,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 11.8
+      "projected": 11.96
      },
      {
       "id": 4808766,
@@ -564,7 +564,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 8.41
+      "projected": 8.97
      },
      {
       "id": 4241555,
@@ -645,7 +645,7 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 0,
-      "projected": 9.76
+      "projected": 11.35
      },
      {
       "id": 4429086,
@@ -827,7 +827,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 0.0
+      "projected": 9.46
      },
      {
       "id": -16012,
@@ -843,7 +843,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 9.23
+      "projected": 9.45
      }
     ]
    }
@@ -1090,7 +1090,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 11.02
+      "projected": 11.06
      },
      {
       "id": 4360423,
@@ -1098,7 +1098,7 @@
       "position": "QB",
       "slot": "BE",
       "points": 0,
-      "projected": 15.8
+      "projected": 15.83
      },
      {
       "id": 2577417,
@@ -1130,7 +1130,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 9.96
+      "projected": 7.47
      }
     ]
    }
@@ -1171,7 +1171,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 10.1
+      "projected": 10.14
      },
      {
       "id": 4385690,
@@ -1219,7 +1219,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 16.38
+      "projected": 16.44
      },
      {
       "id": 3929630,
@@ -1251,7 +1251,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.46
+      "projected": 9.48
      },
      {
       "id": 4685512,
@@ -1393,7 +1393,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.29
+      "projected": 10.1
      },
      {
       "id": -16008,
@@ -1401,7 +1401,7 @@
       "position": "D/ST",
       "slot": "BE",
       "points": 0,
-      "projected": 5.95
+      "projected": 5.87
      },
      {
       "id": 5082424,
@@ -1426,7 +1426,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 18.7
+      "projected": 19.78
      },
      {
       "id": 4258173,
@@ -1558,7 +1558,7 @@
       "id": 4685382,
       "name": "Omarion Hampton",
       "position": "RB",
-      "slot": "BE",
+      "slot": "FLEX",
       "points": 0,
       "projected": 8.81
      },
@@ -1598,7 +1598,7 @@
       "id": 16737,
       "name": "Mike Evans",
       "position": "WR",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -1624,7 +1624,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 13.58,
-      "projected": 20.34
+      "projected": 20.32
      },
      {
       "id": -16017,
@@ -1688,7 +1688,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 9.32
+      "projected": 11.11
      }
     ]
    }
