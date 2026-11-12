@@ -103,7 +103,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 17.83
+      "projected": 17.85
      },
      {
       "id": -16027,
@@ -173,7 +173,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 14.83
+      "projected": 14.97
      },
      {
       "id": 4239993,
@@ -237,7 +237,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 17.53
+      "projected": 17.52
      },
      {
       "id": 2473037,
@@ -406,7 +406,7 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 4.89
+      "projected": 4.9
      },
      {
       "id": 4360635,
@@ -422,7 +422,7 @@
       "position": "WR",
       "slot": "FLEX",
       "points": 0,
-      "projected": 8.92
+      "projected": 8.91
      }
     ]
    },
@@ -436,7 +436,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 20.86
+      "projected": 20.88
      },
      {
       "id": 4361307,
@@ -519,14 +519,6 @@
       "projected": 15.7
      },
      {
-      "id": 2573401,
-      "name": "Tyler Higbee",
-      "position": "TE",
-      "slot": "BE",
-      "points": 0,
-      "projected": 7.14
-     },
-     {
       "id": 4567104,
       "name": "Will Reichard",
       "position": "K",
@@ -565,6 +557,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 10.31
+     },
+     {
+      "id": 4710855,
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "slot": "BE",
+      "points": 0,
+      "projected": 8.84
      }
     ]
    }
@@ -589,15 +589,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 12.85
-     },
-     {
-      "id": 4429615,
-      "name": "Zay Flowers",
-      "position": "WR",
-      "slot": "WR",
-      "points": 0,
-      "projected": 14.6
+      "projected": 12.84
      },
      {
       "id": 5083076,
@@ -677,7 +669,7 @@
       "position": "QB",
       "slot": "QB",
       "points": 0,
-      "projected": 16.55
+      "projected": 16.57
      },
      {
       "id": 4040761,
@@ -709,7 +701,15 @@
       "position": "D/ST",
       "slot": "D/ST",
       "points": 0,
-      "projected": 7.7
+      "projected": 7.71
+     },
+     {
+      "id": 4258173,
+      "name": "Nico Collins",
+      "position": "WR",
+      "slot": "WR",
+      "points": 0,
+      "projected": 13.17
      }
     ]
    },
@@ -761,7 +761,7 @@
       "id": 4871023,
       "name": "Carnell Tate",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 12.23
      },
@@ -769,7 +769,7 @@
       "id": 3042519,
       "name": "Aaron Jones Sr.",
       "position": "RB",
-      "slot": "RB",
+      "slot": "BE",
       "points": 0,
       "projected": 8.46
      },
@@ -777,7 +777,7 @@
       "id": 3916148,
       "name": "Tony Pollard",
       "position": "RB",
-      "slot": "BE",
+      "slot": "RB",
       "points": 0,
       "projected": 13.44
      },
@@ -787,7 +787,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 11.17
+      "projected": 11.16
      },
      {
       "id": 4575131,
@@ -806,18 +806,10 @@
       "projected": 9.06
      },
      {
-      "id": -16007,
-      "name": "Broncos D/ST",
-      "position": "D/ST",
-      "slot": "D/ST",
-      "points": 0,
-      "projected": 0.0
-     },
-     {
       "id": 15818,
       "name": "Keenan Allen",
       "position": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0,
       "projected": 8.69
      },
@@ -852,6 +844,14 @@
       "slot": "BE",
       "points": 0,
       "projected": 0
+     },
+     {
+      "id": -16011,
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "slot": "D/ST",
+      "points": 0,
+      "projected": 6.19
      }
     ]
    }
@@ -892,7 +892,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 10.43
+      "projected": 10.44
      },
      {
       "id": 4596448,
@@ -1082,7 +1082,7 @@
       "position": "TE",
       "slot": "TE",
       "points": 0,
-      "projected": 10.56
+      "projected": 10.6
      },
      {
       "id": 4426385,
@@ -1281,7 +1281,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 18.18
+      "projected": 18.19
      },
      {
       "id": 4430737,
@@ -1289,7 +1289,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 18.65
+      "projected": 18.64
      },
      {
       "id": 3915416,
@@ -1306,14 +1306,6 @@
       "slot": "TE",
       "points": 0,
       "projected": 11.44
-     },
-     {
-      "id": 4038941,
-      "name": "Justin Herbert",
-      "position": "QB",
-      "slot": "QB",
-      "points": 0,
-      "projected": 12.06
      },
      {
       "id": 4035687,
@@ -1337,7 +1329,7 @@
       "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 8.27
+      "projected": 8.26
      },
      {
       "id": -16014,
@@ -1361,7 +1353,7 @@
       "position": "TE",
       "slot": "BE",
       "points": 0,
-      "projected": 6.9
+      "projected": 6.89
      },
      {
       "id": 4689936,
@@ -1399,9 +1391,17 @@
       "id": 3924327,
       "name": "Drew Lock",
       "position": "QB",
-      "slot": "BE",
+      "slot": "QB",
       "points": 0,
       "projected": 17.59
+     },
+     {
+      "id": 4837248,
+      "name": "Fernando Mendoza",
+      "position": "QB",
+      "slot": "BE",
+      "points": 0,
+      "projected": 13.52
      }
     ]
    }
@@ -1418,21 +1418,13 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 18.63
-     },
-     {
-      "id": 4258173,
-      "name": "Nico Collins",
-      "position": "WR",
-      "slot": "WR",
-      "points": 0,
-      "projected": 13.17
+      "projected": 18.62
      },
      {
       "id": 4426354,
       "name": "George Pickens",
       "position": "WR",
-      "slot": "IR",
+      "slot": "FLEX",
       "points": 0,
       "projected": 12.27
      },
@@ -1464,7 +1456,7 @@
       "id": 4259545,
       "name": "D'Andre Swift",
       "position": "RB",
-      "slot": "FLEX",
+      "slot": "BE",
       "points": 0,
       "projected": 0.0
      },
@@ -1533,20 +1525,20 @@
       "projected": 9.5
      },
      {
-      "id": 3043116,
-      "name": "Demarcus Robinson",
-      "position": "WR",
-      "slot": "BE",
-      "points": 0,
-      "projected": 6.43
-     },
-     {
       "id": 4819231,
       "name": "Kaleb Johnson",
       "position": "RB",
       "slot": "BE",
       "points": 0,
       "projected": 5.56
+     },
+     {
+      "id": 4429615,
+      "name": "Zay Flowers",
+      "position": "WR",
+      "slot": "WR",
+      "points": 0,
+      "projected": 14.59
      }
     ]
    },
@@ -1560,7 +1552,7 @@
       "position": "RB",
       "slot": "RB",
       "points": 0,
-      "projected": 26.11
+      "projected": 26.13
      },
      {
       "id": 4372016,
@@ -1624,7 +1616,7 @@
       "position": "WR",
       "slot": "WR",
       "points": 0,
-      "projected": 14.82
+      "projected": 14.83
      },
      {
       "id": 3929630,
