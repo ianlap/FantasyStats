@@ -149,7 +149,7 @@
    },
    "away": {
     "team_id": 1,
-    "score": 85.02,
+    "score": 112.02,
     "lineup": [
      {
       "id": 4426515,
@@ -180,7 +180,7 @@
       "name": "Tee Higgins",
       "position": "WR",
       "slot": "WR",
-      "points": 0.0,
+      "points": 11.6,
       "projected": 16.15
      },
      {
@@ -196,7 +196,7 @@
       "name": "DK Metcalf",
       "position": "WR",
       "slot": "WR",
-      "points": 0.0,
+      "points": 15.4,
       "projected": 10.57
      },
      {
@@ -428,7 +428,7 @@
    },
    "away": {
     "team_id": 12,
-    "score": 125.9,
+    "score": 120.9,
     "lineup": [
      {
       "id": 4241389,
@@ -539,7 +539,7 @@
       "name": "Bengals D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 10.0,
+      "points": 5.0,
       "projected": 5.31
      },
      {
@@ -860,7 +860,7 @@
    "bracket": null,
    "home": {
     "team_id": 2,
-    "score": 87.7,
+    "score": 136.96,
     "lineup": [
      {
       "id": 4379399,
@@ -907,7 +907,7 @@
       "name": "Joe Burrow",
       "position": "QB",
       "slot": "QB",
-      "points": 0.0,
+      "points": 33.16,
       "projected": 19.03
      },
      {
@@ -915,7 +915,7 @@
       "name": "Jaylen Warren",
       "position": "RB",
       "slot": "FLEX",
-      "points": 0.0,
+      "points": 9.1,
       "projected": 15.53
      },
      {
@@ -955,7 +955,7 @@
       "name": "Pat Freiermuth",
       "position": "TE",
       "slot": "BE",
-      "points": 0.0,
+      "points": 11.5,
       "projected": 8.77
      },
      {
@@ -979,7 +979,7 @@
       "name": "Evan McPherson",
       "position": "K",
       "slot": "K",
-      "points": 0.0,
+      "points": 7.0,
       "projected": 7.75
      },
      {
@@ -994,14 +994,14 @@
    },
    "away": {
     "team_id": 10,
-    "score": 106.34,
+    "score": 140.44,
     "lineup": [
      {
       "id": 4362628,
       "name": "Ja'Marr Chase",
       "position": "WR",
       "slot": "WR",
-      "points": 0.0,
+      "points": 34.1,
       "projected": 22.91
      },
      {
@@ -1121,7 +1121,7 @@
       "name": "Chris Boswell",
       "position": "K",
       "slot": "BE",
-      "points": 0.0,
+      "points": 5.0,
       "projected": 10.46
      }
     ]
@@ -1131,7 +1131,7 @@
    "bracket": null,
    "home": {
     "team_id": 3,
-    "score": 96.38,
+    "score": 127.18,
     "lineup": [
      {
       "id": 4685382,
@@ -1146,7 +1146,7 @@
       "name": "Chase Brown",
       "position": "RB",
       "slot": "RB",
-      "points": 0.0,
+      "points": 28.3,
       "projected": 13.53
      },
      {
@@ -1226,7 +1226,7 @@
       "name": "Germie Bernard",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0.0,
+      "points": 1.0,
       "projected": 10.89
      },
      {
@@ -1258,7 +1258,7 @@
       "name": "Darnell Washington",
       "position": "TE",
       "slot": "TE",
-      "points": 0.0,
+      "points": 1.5,
       "projected": 8.59
      },
      {
@@ -1328,7 +1328,7 @@
       "name": "Rico Dowdle",
       "position": "RB",
       "slot": "BE",
-      "points": 0.0,
+      "points": 5.4,
       "projected": 9.76
      },
      {
@@ -1545,14 +1545,14 @@
       "name": "Mike Gesicki",
       "position": "TE",
       "slot": "BE",
-      "points": 0.0,
+      "points": 1.9,
       "projected": 7.61
      }
     ]
    },
    "away": {
     "team_id": 9,
-    "score": 76.0,
+    "score": 91.62,
     "lineup": [
      {
       "id": 4567048,
@@ -1599,7 +1599,7 @@
       "name": "Steelers D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 10.0,
+      "points": -7.0,
       "projected": 5.46
      },
      {
@@ -1679,7 +1679,7 @@
       "name": "Aaron Rodgers",
       "position": "QB",
       "slot": "QB",
-      "points": 0.0,
+      "points": 15.62,
       "projected": 14.79
      },
      {
