@@ -42343,6 +42343,22 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
+  "id": "b6a5683e-b359-4657-9b89-df9df0fa1fad",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1795405608134,
+  "rating": 0,
+  "relatedTransactionId": "6a0c4910-15b7-46c1-935e-775e8d604939",
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "TRADE_DECLINE"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
   "id": "b93bdd70-f44c-45d6-b19a-acda7eae00f0",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
@@ -42413,6 +42429,22 @@
   "status": "EXECUTED",
   "teamId": 9,
   "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "f688c61e-7182-4a69-a55b-5d563e7a4acf",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1795405610795,
+  "rating": 0,
+  "relatedTransactionId": "cbf2ce06-e64c-40d9-b79c-9675caef44b9",
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "TRADE_DECLINE"
  },
  {
   "bidAmount": 0,
@@ -42914,6 +42946,22 @@
   "status": "EXECUTED",
   "teamId": 12,
   "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "52216a4f-94d9-43ff-9393-af3acb9bde85",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{DD93C7FA-29D1-47C8-80A8-ADAA48BC06C4}",
+  "proposedDate": 1795405527303,
+  "rating": 0,
+  "relatedTransactionId": "f4df09a7-a264-4078-b2b2-586d1ec7173c",
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "TRADE_DECLINE"
  },
  {
   "bidAmount": 0,
@@ -43453,6 +43501,22 @@
  {
   "bidAmount": 0,
   "executionType": "EXECUTE",
+  "id": "536f90e6-1474-4749-94d0-6e619fdddf86",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{AB53EA7C-32BA-4C5D-93EA-7C32BA0C5DCE}",
+  "proposedDate": 1795405604974,
+  "rating": 0,
+  "relatedTransactionId": "e05824f1-c47e-44b4-a0d4-d22a3c91dc0e",
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 9,
+  "type": "TRADE_DECLINE"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
   "id": "7d6cee20-042c-438d-abd8-844f737e083a",
   "isActingAsTeamOwner": false,
   "isLeagueManager": false,
@@ -43886,6 +43950,22 @@
   "status": "EXECUTED",
   "teamId": 9,
   "type": "ROSTER"
+ },
+ {
+  "bidAmount": 0,
+  "executionType": "EXECUTE",
+  "id": "9be93007-b04a-4625-a4f8-c6ea7b0bf0bd",
+  "isActingAsTeamOwner": false,
+  "isLeagueManager": false,
+  "isPending": false,
+  "memberId": "{DD93C7FA-29D1-47C8-80A8-ADAA48BC06C4}",
+  "proposedDate": 1795405538580,
+  "rating": 0,
+  "relatedTransactionId": "cb960aad-ab5b-47fd-8ac0-c8718010d8a1",
+  "scoringPeriodId": 11,
+  "status": "EXECUTED",
+  "teamId": 10,
+  "type": "TRADE_DECLINE"
  },
  {
   "bidAmount": 0,

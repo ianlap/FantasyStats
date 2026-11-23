@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 71.8,
+    "score": 96.2,
     "lineup": [
      {
       "id": 4374302,
@@ -110,7 +110,7 @@
       "name": "Mike Evans",
       "position": "WR",
       "slot": "FLEX",
-      "points": 2.4,
+      "points": 22.9,
       "projected": 11.47
      },
      {
@@ -134,14 +134,14 @@
       "name": "Aaron Jones Sr.",
       "position": "RB",
       "slot": "RB",
-      "points": 7.4,
+      "points": 11.3,
       "projected": 8.42
      }
     ]
    },
    "away": {
     "team_id": 8,
-    "score": 49.9,
+    "score": 65.9,
     "lineup": [
      {
       "id": 16800,
@@ -188,7 +188,7 @@
       "name": "Brock Purdy",
       "position": "QB",
       "slot": "QB",
-      "points": 6.2,
+      "points": 22.2,
       "projected": 17.58
      },
      {
@@ -286,7 +286,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 87.56,
+    "score": 97.26,
     "lineup": [
      {
       "id": 4870808,
@@ -333,7 +333,7 @@
       "name": "George Kittle",
       "position": "TE",
       "slot": "TE",
-      "points": 8.7,
+      "points": 18.4,
       "projected": 13.06
      },
      {
@@ -573,7 +573,7 @@
    "bracket": null,
    "home": {
     "team_id": 12,
-    "score": 100.52,
+    "score": 107.72,
     "lineup": [
      {
       "id": 4241389,
@@ -596,7 +596,7 @@
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "slot": "WR",
-      "points": 3.5,
+      "points": 7.7,
       "projected": 10.33
      },
      {
@@ -652,7 +652,7 @@
       "name": "Will Reichard",
       "position": "K",
       "slot": "K",
-      "points": 0.0,
+      "points": 3.0,
       "projected": 10.03
      },
      {
@@ -707,7 +707,7 @@
    },
    "away": {
     "team_id": 2,
-    "score": 88.2,
+    "score": 98.0,
     "lineup": [
      {
       "id": 4379399,
@@ -722,7 +722,7 @@
       "name": "Justin Jefferson",
       "position": "WR",
       "slot": "WR",
-      "points": 3.9,
+      "points": 13.7,
       "projected": 19.96
      },
      {
@@ -786,7 +786,7 @@
       "name": "Kirk Cousins",
       "position": "QB",
       "slot": "BE",
-      "points": 3.16,
+      "points": 7.4,
       "projected": 14.66
      },
      {
@@ -852,14 +852,14 @@
    "bracket": null,
    "home": {
     "team_id": 4,
-    "score": 114.28,
+    "score": 127.68,
     "lineup": [
      {
       "id": 3117251,
       "name": "Christian McCaffrey",
       "position": "RB",
       "slot": "RB",
-      "points": 0.8,
+      "points": 14.2,
       "projected": 19.81
      },
      {
@@ -931,7 +931,7 @@
       "name": "Keenan Allen",
       "position": "WR",
       "slot": "BE",
-      "points": 0.0,
+      "points": 6.8,
       "projected": 7.69
      },
      {
@@ -1033,7 +1033,7 @@
       "name": "Vikings D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 9.0,
+      "points": 0.0,
       "projected": 4.47
      },
      {
@@ -1304,7 +1304,7 @@
       "name": "Jordan Mason",
       "position": "RB",
       "slot": "BE",
-      "points": 0.9,
+      "points": 4.7,
       "projected": 8.57
      },
      {
@@ -1392,7 +1392,7 @@
       "name": "49ers D/ST",
       "position": "D/ST",
       "slot": "BE",
-      "points": 6.0,
+      "points": 14.0,
       "projected": 5.39
      },
      {
@@ -1410,7 +1410,7 @@
    "bracket": null,
    "home": {
     "team_id": 11,
-    "score": 105.14,
+    "score": 111.04,
     "lineup": [
      {
       "id": 4430878,
@@ -1505,7 +1505,7 @@
       "name": "T.J. Hockenson",
       "position": "TE",
       "slot": "FLEX",
-      "points": 5.6,
+      "points": 11.5,
       "projected": 11.69
      },
      {
@@ -1529,7 +1529,7 @@
       "name": "Kaelon Black",
       "position": "RB",
       "slot": "BE",
-      "points": 0.0,
+      "points": 2.5,
       "projected": 6.45
      },
      {
