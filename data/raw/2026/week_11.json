@@ -7,7 +7,7 @@
    "bracket": null,
    "home": {
     "team_id": 5,
-    "score": 96.2,
+    "score": 123.86,
     "lineup": [
      {
       "id": 4374302,
@@ -30,7 +30,7 @@
       "name": "Jayden Daniels",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 17.06,
       "projected": 19.56
      },
      {
@@ -86,7 +86,7 @@
       "name": "Chig Okonkwo",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 10.6,
       "projected": 10.06
      },
      {
@@ -286,7 +286,7 @@
    "bracket": null,
    "home": {
     "team_id": 1,
-    "score": 97.26,
+    "score": 118.06,
     "lineup": [
      {
       "id": 4870808,
@@ -309,7 +309,7 @@
       "name": "Tee Higgins",
       "position": "WR",
       "slot": "FLEX",
-      "points": 0,
+      "points": 12.3,
       "projected": 16.74
      },
      {
@@ -341,7 +341,7 @@
       "name": "Stefon Diggs",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 8.5,
       "projected": 12.91
      },
      {
@@ -397,7 +397,7 @@
       "name": "Rachaad White",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 0.0,
       "projected": 7.71
      },
      {
@@ -660,7 +660,7 @@
       "name": "Bengals D/ST",
       "position": "D/ST",
       "slot": "D/ST",
-      "points": 0,
+      "points": 0.0,
       "projected": 5.03
      },
      {
@@ -668,7 +668,7 @@
       "name": "Treylon Burks",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 5.0,
       "projected": 8.5
      },
      {
@@ -707,7 +707,7 @@
    },
    "away": {
     "team_id": 2,
-    "score": 98.0,
+    "score": 117.9,
     "lineup": [
      {
       "id": 4379399,
@@ -754,7 +754,7 @@
       "name": "Joe Burrow",
       "position": "QB",
       "slot": "QB",
-      "points": 0,
+      "points": 19.9,
       "projected": 22.86
      },
      {
@@ -802,7 +802,7 @@
       "name": "Antonio Williams",
       "position": "WR",
       "slot": "BE",
-      "points": 0,
+      "points": 21.2,
       "projected": 8.97
      },
      {
@@ -810,7 +810,7 @@
       "name": "Evan McPherson",
       "position": "K",
       "slot": "BE",
-      "points": 0,
+      "points": 10.0,
       "projected": 8.24
      },
      {
@@ -923,7 +923,7 @@
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
       "slot": "IR",
-      "points": 0,
+      "points": 15.7,
       "projected": 7.49
      },
      {
@@ -994,14 +994,14 @@
    },
    "away": {
     "team_id": 3,
-    "score": 113.04,
+    "score": 121.64,
     "lineup": [
      {
       "id": 4362238,
       "name": "Chase Brown",
       "position": "RB",
       "slot": "RB",
-      "points": 0,
+      "points": 8.6,
       "projected": 15.58
      },
      {
@@ -1121,7 +1121,7 @@
       "name": "Samaje Perine",
       "position": "RB",
       "slot": "BE",
-      "points": 0,
+      "points": 13.7,
       "projected": 7.71
      },
      {
@@ -1139,14 +1139,14 @@
    "bracket": null,
    "home": {
     "team_id": 10,
-    "score": 65.76,
+    "score": 73.86,
     "lineup": [
      {
       "id": 4362628,
       "name": "Ja'Marr Chase",
       "position": "WR",
       "slot": "WR",
-      "points": 0,
+      "points": 8.1,
       "projected": 25.37
      },
      {
@@ -1273,7 +1273,7 @@
    },
    "away": {
     "team_id": 7,
-    "score": 112.44,
+    "score": 143.14,
     "lineup": [
      {
       "id": 4430807,
@@ -1368,7 +1368,7 @@
       "name": "Mike Gesicki",
       "position": "TE",
       "slot": "TE",
-      "points": 0,
+      "points": 12.7,
       "projected": 7.37
      },
      {
@@ -1400,7 +1400,7 @@
       "name": "Drew Stevens",
       "position": "K",
       "slot": "K",
-      "points": 0,
+      "points": 18.0,
       "projected": 8.59
      }
     ]
