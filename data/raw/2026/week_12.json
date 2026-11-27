@@ -280,12 +280,12 @@
       "projected": 11.36
      },
      {
-      "id": 2576925,
-      "name": "Darren Waller",
-      "position": "TE",
+      "id": 4432773,
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
       "slot": "BE",
       "points": 0,
-      "projected": 7.22
+      "projected": 6.01
      }
     ]
    }
@@ -874,7 +874,7 @@
       "id": 4432620,
       "name": "Parker Washington",
       "position": "WR",
-      "slot": "WR",
+      "slot": "BE",
       "points": 0,
       "projected": 17.76
      },
@@ -922,7 +922,7 @@
       "id": 4429615,
       "name": "Zay Flowers",
       "position": "WR",
-      "slot": "BE",
+      "slot": "WR",
       "points": 0,
       "projected": 14.64
      },
